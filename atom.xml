@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[咧威的 Octopress Blog]]></title>
+  <link href="http://colin4124.github.com/atom.xml" rel="self"/>
+  <link href="http://colin4124.github.com/"/>
+  <updated>2013-03-22T13:45:59+08:00</updated>
+  <id>http://colin4124.github.com/</id>
+  <author>
+    <name><![CDATA[咧威]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[测试]]></title>
+    <link href="http://colin4124.github.com/blog/2013/03/21/ce-shi/"/>
+    <updated>2013-03-21T23:00:00+08:00</updated>
+    <id>http://colin4124.github.com/blog/2013/03/21/ce-shi</id>
+    <content type="html"><![CDATA[<h1>测试</h1>
+
+<h2>一下</h2>
+
+<h3>字体大小</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[hello world]]></title>
+    <link href="http://colin4124.github.com/blog/2013/03/21/hello-world/"/>
+    <updated>2013-03-21T21:58:00+08:00</updated>
+    <id>http://colin4124.github.com/blog/2013/03/21/hello-world</id>
+    <content type="html"><![CDATA[<h2>Hello world</h2>
+]]></content>
+  </entry>
+  
+</feed>

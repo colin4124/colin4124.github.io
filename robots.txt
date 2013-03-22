@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://colin4124.github.com/sitemap.xml 
