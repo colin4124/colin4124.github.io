@@ -4,7 +4,7 @@
   <title><![CDATA[咧威的 Octopress Blog]]></title>
   <link href="http://colin4124.github.com/atom.xml" rel="self"/>
   <link href="http://colin4124.github.com/"/>
-  <updated>2013-03-22T18:34:28+08:00</updated>
+  <updated>2013-03-22T22:34:34+08:00</updated>
   <id>http://colin4124.github.com/</id>
   <author>
     <name><![CDATA[咧威]]></name>
@@ -14,24 +14,15 @@
 
   
   <entry>
-    <title type="html"><![CDATA[测试]]></title>
-    <link href="http://colin4124.github.com/blog/2013/03/21/ce-shi/"/>
-    <updated>2013-03-21T23:00:00+08:00</updated>
-    <id>http://colin4124.github.com/blog/2013/03/21/ce-shi</id>
-    <content type="html"><![CDATA[<h1>测试</h1>
+    <title type="html"><![CDATA[我的octopress博客]]></title>
+    <link href="http://colin4124.github.com/blog/2013/03/22/why-i-use-octopress/"/>
+    <updated>2013-03-22T22:31:00+08:00</updated>
+    <id>http://colin4124.github.com/blog/2013/03/22/why-i-use-octopress</id>
+    <content type="html"><![CDATA[<h1><strong>缘起</strong></h1>
 
-<h2>一下</h2>
+<p>很早以前就打算开博客，在<a href="http://www.chinaunix.net/" title="ChinaUnix">ChinaUnix</a>和<a href="http://www.51cto.com" title="51cto">51CTO</a>都开设过博客。不过都是转载的为主，用的都是网站提供的博客，由于定制性很差，所以当时只是关注博客内容。但是没有坚持写下去</p>
 
-<h3>字体大小</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[hello world]]></title>
-    <link href="http://colin4124.github.com/blog/2013/03/21/hello-world/"/>
-    <updated>2013-03-21T21:58:00+08:00</updated>
-    <id>http://colin4124.github.com/blog/2013/03/21/hello-world</id>
-    <content type="html"><![CDATA[<h2>Hello world</h2>
+<h1>待续。。</h1>
 ]]></content>
   </entry>
   
