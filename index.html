@@ -7,7 +7,7 @@
 	<meta name="author" content="咧威">
 
 	
-	<meta name="description" content=" 缘起 很早以前就打算开博客，在ChinaUnix和51CTO都开设过博客。不过都是转载的为主，用的都是网站提供的博客，由于定制性很差，所以当时只是关注博客内容。但是没有坚持写下去 待续。。 Mar 22nd, 2013 ">
+	<meta name="description" content="缘起 很早以前就打算开博客，在ChinaUnix和51CTO都开设过博客。不过都是转载的为主，用的都是网站提供的博客，由于定制性很差，所以当时只是关注博客内容。但是没有坚持写下去 $e^x = \sum{n=0}^\infty \frac{x^n}{n!} = \lim{n\rightarrow &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -17,7 +17,38 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	
+	x config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 </head>
 
 <body>
@@ -86,11 +117,13 @@
 			我的octopress博客</a>
 	</h2>
 	<div class="entry-content">
-		<h1><strong>缘起</strong></h1>
+		<h1 id="section"><strong>缘起</strong></h1>
 
-<p>很早以前就打算开博客，在<a href="http://www.chinaunix.net/" title="ChinaUnix">ChinaUnix</a>和<a href="http://www.51cto.com" title="51cto">51CTO</a>都开设过博客。不过都是转载的为主，用的都是网站提供的博客，由于定制性很差，所以当时只是关注博客内容。但是没有坚持写下去</p>
+<p>很早以前就打算开博客，在<a href="http://www.chinaunix.net/&quot;ChinaUnix&quot;">ChinaUnix</a>和<a href="http://www.51cto.com&quot;51cto&quot;">51CTO</a>都开设过博客。不过都是转载的为主，用的都是网站提供的博客，由于定制性很差，所以当时只是关注博客内容。但是没有坚持写下去</p>
 
-<h1>待续。。</h1>
+<p>$e^x = \sum<em>{n=0}^\infty \frac{x^n}{n!} = \lim</em>{n\rightarrow\infty} (1+x/n)^n$</p>
+
+<h1 id="section-1">待续。。</h1>
 
 		
 		
@@ -131,6 +164,7 @@
 	<footer id="footer" class="inner">Copyright &copy; 2013
 <a href="http://weibo.com/colin4124">咧威</a>
 Powered by<a href="http://octopress.org">Octopress</a>
+
 </footer>
 	<script src="/javascripts/slash.js"></script>
 <script src="/javascripts/jquery.fancybox.pack.js"></script>

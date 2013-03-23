@@ -4,7 +4,7 @@
   <title><![CDATA[咧威的 Octopress Blog]]></title>
   <link href="http://colin4124.github.com/atom.xml" rel="self"/>
   <link href="http://colin4124.github.com/"/>
-  <updated>2013-03-23T08:12:32+08:00</updated>
+  <updated>2013-03-23T21:46:14+08:00</updated>
   <id>http://colin4124.github.com/</id>
   <author>
     <name><![CDATA[咧威]]></name>
@@ -18,11 +18,13 @@
     <link href="http://colin4124.github.com/blog/2013/03/22/why-i-use-octopress/"/>
     <updated>2013-03-22T22:31:00+08:00</updated>
     <id>http://colin4124.github.com/blog/2013/03/22/why-i-use-octopress</id>
-    <content type="html"><![CDATA[<h1><strong>缘起</strong></h1>
+    <content type="html"><![CDATA[<h1 id="section"><strong>缘起</strong></h1>
 
-<p>很早以前就打算开博客，在<a href="http://www.chinaunix.net/" title="ChinaUnix">ChinaUnix</a>和<a href="http://www.51cto.com" title="51cto">51CTO</a>都开设过博客。不过都是转载的为主，用的都是网站提供的博客，由于定制性很差，所以当时只是关注博客内容。但是没有坚持写下去</p>
+<p>很早以前就打算开博客，在<a href="http://www.chinaunix.net/&quot;ChinaUnix&quot;">ChinaUnix</a>和<a href="http://www.51cto.com&quot;51cto&quot;">51CTO</a>都开设过博客。不过都是转载的为主，用的都是网站提供的博客，由于定制性很差，所以当时只是关注博客内容。但是没有坚持写下去</p>
 
-<h1>待续。。</h1>
+<p>$e^x = \sum<em>{n=0}^\infty \frac{x^n}{n!} = \lim</em>{n\rightarrow\infty} (1+x/n)^n$</p>
+
+<h1 id="section-1">待续。。</h1>
 ]]></content>
   </entry>
   
