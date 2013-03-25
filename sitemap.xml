@@ -2,26 +2,32 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://colin4124.github.com/blog/2013/03/22/why-i-use-octopress/</loc>
-        <lastmod>2013-03-23T21:51:15+08:00</lastmod>
+        <lastmod>2013-03-23T13:51:15+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://colin4124.github.com/blog/2013/03/25/zhong-xie-%2C-zhong-gou-de-zhai-yao-he-gan-xiang/
+        </loc>
+        <lastmod>2013-03-25T16:30:27+00:00</lastmod>
     </url>
     <url>
         <loc>http://colin4124.github.com/huan-shi-ce-shi/</loc>
-        <lastmod>2013-03-21T23:13:31+08:00</lastmod>
+        <lastmod>2013-03-21T15:13:31+00:00</lastmod>
     </url>
     <url>
         <loc>http://colin4124.github.com/huan-shi-ce-shi/page1/</loc>
-        <lastmod>2013-03-21T23:14:16+08:00</lastmod>
+        <lastmod>2013-03-21T15:14:16+00:00</lastmod>
     </url>
     <url>
         <loc>http://colin4124.github.com/</loc>
-        <lastmod>2013-03-23T21:51:15+08:00</lastmod>
+        <lastmod>2013-03-25T16:32:00+00:00</lastmod>
     </url>
     <url>
         <loc>http://colin4124.github.com/robots.txt</loc>
-        <lastmod>2013-03-23T08:12:25+08:00</lastmod>
+        <lastmod>2013-03-23T00:12:25+00:00</lastmod>
     </url>
     <url>
         <loc>http://colin4124.github.com/blog/archives/</loc>
-        <lastmod>2013-03-23T21:51:15+08:00</lastmod>
+        <lastmod>2013-03-25T16:30:27+00:00</lastmod>
     </url>
 </urlset>
