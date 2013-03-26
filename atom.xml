@@ -4,7 +4,7 @@
   <title><![CDATA[咧威的 Octopress Blog]]></title>
   <link href="http://colin4124.github.com/atom.xml" rel="self"/>
   <link href="http://colin4124.github.com/"/>
-  <updated>2013-03-26T08:40:15+00:00</updated>
+  <updated>2013-03-26T09:31:55+00:00</updated>
   <id>http://colin4124.github.com/</id>
   <author>
     <name><![CDATA[咧威]]></name>
@@ -53,7 +53,7 @@
 
 <p>有些程序员认为对代码进行根本的、重大的修改是他们的权利和义务，在重构的名义下进行重新设计、重写，为了将来，也不辜负自己的技艺。重新设计和重写有时候是你正确的该做的事情。<strong>但出于坦诚和表述清楚，请不要把这些活动赋以重构的名义。</strong>
 &gt;##感想：
-»我以前都认为重构就是重头再来一遍，看来我误会了，幸好在我对微盒主页进行重写之前看到这些文章，不然就是浪费时间做无用功，而且还有可能阻碍到别人。</p>
+»我以前都认为重构就是重头再来一遍，看来我误会了，幸好在我对微盒主页进行重写之前看到这些文章，不然就是浪费时间做无用功，而且还有可能阻碍到别人。好吧，我已经弄坏了，让原来的按钮都失效了。</p>
 
 <h1 id="section-1">关于重构和重写</h1>
 
@@ -93,7 +93,7 @@
 <blockquote>
   <h2 id="section-5">感想：</h2>
   <blockquote>
-    <p>我会试着理解<a href="http://weibo.com/319880777">@雨宮汐</a>写的<a href="http://wecaseproject.tk/&quot;微盒&quot;">微盒主页</a>
+    <p>我会试着弄懂<a href="http://weibo.com/319880777">@雨宮汐</a>写的<a href="http://wecaseproject.tk/&quot;微盒&quot;">微盒主页</a>
   主页的代码，然后改善一下，比如变量名，拆分冗长的结构还有添加一些注释，方便添加和删除一些元素和功能。</p>
   </blockquote>
 </blockquote>
@@ -113,7 +113,7 @@
 <blockquote>
   <h2 id="section-7">感想：</h2>
   <blockquote>
-    <p>应该去看原文的Netscape例子。觉得重写代码会把之前的别人的经验教训都扔掉了，而且还是重复劳动比较多。况且现在还没有能力做出比别人更好的轮子。</p>
+    <p>应该去看原文的Netscape例子。觉得重写代码会把之前的别人的经验教训都扔掉了，而且还是重复劳动比较多。况且我现在还没有能力做出比别人更好的轮子。</p>
   </blockquote>
 </blockquote>
 
@@ -193,17 +193,26 @@
 <h2 id="section-11">下面是一些比较有深度的阅读材料。</h2>
 
 <ul>
-  <li>重构:改善既有代码的设计</li>
-  <li>代码整洁之道</li>
-  <li>Working Effectively with Legacy Code</li>
-  <li>程序员的职业素养</li>
+  <li><a href="http://book.douban.com/subject/1229923/" title="豆瓣读书">重构:改善既有代码的设计</a></li>
+  <li><a href="http://book.douban.com/subject/4199741/">代码整洁之道</a></li>
+  <li><a href="http://book.douban.com/subject/2248759/">修改代码的艺术</a></li>
+  <li><a href="http://book.douban.com/subject/11614538/">程序员的职业素养</a></li>
+  <li><a href="http://book.douban.com/subject/3210669/">编程匠艺</a></li>
 </ul>
 
 <p><strong>忍住你的欲望，不要试图重构你不理解的代码。多问问题，努力能清楚他们为什么要把程序写成这样。也许他们有很好的理由。</strong>如果你找到一段很古老的代码，很有可能它们是按照古老的方式写的。每天都在新增的API，模式，需求和新领会都会让这些老的方式显得陈旧。<strong>不断努力学习新的技术，但不要为了要使用这些技术而过于热心的在重构中使用它们。</strong>(PS：<strong><q>当你拿起锤子，就觉得哪里都是钉子</q></strong>这句话就是表达了对新学技术的滥用，谨记）</p>
 
-<h1 id="section-12">后记</h1>
+<blockquote>
+  <h2 id="section-12">感想：</h2>
+  <blockquote>
+    <p><strong><q>忍住你的欲望，不要试图重构你不理解的代码。</q></strong>好吧，之前我就在我不理解的情况下，把原来的一些功能改得全部失效了。尽管后来恢复了效果，但是不敢再贸然下手，还是先理解了再说，多交流。
+#后记</p>
+  </blockquote>
+</blockquote>
 
-<p>十分感谢</p>
+<p>我是初学者，半吊子不靠谱。一开始十分感谢<a href="http://wecaseproject.tk/&quot;微盒&quot;">微盒主页</a>这个项目，让我有练手的机会，还请各位多多包涵。刚开始加入这个项目的时候，我打算自己增加一些元素（我审美观有点二啊，(￣ε(#￣)）。由于不理解，贸然下手，花了好长的时间才加入一个动态LOGO。然后就像文中所说的，想重新写一遍（好吧，我果然是初学者，又范二了(￣ε(#￣)　）。然后就看到这几篇文章，深有感触。</p>
+
+<h3 id="section-13">**牢记理念，继续实践</h3>
 
 ]]></content>
   </entry>
