@@ -4,7 +4,7 @@
   <title><![CDATA[咧威的 Octopress Blog]]></title>
   <link href="http://colin4124.github.com/atom.xml" rel="self"/>
   <link href="http://colin4124.github.com/"/>
-  <updated>2013-03-25T18:56:13+00:00</updated>
+  <updated>2013-03-26T08:40:15+00:00</updated>
   <id>http://colin4124.github.com/</id>
   <author>
     <name><![CDATA[咧威]]></name>
@@ -20,13 +20,16 @@
     <id>http://colin4124.github.com/blog/2013/03/25/zhong-xie-,-zhong-gou-de-zhai-yao-he-gan-xiang</id>
     <content type="html"><![CDATA[<style>a{text-decoration:none}a:hover{text-decoration:underline}</style>
 
+<style>a{text-decoration:none}a:hover{text-decoration:underline}</style>
+
 <h1 id="section">缘起</h1>
 
-<p>最近在忙<a href="http://wecaseproject.tk/" title="微盒">微盒主页</a>,之前的主页开发是由<a href="http://weibo.com/319880777">@雨宮汐</a>维护的。由于网页代码是别人写，不了解，在网页加入一些东西时显得困难。所以冒出了<q>要不自己<strong>重写</strong>一个吧</q>的念头。</p>
+<p>最近在忙<a href="http://wecaseproject.tk/&quot;微盒&quot;">微盒主页</a>,之前的主页开发是由<a href="http://weibo.com/319880777">@雨宮汐</a>维护的。由于网页代码是别人写，不了解，在网页加入一些东西时显得困难。所以冒出了<q>要不自己<strong>重写</strong>一个吧</q>的念头。</p>
 
 <p>碰巧，在<a href="http://weibo.com/blogread">@IT技术博客大学习</a>看到<a href="http://blogread.cn/it/article/1107?f=wb">关于重构和重写</a>的文章，接下来又看了<a href="http://blog.csdn.net/whatcanhumdo/article/details/5311697">你永远不应该做的事</a>（这篇文章用 Netscape当例子）、<a href="http://blogread.cn/it/article/5331?f=sa">什么是重构，什么不是重构</a>、<a href="http://blogread.cn/it/article/556?f=sa">网站重构到底是什么，网站重构到底要多久</a>、<a href="http://blogread.cn/it/article/5996?f=sa">如何避免重构带来的危险</a>一系列的文章。强烈建议去看完整的文章。下面将是一些摘要及感想：</p>
 
-<h1 id="section-1">什么是重构，什么不是重构</h1>
+<!--more-->
+<p>#什么是重构，什么不是重构</p>
 
 <p>重构(Refactoring)这个词最初由Martin Fowler 和 Kent Beck给下的定义，它是:</p>
 
@@ -52,9 +55,9 @@
 &gt;##感想：
 »我以前都认为重构就是重头再来一遍，看来我误会了，幸好在我对微盒主页进行重写之前看到这些文章，不然就是浪费时间做无用功，而且还有可能阻碍到别人。</p>
 
-<h1 id="section-2">关于重构和重写</h1>
+<h1 id="section-1">关于重构和重写</h1>
 
-<h2 id="section-3">程序员以及经理提到重写是基于以下几个理由:</h2>
+<h2 id="section-2">程序员以及经理提到重写是基于以下几个理由:</h2>
 
 <ol>
   <li>对完全理解原有代码的恐惧</li>
@@ -63,14 +66,14 @@
   <li>不了解重构</li>
 </ol>
 
-<h2 id="section-4">而上级能够采纳重写意见一般是基于:</h2>
+<h2 id="section-3">而上级能够采纳重写意见一般是基于:</h2>
 
 <ol>
   <li>原有项目时间拖延太长,修改难度越来越高,修复时间似乎是非线性增长的.</li>
   <li>所有程序员都建议重新再来,没人愿意进行修复原有代码的工作</li>
 </ol>
 
-<h2 id="section-5">问题在于:</h2>
+<h2 id="section-4">问题在于:</h2>
 
 <ul>
   <li>当你不能够理解以及改善破败代码的时候,你凭什么能够认为能够写出一个功能一致并且更清晰的软件呢?</li>
@@ -88,14 +91,14 @@
 </ul>
 
 <blockquote>
-  <h2 id="section-6">感想：</h2>
+  <h2 id="section-5">感想：</h2>
   <blockquote>
     <p>我会试着理解<a href="http://weibo.com/319880777">@雨宮汐</a>写的<a href="http://wecaseproject.tk/&quot;微盒&quot;">微盒主页</a>
   主页的代码，然后改善一下，比如变量名，拆分冗长的结构还有添加一些注释，方便添加和删除一些元素和功能。</p>
   </blockquote>
 </blockquote>
 
-<h1 id="section-7">你永远不应该做的事——重写:</h1>
+<h1 id="section-6">你永远不应该做的事——重写:</h1>
 
 <p>有一个微妙的原因使得程序员总是想抛弃原有的代码重新开始。原因是他们认为原来的代码太混乱。而且有一个很有趣的现象：他们可能错了 。他们认为旧代码混乱的原因是由于编程上的一个基本的，主要的定律：</p>
 
@@ -108,17 +111,17 @@
 <p>一个很重要的事情你要记住，<strong>当你重写代码并没有绝对的理由相信你会比旧代码更好。</strong>首先，你甚至没有和写第一个版本一样的开发团队，因此你并不是”更有经验”。我会再一次犯大多数以前犯过的错误，而且会比原始的版本增加更多的新问题。</p>
 
 <blockquote>
-  <h2 id="section-8">感想：</h2>
+  <h2 id="section-7">感想：</h2>
   <blockquote>
     <p>应该去看原文的Netscape例子。觉得重写代码会把之前的别人的经验教训都扔掉了，而且还是重复劳动比较多。况且现在还没有能力做出比别人更好的轮子。</p>
   </blockquote>
 </blockquote>
 
-<h1 id="section-9">如何避免重构带来的危险</h1>
+<h1 id="section-8">如何避免重构带来的危险</h1>
 
 <p>重构代码很危险，它会给测试工作增加巨大的负担。除非你的程序需要重构，一定不要轻易重构代码。我这里所说的并不是把一个for循环改成while循环，或把一个StringBuffer改成StringBuilder，我说的是大动作，例如重写一个方法，一个函数，甚至整个类或包。如果你缺乏对一个方法或一个类的了解，那你重构它的条件就不充分。即使你有一个天才的计划，你也需要和团队一起设计其中重大的修改。</p>
 
-<h2 id="section-10">当属于下列情况时，你不该重构：</h2>
+<h2 id="section-9">当属于下列情况时，你不该重构：</h2>
 
 <ul>
   <li>
@@ -156,7 +159,7 @@
   </li>
 </ul>
 
-<h2 id="section-11">如何降低重构的风险：</h2>
+<h2 id="section-10">如何降低重构的风险：</h2>
 
 <ul>
   <li>
@@ -187,7 +190,7 @@
 
 <p>当你在开封一个方法时，如果你发现其中有一部分可以改进，那你就该考虑它，改进它。整洁的代码是我们需要的，因为写的很烂的代码我们到处可见。和你的同事讨论它们，当有人要修改你的代码时不要固守己见。重构，然后回归测试，然后才提交代码。没有人希望自己提交的代码会弄垮系统。</p>
 
-<h2 id="section-12">下面是一些比较有深度的阅读材料。</h2>
+<h2 id="section-11">下面是一些比较有深度的阅读材料。</h2>
 
 <ul>
   <li>重构:改善既有代码的设计</li>
@@ -197,6 +200,10 @@
 </ul>
 
 <p><strong>忍住你的欲望，不要试图重构你不理解的代码。多问问题，努力能清楚他们为什么要把程序写成这样。也许他们有很好的理由。</strong>如果你找到一段很古老的代码，很有可能它们是按照古老的方式写的。每天都在新增的API，模式，需求和新领会都会让这些老的方式显得陈旧。<strong>不断努力学习新的技术，但不要为了要使用这些技术而过于热心的在重构中使用它们。</strong>(PS：<strong><q>当你拿起锤子，就觉得哪里都是钉子</q></strong>这句话就是表达了对新学技术的滥用，谨记）</p>
+
+<h1 id="section-12">后记</h1>
+
+<p>十分感谢</p>
 
 ]]></content>
   </entry>
