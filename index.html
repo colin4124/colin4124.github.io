@@ -4,98 +4,76 @@
 <head>
 	<meta charset="utf-8">
 	<title>快乐窝</title>
-    <meta name="author" content="咧威">
-    
-	<meta name="description" content="Published on: Apr 28th, 2013 Tags: 缘起 咧威习惯了linux之后，换到Windows没有命令行就特别不爽。另一个原因是咧威的朋友CXY在学校没有自己的电脑，只能去机房或者网吧，用linux不方便，虚拟机占资源太大。 Cygwin VS MinGW &hellip;">
+	<meta name="author" content="咧威">
+
+	
+	<meta name="description" content="缘起 咧威习惯了linux之后，换到Windows没有命令行就特别不爽。另一个原因是咧威的朋友CXY在学校没有自己的电脑，只能去机房或者网吧，用linux不方便，虚拟机占资源太大。 Cygwin VS MinGW 这个两个都是在windows体验Linux的工具。MinGW ( &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link href="/atom.xml" rel="alternate" title="快乐窝" type="application/atom+xml">
 	<link rel="canonical" href="">
-	<link href="/favicon.ico" rel="shortcut icon">
-    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-
-    <link href='http://fonts.googleapis.com/css?family=Slackey' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet' type='text/css'>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-    <script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
-
-    <!-- remove or comment it to disable ajaxification -->   
-    <script src="/javascripts/ajaxify.js"></script>
-   
-    
-    
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-39616505-1']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-
-
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
 </head>
 
-
 <body>
-    <div id="wrapper">
-    <header id="header" class="inner"><!-- for more effects see _animate.scss -->
-<h1 class="animated bounceInDown">
-    <div id="headerbg">
-        咧威
-    </div>
-</h1>
-<br>
-
-<ul id="social-links" style="text-align:center">
-  
-  <!-- GitHub -->
-  <li>
-  <a href="https://github.com/colin4124" class="github" title="Github"></a>
-  </li>
-  
-  
-  
-  
-  
-  
-  
-  
+	<header id="header" class="inner"><h1><a href="/">快乐窝</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
 </ul>
-
-
-<!-- use full url including 'index.html' for navigation bar if you are using ajax -->
-<ul id="nav">
-	<li id="ajax"><a href="/index.html">Home</a></li>
-	<li id="ajax"><a href="/blog/archives/index.html">Archives</a></li>
-    <li><a href="/atom.xml">RSS</a></li>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:colin4124.github.com">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		
+		<a class="github" href="https://github.com/colin4124" title="GitHub">GitHub</a>
+		
     
-    <li>
-    <div id="dark">
-        <form method="get" action="/search.html" id="search">
-            <input name="query" type="text" placeholder="Search..." x-webkit-speech />
-        </form>
-    </div>
-    </li>
-        
-</ul>
-
-
-
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:colin4124.github.com">
+	</form>
+</nav>
 
 </header>
-
-<div id="toload">
-<!-- begin toload --> 
-    <div id="content" class="inner">
-        
+	
+		
+	
+	<div id="content" class="inner">
 
 
     <article class="post">
@@ -105,25 +83,7 @@
 		
 			Cygwin</a>
 	</h2>
-    <div class="entry-content">
-    <div class="meta">
-      <div class="date">Published on: 
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-28T23:17:00+00:00" pubdate data-updated="true">Apr 28<span>th</span>, 2013</time></div>
-      <div class="tags">Tags: 
-
-</div>
-    </div>
+	<div class="entry-content">
 		<h1 id="section">缘起</h1>
 
 <p>咧威习惯了linux之后，换到Windows没有命令行就特别不爽。另一个原因是咧威的朋友CXY在学校没有自己的电脑，只能去机房或者网吧，用linux不方便，虚拟机占资源太大。</p>
@@ -257,22 +217,9 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
 		
 	</div>
 
+
 <div class="meta">
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/03/25/zhong-xie-%2C-zhong-gou-de-zhai-yao-he-gan-xiang/">
-		
-			重写、重构的摘要和感想</a>
-	</h2>
-    <div class="entry-content">
-    <div class="meta">
-      <div class="date">Published on: 
+	<div class="date">
 
 
 
@@ -284,11 +231,22 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
   
 
 
-<time datetime="2013-03-25T16:29:00+00:00" pubdate data-updated="true">Mar 25<span>th</span>, 2013</time></div>
-      <div class="tags">Tags: 
+<time datetime="2013-04-28T23:17:00+00:00" pubdate data-updated="true">Apr 28<span>th</span>, 2013</time></div>
+	<div class="tags">
 
 </div>
-    </div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/03/25/zhong-xie-%2C-zhong-gou-de-zhai-yao-he-gan-xiang/">
+		
+			重写、重构的摘要和感想</a>
+	</h2>
+	<div class="entry-content">
 		<style>a{text-decoration:none}a:hover{text-decoration:underline}</style>
 
 <style>a{text-decoration:none}a:hover{text-decoration:underline}</style>
@@ -304,22 +262,9 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
 		<a href="/blog/2013/03/25/zhong-xie-%2C-zhong-gou-de-zhai-yao-he-gan-xiang/" class="more-link">Read on &rarr;</a>
 	</div>
 
+
 <div class="meta">
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/03/22/why-i-use-octopress/">
-		
-			我的octopress博客</a>
-	</h2>
-    <div class="entry-content">
-    <div class="meta">
-      <div class="date">Published on: 
+	<div class="date">
 
 
 
@@ -331,11 +276,22 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
   
 
 
-<time datetime="2013-03-22T22:31:00+00:00" pubdate data-updated="true">Mar 22<span>nd</span>, 2013</time></div>
-      <div class="tags">Tags: 
+<time datetime="2013-03-25T16:29:00+00:00" pubdate data-updated="true">Mar 25<span>th</span>, 2013</time></div>
+	<div class="tags">
 
 </div>
-    </div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/03/22/why-i-use-octopress/">
+		
+			我的octopress博客</a>
+	</h2>
+	<div class="entry-content">
 		<h1 id="section"><strong>缘起</strong></h1>
 
 <p>很早以前就打算开博客，在<a href="http://www.chinaunix.net/&quot;ChinaUnix&quot;">ChinaUnix</a>和<a href="http://www.51cto.com&quot;51cto&quot;">51CTO</a>都开设过博客。不过都是转载的为主，用的都是网站提供的博客，由于定制性很差，所以当时只是关注博客内容。但是没有坚持写下去</p>
@@ -366,30 +322,38 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
 		
 	</div>
 
+
 <div class="meta">
-	
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-22T22:31:00+00:00" pubdate data-updated="true">Mar 22<span>nd</span>, 2013</time></div>
+	<div class="tags">
+
 </div>
-</article>
+	
+</div></article>
 
 <nav id="pagenavi">
     
     
     <div class="center"><a href="/blog/archives">Blog Archives</a></div>
-</nav>
-
-    </div>
-    <footer id="footer">
-    <div style="display:inline">
-    Copyright &copy; 2013
+</nav></div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
 
     咧威
-. Powered by <a href="http://octopress.org">Octopress</a> | 
-    Theme <a href="http://github.com/panks/fabric">fabric</a> by <a href="http://panks.me">Pankaj Kumar</a>
-</div>
 
-
-    </footer>
-    <script src="/javascripts/fabric.js"></script>
+</footer>
+	<script src="/javascripts/slash.js"></script>
 <script src="/javascripts/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
 (function($){
@@ -400,16 +364,19 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
 
 
 
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-39616505-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
 
-<!-- end toload --> 
-</div>
-</div>
-<script src="/javascripts/jquery.ui.totop.js" type="text/javascript"></script>
-<script type="text/javascript">
-/*<![CDATA[*/
-;(function($){$().UItoTop({easingType:'easeOutCirc'});})(jQuery); 
-/*]]>*/
-</script><!-- remove it to remove the scroll to top button -->
+
 </body>
 </html>
