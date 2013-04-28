@@ -4,7 +4,7 @@
   <title><![CDATA[快乐窝]]></title>
   <link href="http://colin4124.github.com/atom.xml" rel="self"/>
   <link href="http://colin4124.github.com/"/>
-  <updated>2013-04-28T23:29:07+00:00</updated>
+  <updated>2013-04-28T23:30:45+00:00</updated>
   <id>http://colin4124.github.com/</id>
   <author>
     <name><![CDATA[咧威]]></name>
@@ -31,7 +31,7 @@
 <p>点击<a href="&quot;http://cygwin.com/setup.exe&quot;">下载</a>setup.exe，下载完后双击即可开始安装。</p>
 
 <h4 id="section-2">1. 选择第一个从网上下载安装。</h4>
-<p><img src="setup1.jpg" alt="setup1" /></p>
+<p><img src="../images/setup1.jpg" alt="setup1" /></p>
 
 <h4 id="uall-users">2. 选择安装的目录，咧威选择的是U盘的目录，根据你自己的情况而定.然后选择“All Users”所有用户都可以使用。</h4>
 <p><img src="setup2.png" alt="setup2" /></p>
