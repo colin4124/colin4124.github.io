@@ -4,7 +4,7 @@
   <title><![CDATA[快乐窝]]></title>
   <link href="http://colin4124.github.com/atom.xml" rel="self"/>
   <link href="http://colin4124.github.com/"/>
-  <updated>2013-04-29T15:59:43+00:00</updated>
+  <updated>2013-04-29T16:04:01+00:00</updated>
   <id>http://colin4124.github.com/</id>
   <author>
     <name><![CDATA[咧威]]></name>
@@ -34,13 +34,13 @@
 <p><img src="setup1.jpg" alt="setup1" /></p>
 
 <h4 id="uall-users">2. 选择安装的目录，咧威选择的是U盘的目录，根据你自己的情况而定.然后选择“All Users”所有用户都可以使用。</h4>
-<p><img src="images/setup2.png" alt="setup2" /></p>
+<p><img src="http://colin4124.github.com/images/setup2.png" alt="setup2" /></p>
 
 <h4 id="cygwininstall-file">3. 选择一个用来放安装文件的目录,我起了“CygwinInstall-file”这个名字，跟安装目录相区别</h4>
-<p><img src="images/setup3.png" alt="setup3" /></p>
+<p><img src="http://colin4124.github.com/images/setup3.png" alt="setup3" /></p>
 
 <h4 id="section-2">4. 弹出“文件夹不存在，是否创建”，选择“是”</h4>
-<p><img src="../images/setup4.png" alt="setup4" /></p>
+<p><img src="http://colin4124.github.com/../images/setup4.png" alt="setup4" /></p>
 
 <h4 id="direct-connection">5. 选择第一个“Direct Connection”直接连接</h4>
 <p><img src="../images/setup5.png" alt="setup5" /></p>
