@@ -4,7 +4,7 @@
   <title><![CDATA[快乐窝]]></title>
   <link href="http://colin4124.github.com/atom.xml" rel="self"/>
   <link href="http://colin4124.github.com/"/>
-  <updated>2013-04-29T16:39:45+00:00</updated>
+  <updated>2013-04-29T16:47:29+00:00</updated>
   <id>http://colin4124.github.com/</id>
   <author>
     <name><![CDATA[咧威]]></name>
@@ -141,8 +141,9 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
   </blockquote>
 </blockquote>
 
-<p>如果出现 <strong>“您在注册表编辑器中只能导入二进位注册文件”</strong> 的错误, 用记事本打开然后另存为<strong>ANSI 编码格式</strong>。如果不改名保存提示“是否替换” 选择 “是”。
-<img src="http://colin4124.github.com/../images/setup10.png" alt="setup10" /></p>
+<p>如果出现 <strong>“您在注册表编辑器中只能导入二进位注册文件”</strong> 的错误, 用记事本打开然后另存为<strong>ANSI 编码格式</strong>。如果不改名保存提示“是否替换” 选择 “是”。</p>
+
+<p><img src="http://colin4124.github.com/../images/setup10.png" alt="setup10" /></p>
 
 <h2 id="cygwinlinux">开始体验Cygwin的linux工作方式</h2>
 
@@ -153,9 +154,10 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
 <blockquote>
   <blockquote>
     <p><strong>注意：</strong>简体主站就不去看了，翻译得不是很好，宁愿你去搜索鸟哥私房菜的电子书。第三章和第四章也可以不用看了，这和安装Linux相关，而我们已经在Windows下构建好了Linux</p>
-
   </blockquote>
 </blockquote>
+
+<h2 id="section-7">有什么问题可以在下面评论</h2>
 
 ]]></content>
   </entry>
