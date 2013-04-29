@@ -4,7 +4,7 @@
   <title><![CDATA[快乐窝]]></title>
   <link href="http://colin4124.github.com/atom.xml" rel="self"/>
   <link href="http://colin4124.github.com/"/>
-  <updated>2013-04-28T23:30:45+00:00</updated>
+  <updated>2013-04-28T23:39:08+00:00</updated>
   <id>http://colin4124.github.com/</id>
   <author>
     <name><![CDATA[咧威]]></name>
@@ -24,41 +24,41 @@
 
 <h1 id="cygwin-vs-mingw">Cygwin VS MinGW</h1>
 
-<p>这个两个都是在windows体验Linux的工具。<a href="&quot;http://zh.wikipedia.org/wiki/MinGW&quot;" title="MinGW">MinGW</a> (Minimalist GNU for Windows) 很精简，只提供了常用的软件，对中文支持不太好。而<a href="&quot;http://zh.wikipedia.org/wiki/Cygwin&quot;" title="Cygwin">Cygwin</a>提供了大量的工具，更能满足在Windows上用Linux方式工作的需求，希望它能够帮助你摆脱对Windows的依赖。</p>
-
-<h2 id="section-1">安装</h2>
+<p>这个两个都是在windows体验Linux的工具。<a href="&quot;http://zh.wikipedia.org/wiki/MinGW&quot;" title="MinGW">MinGW</a> (Minimalist GNU for Windows) 很精简，只提供了常用的软件，对中文支持不太好。而<a href="&quot;http://zh.wikipedia.org/wiki/Cygwin&quot;" title="Cygwin">Cygwin</a>提供了大量的工具，更能满足在Windows上用Linux方式工作的需求，希望它能够帮助你摆脱对Windows的依赖。
+<!--more-->
+##安装</p>
 
 <p>点击<a href="&quot;http://cygwin.com/setup.exe&quot;">下载</a>setup.exe，下载完后双击即可开始安装。</p>
 
-<h4 id="section-2">1. 选择第一个从网上下载安装。</h4>
+<h4 id="section-1">1. 选择第一个从网上下载安装。</h4>
 <p><img src="../images/setup1.jpg" alt="setup1" /></p>
 
 <h4 id="uall-users">2. 选择安装的目录，咧威选择的是U盘的目录，根据你自己的情况而定.然后选择“All Users”所有用户都可以使用。</h4>
-<p><img src="setup2.png" alt="setup2" /></p>
+<p><img src="../images/setup2.png" alt="setup2" /></p>
 
 <h4 id="cygwininstall-file">3. 选择一个用来放安装文件的目录,我起了“CygwinInstall-file”这个名字，跟安装目录相区别</h4>
-<p><img src="setup3.png" alt="setup3" /></p>
+<p><img src="../images/setup3.png" alt="setup3" /></p>
 
-<h4 id="section-3">4. 弹出“文件夹不存在，是否创建”，选择“是”</h4>
-<p><img src="setup4.png" alt="setup4" /></p>
+<h4 id="section-2">4. 弹出“文件夹不存在，是否创建”，选择“是”</h4>
+<p><img src="../images/setup4.png" alt="setup4" /></p>
 
 <h4 id="direct-connection">5. 选择第一个“Direct Connection”直接连接</h4>
-<p><img src="setup5.png" alt="setup5" /></p>
+<p><img src="../images/setup5.png" alt="setup5" /></p>
 
 <h4 id="user-url--ftpftpiijadjppubcygwin-add--ftpftpiijadjppubcygwin-">6. 在“User URL：” 那一栏输入 ftp://ftp.iij.ad.jp/pub/cygwin/ 然后点击“Add” 就是自动选择 ftp://ftp.iij.ad.jp/pub/cygwin/ 最后点击“下一步”就行了</h4>
-<p><img src="setup6.png" alt="setup6" /></p>
+<p><img src="../images/setup6.png" alt="setup6" /></p>
 
 <h4 id="search--gcc-devel-gcc4-core-gcc4-g">7. 在”Search” 输入 gcc 搜索，然后点击Devel组前的+号，找到 gcc4-core gcc4-g++，</h4>
-<p><img src="setup7.png" alt="setup7" /></p>
+<p><img src="../images/setup7.png" alt="setup7" /></p>
 
 <h4 id="skip">点击Skip变成如图所示</h4>
-<p><img src="setup8.png" alt="setup8" /></p>
+<p><img src="../images/setup8.png" alt="setup8" /></p>
 
 <h4 id="make-devel-vim--vim-common-editors">8. 同理搜索 make 然后在Devel组找到选择，其他的组的不用理。搜索 vim 和 vim-common 在Editors可以找到</h4>
 
 <h4 id="ok">9. 最后一路点击“下一步”就可以了,以后再需要再安装什么软件，再次重复上述步骤，搜索安装就OK了。</h4>
 
-<h2 id="section-4">配置</h2>
+<h2 id="section-3">配置</h2>
 
 <h4 id="windows">1. 如何访问Windows的盘符</h4>
 
@@ -83,7 +83,7 @@ $ cygpath -w ~/			   注释： -w 代表 --windows ～/ 是用户的home目录
 F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的盘，think是咧威的用户名
 </code></pre>
 
-<h4 id="section-5">2. 用户主目录不一致的问题</h4>
+<h4 id="section-4">2. 用户主目录不一致的问题</h4>
 
 <p>Cygwin 确定用户主目录有几个不同的依据，要按照顺序确定主目录：首先查看系统的 HOME 环境变量，其次查看 /etc/passwd 中为用户设置的主目录。有的软件遵照这个原则，而有些 Cygwin 应用如 SSH，却没有使用 HOME 环境变量而是直接使用 /etc/passwd 中的设置。要想避免在同一个 Cygwin 环境下有两个不同的用户主目录设置，可以采用下面两种方法。</p>
 
@@ -94,19 +94,24 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
 
 <p>方法2：如果希望使用 HOME 环境变量指向的主目录，则可通过手工编辑 /etc/passwd 文件，将其中的用户主目录修改成 HOME 环境变量所指向的目录。</p>
 
-<h4 id="section-6">3. 命令行补齐忽略文件名大小写</h4>
+<h4 id="section-5">3. 命令行补齐忽略文件名大小写</h4>
 
 <p>Windows 的文件系统忽略文件名的大小写，在 Cygwin 下最好对命令行补齐进行相关设置，以忽略大小写，这样使用起来更方便。</p>
 
 <p>编辑文件 ~/.inputrc ，在其中添加设置“set completion-ignore-case on”，或者取消已有的相关设置前面的井（#）号注释符。修改完毕后，再重新进入 Cygwin，这样就可以实现命令行补齐对文件名大小写的忽略。</p>
 
 <h4 id="cygwin-">4.将Cygwin 添加到右键菜单里</h4>
-<p><img src="setup9.png" alt="setup9" /></p>
+<p><img src="../images/setup9.png" alt="setup9" /></p>
 
 <p>在实际使用中，要在Cygwin 用cd 进入某个盘，某个文件夹里有点麻烦，我一般是一路鼠标双击进入之后右键，打开Cygwin 就是在当前目录了。</p>
 
-<p>配置方式如下：
-» <strong>1)</strong> 在cygwin命令行执行如下命令，如果出现命令未找到，说明chere程序没有安装，使用cygwin的setup.exe安装chere。</p>
+<p>配置方式如下：</p>
+
+<blockquote>
+  <blockquote>
+    <p><strong>1)</strong> 在cygwin命令行执行如下命令，如果出现命令未找到，说明chere程序没有安装，使用cygwin的setup.exe安装chere。</p>
+  </blockquote>
+</blockquote>
 
 <pre><code> chere -i -fp -c -t mintty
 </code></pre>
@@ -133,7 +138,7 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
 </blockquote>
 
 <p>如果出现 <strong>“您在注册表编辑器中只能导入二进位注册文件”</strong> 的错误, 用记事本打开然后另存为<strong>ANSI 编码格式</strong>。如果不改名保存提示“是否替换” 选择 “是”。
-<img src="setup10.png" alt="setup10" /></p>
+<img src="../images/setup10.png" alt="setup10" /></p>
 
 <h2 id="cygwinlinux">开始体验Cygwin的linux工作方式</h2>
 
