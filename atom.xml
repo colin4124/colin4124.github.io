@@ -4,7 +4,7 @@
   <title><![CDATA[快乐窝]]></title>
   <link href="http://colin4124.github.com/atom.xml" rel="self"/>
   <link href="http://colin4124.github.com/"/>
-  <updated>2013-04-29T16:16:46+00:00</updated>
+  <updated>2013-04-29T16:25:44+00:00</updated>
   <id>http://colin4124.github.com/</id>
   <author>
     <name><![CDATA[咧威]]></name>
@@ -54,11 +54,15 @@
 <h4 id="skip">点击Skip变成如图所示</h4>
 <p><img src="http://colin4124.github.com/../images/setup8.png" alt="setup8" /></p>
 
-<h4 id="make-devel-vim--vim-common-editors">8. 同理搜索 make 然后在Devel组找到选择，其他的组的不用理。搜索 vim 和 vim-common 在Editors可以找到</h4>
+<h4 id="section-3">8. 同理搜索并选择一下安装包</h4>
+<ul>
+  <li>Devel组：make </li>
+  <li>Editors组： vim vim-common </li>
+</ul>
 
 <h4 id="ok">9. 最后一路点击“下一步”就可以了,以后再需要再安装什么软件，再次重复上述步骤，搜索安装就OK了。</h4>
 
-<h2 id="section-3">配置</h2>
+<h2 id="section-4">配置</h2>
 
 <h4 id="windows">1. 如何访问Windows的盘符</h4>
 
@@ -83,7 +87,7 @@ $ cygpath -w ~/			   注释： -w 代表 --windows ～/ 是用户的home目录
 F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的盘，think是咧威的用户名
 </code></pre>
 
-<h4 id="section-4">2. 用户主目录不一致的问题</h4>
+<h4 id="section-5">2. 用户主目录不一致的问题</h4>
 
 <p>Cygwin 确定用户主目录有几个不同的依据，要按照顺序确定主目录：首先查看系统的 HOME 环境变量，其次查看 /etc/passwd 中为用户设置的主目录。有的软件遵照这个原则，而有些 Cygwin 应用如 SSH，却没有使用 HOME 环境变量而是直接使用 /etc/passwd 中的设置。要想避免在同一个 Cygwin 环境下有两个不同的用户主目录设置，可以采用下面两种方法。</p>
 
@@ -94,7 +98,7 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
 
 <p>方法2：如果希望使用 HOME 环境变量指向的主目录，则可通过手工编辑 /etc/passwd 文件，将其中的用户主目录修改成 HOME 环境变量所指向的目录。</p>
 
-<h4 id="section-5">3. 命令行补齐忽略文件名大小写</h4>
+<h4 id="section-6">3. 命令行补齐忽略文件名大小写</h4>
 
 <p>Windows 的文件系统忽略文件名的大小写，在 Cygwin 下最好对命令行补齐进行相关设置，以忽略大小写，这样使用起来更方便。</p>
 
@@ -141,6 +145,8 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
 <img src="http://colin4124.github.com/../images/setup10.png" alt="setup10" /></p>
 
 <h2 id="cygwinlinux">开始体验Cygwin的linux工作方式</h2>
+
+<p>以后如果需要，再次打开 setup.exe 重新上述方法即可</p>
 
 <p>推荐的学习linux资料当然<a href="http://linux.vbird.org/" title="鸟哥私房菜">鸟哥私房菜</a>啦，从左边的导航栏开始看起，从“新手建议”——&gt;“开始阅读之前”——&gt;……最后</p>
 
