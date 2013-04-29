@@ -4,7 +4,7 @@
   <title><![CDATA[快乐窝]]></title>
   <link href="http://colin4124.github.com/atom.xml" rel="self"/>
   <link href="http://colin4124.github.com/"/>
-  <updated>2013-04-29T16:06:58+00:00</updated>
+  <updated>2013-04-29T16:08:10+00:00</updated>
   <id>http://colin4124.github.com/</id>
   <author>
     <name><![CDATA[咧威]]></name>
@@ -101,7 +101,7 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
 <p>编辑文件 ~/.inputrc ，在其中添加设置“set completion-ignore-case on”，或者取消已有的相关设置前面的井（#）号注释符。修改完毕后，再重新进入 Cygwin，这样就可以实现命令行补齐对文件名大小写的忽略。</p>
 
 <h4 id="cygwin-">4.将Cygwin 添加到右键菜单里</h4>
-<p><img src="../images/setup9.png" alt="setup9" /></p>
+<p><img src="http://colin4124.github.com/../images/setup9.png" alt="setup9" /></p>
 
 <p>在实际使用中，要在Cygwin 用cd 进入某个盘，某个文件夹里有点麻烦，我一般是一路鼠标双击进入之后右键，打开Cygwin 就是在当前目录了。</p>
 
@@ -138,7 +138,7 @@ F:\Cygwin\home\think\	   注释：  F： 是咧威安装Cygwin的目录所在的
 </blockquote>
 
 <p>如果出现 <strong>“您在注册表编辑器中只能导入二进位注册文件”</strong> 的错误, 用记事本打开然后另存为<strong>ANSI 编码格式</strong>。如果不改名保存提示“是否替换” 选择 “是”。
-<img src="../images/setup10.png" alt="setup10" /></p>
+<img src="http://colin4124.github.com/../images/setup10.png" alt="setup10" /></p>
 
 <h2 id="cygwinlinux">开始体验Cygwin的linux工作方式</h2>
 
