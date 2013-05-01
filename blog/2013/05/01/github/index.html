@@ -84,51 +84,50 @@
 <p><img src="/../images/github-1.png" alt="搜索 openssh" />
 <img src="/../images/github-2.png" alt="搜索git git-completion" /></p>
 
-<h4 id="github">申请github帐号</h4>
+<h3 id="github">申请github帐号</h3>
 
 <p>打开 <a href="https://github.com/">Github</a> 注册一个帐号
 <!--more--></p>
 
-<h4 id="git">设置 git</h4>
+<h3 id="git">设置 git</h3>
 
-<h5 id="git--your-name-here-">1. 设置你的名字， 每次用git 提交时才知道是谁修改的。输入以下命令， 把引号里的Your Name Here 换成是你想起的名字</h5>
+<p><strong>1. 设置你的名字， 每次用git 提交时才知道是谁修改的。输入以下命令， 把引号里的Your Name Here 换成是你想起的名字</strong></p>
 
 <pre><code>git config --global user.name "Your Name Here"
 </code></pre>
 
-<h5 id="email-github-youremailexamplecom-">2. 设置你的Email， 这得和你在github 申请时用的邮箱一致。把引号里的your_email@example.com 换成你的邮箱地址</h5>
+<p><strong>2. 设置你的Email， 这得和你在github 申请时用的邮箱一致。把引号里的your_email@example.com 换成你的邮箱地址</strong></p>
 
 <pre><code>git config --global user.email "your_email@example.com"
 </code></pre>
 
-<h4 id="ssh-github">通过SSH来访问 Github</h4>
+<h3 id="ssh-github">通过SSH来访问 Github</h3>
 
-<h5 id="ssh-">1.生成 SSH 密钥</h5>
+<p><strong>1.生成 SSH 密钥</strong></p>
 
 <pre><code>ssh-keygen -t rsa -C "your_email@example.com"
 </code></pre>
 
-<h5 id="section">2. 然后你会看到下面的提示，直接按回车</h5>
+<p><strong>2. 然后你会看到下面的提示，直接按回车</strong></p>
 
 <pre><code>Generating public/private rsa key pair.
 # Enter file in which to save the key (/c/Users/you/.ssh/id_rsa):
 </code></pre>
 
-<h5 id="git--github">3. 看到下面这个提示，意思是每次用git 访问 github时，输入的验证短语，可以不写，直接回车</h5>
+<p><strong>3. 看到下面这个提示，意思是每次用git 访问 github时，输入的验证短语，可以不写，直接回车</strong></p>
 
 <pre><code>Enter passphrase (empty for no passphrase): [Type a passphrase]
 # Enter same passphrase again: [Type passphrase again]
 </code></pre>
 
-<h5 id="ssh-key-">4. 然后输入下面的命令，把SSH key 复制到剪贴板。</h5>
-<pre><code>clip &lt; ~/.ssh/id_rsa.pub
-</code></pre>
+<p><strong>4. 然后输入下面的命令，把SSH key 复制到剪贴板。</strong>
+	clip &lt; ~/.ssh/id_rsa.pub</p>
 
-<h5 id="github---ssh-key">5. 去你github的设置页面(右上角) 添加 这个 SSH key，</h5>
+<p><strong>5. 去你github的设置页面(右上角) 添加 这个 SSH key</strong></p>
 
 <p><img src="/../images/github-3.png" alt="github的设置" /></p>
 
-<h5 id="ssh-keys">6. 在设置页面左边那一栏找到 SSH Keys</h5>
+<p><strong>6. 在设置页面左边那一栏找到 SSH Keys</strong></p>
 
 <p><img src="/../images/github-4.png" alt="在设置页面左边那一栏找到 SSH Keys" /></p>
 
@@ -156,7 +155,7 @@
 
 <p><img src="/../images/github-8.png" alt="输入你第3步设置的验证短语" /></p>
 
-<h5 id="section-1">10. 如果看到下面的提示，恭喜你，成功了</h5>
+<h5 id="section">10. 如果看到下面的提示，恭喜你，成功了</h5>
 
 <pre><code>Hi username! You've successfully authenticated, but GitHub does not
 # provide shell access.
