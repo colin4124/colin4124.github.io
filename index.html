@@ -7,7 +7,7 @@
 	<meta name="author" content="咧威">
 
 	
-	<meta name="description" content="Cygwin:在window下用linux的方式工作 缘起 咧威习惯了linux之后，换到Windows没有命令行就特别不爽。另一个原因是咧威的朋友CXY在学校没有自己的电脑，只能去机房或者网吧，用linux不方便，虚拟机占资源太大。 Cygwin VS MinGW &hellip;">
+	<meta name="description" content="Github 通过 Cygwin 安装 git 至于怎么安装和使用 Cygwin 参考 Cygwin:在window下用linux的方式工作 打开setup.exe, 安装 openssh git git-completion 申请github帐号 打开 Github 注册一个帐号 设置 git &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -74,6 +74,96 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/05/01/github/">
+		
+			Github</a>
+	</h2>
+	<div class="entry-content">
+		<h2 id="cygwin--git">通过 Cygwin 安装 git</h2>
+
+<p>至于怎么安装和使用 Cygwin 参考 <a href="2013-04-28-cygwin.markdown">Cygwin:在window下用linux的方式工作</a> </p>
+
+<p>打开setup.exe, 安装 openssh git git-completion</p>
+
+<p><img src="/../images/github-1.png" alt="搜索 openssh" />
+<img src="/../images/github-2.png" alt="搜索git git-completion" /></p>
+
+<h4 id="github">申请github帐号</h4>
+
+<p>打开 <a href="https://github.com/">Github</a> 注册一个帐号</p>
+
+<h4 id="git">设置 git</h4>
+
+<h5 id="git--your-name-here-">1. 设置你的名字， 每次用git 提交时才知道是谁修改的。输入以下命令， 把引号里的Your Name Here 换成是你想起的名字</h5>
+
+<pre><code>git config --global user.name "Your Name Here"
+</code></pre>
+
+<h5 id="email-github-youremailexamplecom-">2. 设置你的Email， 这得和你在github 申请时用的邮箱一致。把引号里的your_email@example.com 换成你的邮箱地址</h5>
+
+<pre><code>git config --global user.email "your_email@example.com"
+</code></pre>
+
+<h4 id="ssh-github">通过SSH来访问 Github</h4>
+
+<h5 id="ssh-">1.生成 SSH 密钥</h5>
+
+<pre><code>ssh-keygen -t rsa -C "your_email@example.com"
+</code></pre>
+
+<h5 id="section">2. 然后你会看到下面的提示，直接按回车</h5>
+
+<pre><code>Generating public/private rsa key pair.
+# Enter file in which to save the key (/c/Users/you/.ssh/id_rsa):
+</code></pre>
+
+<h5 id="git--github">3. 看到下面这个提示，意思是每次用git 访问 github时，输入的验证短语，可以不写，直接回车</h5>
+
+<pre><code>Enter passphrase (empty for no passphrase): [Type a passphrase]
+# Enter same passphrase again: [Type passphrase again]
+</code></pre>
+
+<h5 id="ssh-key-">4. 然后输入下面的命令，把SSH key 复制到剪贴板。</h5>
+<pre><code>clip &lt; ~/.ssh/id_rsa.pub #####5. 去你github的设置页面(右上角) 添加 这个 SSH key， ![github的设置](/../images/github-3.png)
+</code></pre>
+
+<h5 id="section-1">6.</h5>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-01T08:03:00+00:00" pubdate data-updated="true">May 1<span>st</span>, 2013</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+
+
+      | <a href="/blog/2013/05/01/github/#comments">Comments</a>
+
+</article>
 
 
     <article class="post">
