@@ -4,7 +4,7 @@
   <title><![CDATA[快乐窝]]></title>
   <link href="http://colin4124.github.com/atom.xml" rel="self"/>
   <link href="http://colin4124.github.com/"/>
-  <updated>2013-05-01T08:50:28+00:00</updated>
+  <updated>2013-05-01T08:51:51+00:00</updated>
   <id>http://colin4124.github.com/</id>
   <author>
     <name><![CDATA[咧威]]></name>
@@ -74,31 +74,31 @@
 
 <p><img src="http://colin4124.github.com/../images/github-4.png" alt="在设置页面左边那一栏找到 SSH Keys" /></p>
 
-<h5 id="add-ssh-key">7. 点击”Add SSH key”</h5>
+<p>**7. 点击”Add SSH key” **</p>
 
 <p><img src="http://colin4124.github.com/../images/github-6.png" alt="点击&quot;Add SSH key&quot;" /></p>
 
-<h5 id="key--ssh-key-4-titlessh-key-ssh-keywin7-win7">8. 在 key 那一栏粘贴 SSH key, 确保第4步的命令你已经输入了. Title就是为这个SSH key 做个标记，知道这个SSH key是来自哪里的，比如我的是win7, 就知道是我笔记本上win7的系统</h5>
+<p><strong>8. 在 key 那一栏粘贴 SSH key, 确保第4步的命令你已经输入了. Title就是为这个SSH key 做个标记，知道这个SSH key是来自哪里的，比如我的是win7, 就知道是我笔记本上win7的系统</strong></p>
 
 <p><img src="http://colin4124.github.com/../images/github-7.png" alt="粘贴 SSH key" /></p>
 
-<h5 id="github-1">9. 输入以下命令测试是否可以连接上github</h5>
+<p><strong>9. 输入以下命令测试是否可以连接上github</strong></p>
 
 <pre><code>ssh -T git@github.com
 </code></pre>
 
-<p>你会看到一个警告，输入 yes</p>
+<p><strong>你会看到一个警告，输入 yes</strong></p>
 
 <pre><code>The authenticity of host 'github.com (207.97.227.239)' can't be established.
 # RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
 # Are you sure you want to continue connecting (yes/no)?
 </code></pre>
 
-<p>然后输入你第3步设置的验证短语，没有设置的直接回车</p>
+<p><strong>然后输入你第3步设置的验证短语，没有设置的直接回车</strong></p>
 
 <p><img src="http://colin4124.github.com/../images/github-8.png" alt="输入你第3步设置的验证短语" /></p>
 
-<h5 id="section">10. 如果看到下面的提示，恭喜你，成功了</h5>
+<h4 id="section">10. 如果看到下面的提示，恭喜你，成功了</h4>
 
 <pre><code>Hi username! You've successfully authenticated, but GitHub does not
 # provide shell access.
