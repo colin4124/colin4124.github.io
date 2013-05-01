@@ -3,11 +3,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>github - 快乐窝</title>
+	<title>在 Windows 下使用 Github - 快乐窝</title>
 	<meta name="author" content="咧威">
 
 	
-	<meta name="description" content="Github 通过 Cygwin 安装 git 至于怎么安装和使用 Cygwin 参考 Cygwin:在window下用linux的方式工作 打开setup.exe, 安装 openssh git git-completion 申请github帐号 打开 Github 注册一个帐号 设置 git &hellip;">
+	<meta name="description" content="在 Windows 下使用 Github 通过 Cygwin 安装 git 至于怎么安装和使用 Cygwin 参考 Cygwin:在window下用linux的方式工作 打开setup.exe, 安装 openssh git git-completion 申请github帐号 打开 Github &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -74,7 +74,7 @@
 		
 	
 	<div id="content" class="inner"><article class="post">
-	<h2 class="title">Github</h2>
+	<h2 class="title">在 Windows 下使用 Github</h2>
 	<div class="entry-content"><h2 id="cygwin--git">通过 Cygwin 安装 git</h2>
 
 <p>至于怎么安装和使用 Cygwin 参考 <a href="2013-04-28-cygwin.markdown">Cygwin:在window下用linux的方式工作</a> </p>
@@ -86,9 +86,9 @@
 
 <h4 id="github">申请github帐号</h4>
 
-<p>打开 <a href="https://github.com/">Github</a> 注册一个帐号</p>
-
-<h4 id="git">设置 git</h4>
+<p>打开 <a href="https://github.com/">Github</a> 注册一个帐号
+<!--more-->
+####设置 git</p>
 
 <h5 id="git--your-name-here-">1. 设置你的名字， 每次用git 提交时才知道是谁修改的。输入以下命令， 把引号里的Your Name Here 换成是你想起的名字</h5>
 
@@ -120,10 +120,24 @@
 </code></pre>
 
 <h5 id="ssh-key-">4. 然后输入下面的命令，把SSH key 复制到剪贴板。</h5>
-<pre><code>clip &lt; ~/.ssh/id_rsa.pub #####5. 去你github的设置页面(右上角) 添加 这个 SSH key， ![github的设置](/../images/github-3.png)
+<pre><code>clip &lt; ~/.ssh/id_rsa.pub #####5. 去你github的设置页面(右上角) 添加 这个 SSH key，
 </code></pre>
 
-<h5 id="section-1">6.</h5>
+<p><img src="/../images/github-3.png" alt="github的设置" /></p>
+
+<h5 id="ssh-keys">6. 在设置页面左边那一栏找到 SSH Keys</h5>
+
+<p><img src="/../images/github-4.png" alt="在设置页面左边那一栏找到 SSH Keys" /></p>
+
+<h5 id="add-ssh-key">7. 点击”Add SSH key”</h5>
+
+<p><img src="/../images/github-5.png" alt="点击&quot;Add SSH key&quot;" /></p>
+
+<h5 id="key--ssh-key-4-titlessh-key-ssh-keyarhclinux-archlinux">8. 在 key 那一栏粘贴 SSH key, 确保第4步的命令你已经输入了. Title就是为这个SSH key 做个标记，知道这个SSH key是来自哪里的，比如我的是Arhclinux, 就知道是我笔记本上Archlinux的系统</h5>
+
+<p><img src="/../images/github-6.png" alt="粘贴 SSH key" /></p>
+
+<h5 id="section-1">9.</h5>
 
 </div>
 
