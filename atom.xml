@@ -4,7 +4,7 @@
   <title><![CDATA[快乐窝]]></title>
   <link href="http://colin4124.github.com/atom.xml" rel="self"/>
   <link href="http://colin4124.github.com/"/>
-  <updated>2013-05-01T08:51:51+00:00</updated>
+  <updated>2013-05-01T08:52:54+00:00</updated>
   <id>http://colin4124.github.com/</id>
   <author>
     <name><![CDATA[咧威]]></name>
@@ -74,7 +74,7 @@
 
 <p><img src="http://colin4124.github.com/../images/github-4.png" alt="在设置页面左边那一栏找到 SSH Keys" /></p>
 
-<p>**7. 点击”Add SSH key” **</p>
+<p><strong>7. 点击”Add SSH key”</strong></p>
 
 <p><img src="http://colin4124.github.com/../images/github-6.png" alt="点击&quot;Add SSH key&quot;" /></p>
 
