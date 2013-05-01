@@ -3,11 +3,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>在 Windows 下使用 Github - 快乐窝</title>
+	<title>在 Windows 下使用 Github的配置 - 快乐窝</title>
 	<meta name="author" content="咧威">
 
 	
-	<meta name="description" content="在 Windows 下使用 Github 通过 Cygwin 安装 git 至于怎么安装和使用 Cygwin 参考 Cygwin:在window下用linux的方式工作 打开setup.exe, 安装 openssh git git-completion 申请github帐号 打开 Github &hellip;">
+	<meta name="description" content="在 Windows 下使用 Github的配置 通过 Cygwin 安装 git 至于怎么安装和使用 Cygwin 参考 Cygwin:在window下用linux的方式工作 打开setup.exe, 安装 openssh git git-completion 申请github帐号 打开 &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -74,10 +74,10 @@
 		
 	
 	<div id="content" class="inner"><article class="post">
-	<h2 class="title">在 Windows 下使用 Github</h2>
+	<h2 class="title">在 Windows 下使用 Github的配置</h2>
 	<div class="entry-content"><h2 id="cygwin--git">通过 Cygwin 安装 git</h2>
 
-<p>至于怎么安装和使用 Cygwin 参考 <a href="2013-04-28-cygwin.markdown">Cygwin:在window下用linux的方式工作</a> </p>
+<p>至于怎么安装和使用 Cygwin 参考 <a href="http://funwo.tk/blog/2013/04/28/cygwin/">Cygwin:在window下用linux的方式工作</a> </p>
 
 <p>打开setup.exe, 安装 openssh git git-completion</p>
 
@@ -131,13 +131,33 @@
 
 <h5 id="add-ssh-key">7. 点击”Add SSH key”</h5>
 
-<p><img src="/../images/github-5.png" alt="点击&quot;Add SSH key&quot;" /></p>
+<p><img src="/../images/github-6.png" alt="点击&quot;Add SSH key&quot;" /></p>
 
 <h5 id="key--ssh-key-4-titlessh-key-ssh-keyarhclinux-archlinux">8. 在 key 那一栏粘贴 SSH key, 确保第4步的命令你已经输入了. Title就是为这个SSH key 做个标记，知道这个SSH key是来自哪里的，比如我的是Arhclinux, 就知道是我笔记本上Archlinux的系统</h5>
 
-<p><img src="/../images/github-6.png" alt="粘贴 SSH key" /></p>
+<p><img src="/../images/github-7.png" alt="粘贴 SSH key" /></p>
 
-<h5 id="section-1">9.</h5>
+<h5 id="github-1">9. 输入以下命令测试是否可以连接上github</h5>
+
+<pre><code>ssh -T git@github.com
+</code></pre>
+
+<p>你会看到一个警告，输入 yes</p>
+
+<pre><code>The authenticity of host 'github.com (207.97.227.239)' can't be established.
+# RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+# Are you sure you want to continue connecting (yes/no)?
+</code></pre>
+
+<p>然后输入你第3步设置的验证短语，没有设置的直接回车</p>
+
+<p><img src="/../images/github-8.png" alt="输入你第3步设置的验证短语" /></p>
+
+<h5 id="section-1">10. 如果看到下面的提示，恭喜你，成功了</h5>
+
+<pre><code>Hi username! You've successfully authenticated, but GitHub does not
+# provide shell access.
+</code></pre>
 
 </div>
 
