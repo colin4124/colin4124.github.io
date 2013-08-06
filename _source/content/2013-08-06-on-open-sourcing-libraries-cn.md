@@ -36,34 +36,35 @@
 	project-x     <-------- 一级标题 (项目名字)
 	=========
     
-	project-x用更好的方式实现某某功能，通过使用高效的新API，此处省略N个字。
-	project-x is a better way to achieve this and that, by leveraging the new API,
+    project-x is a better way to achieve this and that, by leveraging the new API,
 	blablabla.
-
-	## 使用(Usage)     <-------- 二级标题
-	...
-
-	## 安装(Installation)
-	...
-
-	## 依赖(Requirements)
-	...
-
-	## 贡献(Contributing)
-
-	查看 CONTRIBUTING 文件.
-
-	## 执行测试(Running the Tests)
-	...
-
-	## 信用(Credits)
-	...
-
-	## 许可证(License)
+	project-x用更好的方式实现某某功能，通过使用高效的新API，此处省略N个字。
 	
-	project-x 依据 MIT许可证发布。详细请看捆绑的 LICENSE 文件。
+	## Usage(使用)     <-------- 二级标题
+	...
+
+	## Installation(安装)
+	...
+
+	## Requirements(依赖)
+	...
+
+	## Contributing(贡献)
+
+    See CONTRIBUTING file.
+	查看 CONTRIBUTING 文件。
+
+	## Running the Tests(执行测试)
+	...
+
+	## Credits(信用)
+	...
+
+	## License(许可证)
+		
 	project-x is released under the MIT License. See the bundled LICENSE file for 
 	details.
+    project-x 依据 MIT许可证发布。详细请看捆绑的 LICENSE 文件。
 
 正如你所看到的, 我在模板里介绍了两个文件: <code>LICENSE</code>(许可证)和<code>CONTRIBUTING</code>(贡献指南)。**贡献**这一小节的内容用一个文件<code>CONTRIBUTING</code>代替了。<code>LICENSE</code>(许可证)这个文件里包含了你项目选择的许可证，但你应该选用哪个许可证呢？
 
