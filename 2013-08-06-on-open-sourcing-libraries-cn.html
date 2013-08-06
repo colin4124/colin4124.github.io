@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>开源库，你该做些什么 - 快乐窝</title>
+        <script>if (top !== self) top.location = self.location;</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+        <link rel="stylesheet" href="/static/style.css?v=b7bd6" />
+        <link rel="stylesheet" href="/static/pygments.css?v=c6adc" />
+        
+        <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="快乐窝" />
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="/static/html5shiv.js?v=9a10c"></script>
+        <![endif]-->
+        
+        
+<link rel="canonical" href="/2013-08-06-on-open-sourcing-libraries-cn.html" />
+
+
+    </head>
+    <body>
+        <header id="header">
+            <h1 id="brand"><a href="/">快乐窝</a></h1>
+            <nav id="nav" role="navigation">
+                
+                <a href="/">Home</a>
+                <a href="/about.html">About</a>
+            </nav>
+        </header>
+
+        <div id="main">
+            <div class="container"><div class="hentry">
+    <h1 class="entry-title">开源库，你该做些什么</h1>
+    <div class="entry-meta">
+        <time class="updated" datetime="2013-08-06T00:00:00+08:00" pubdate>
+            <a href="/2013/">2013-08-06</a>
+        </time>
+        <span class="author vcard">
+            by <span class="fn">咧威</span>
+        </span>
+    </div>
+    <div class="entry-content">
+        <p>原文地址: <a href="http://williamdurand.fr/2013/07/04/on-open-sourcing-libraries/">On Open Sourcing Libraries</a></p>
+<p><a href="#tl-dr">简要概括：TL;DR</a> (<a href="http://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn&#x27;t_read">Too long; didn&#39;t read</a>)</p>
+<p>把一个库<a class="footnote-reference" href="#note-1">[1]</a>开源非常简单，仅需几秒钟。你所需要做的仅仅是把公共仓库(public repository) 托管 (hosted) 在网上(<a href="https://github.com/">GitHub</a>, <a href="https://bitbucket.org/">Bitbucket</a>,等等)吗？不！事实上，如果你<strong>对非常酷的并且可以公开使用的库悉心照料</strong>的话<a class="footnote-reference" href="#note-2">[2]</a>，这样做对每个人都是件更好的事情。来看下这些是怎么做到的。</p>
+
+<h2 id="toc_0">README的编写</h2>
+<p><code>README</code>文件在你的项目中<strong>占据首要地位</strong>。你的项目必须包含它！这个文件必须包含库的<strong>名字</strong>和一个关于它(简短的)<strong>描述</strong>。把<strong>描述</strong>这一章节当作是<strong>电梯游说</strong> (elevator pitch，在乘电梯的30秒内清晰准确地向客户解释清楚解决方案)。</p>
+<p>然后是编写<strong>使用</strong>章节。尽可能详细地用文字、代码片段、截图或者GIF格式的图片，来描述如何使用你的库。这个就是你项目的<strong>文档</strong>, 你的库很多时候也同样如此, 这将会是你唯一提供的文档。 </p>
+<p>先写<strong>使用</strong>指南这部分并不是一个随意的选择。<code>README</code>文件应该能吸引读者(blow your reader&#39;s mind)，这样他们就会使用你的库并为它做出贡献(或许不会)。</p>
+<p>第三小节必须写<strong>安装</strong>方法。这个小节以*用户*的角度说明怎样快速安装你的库。如果有多种安装方式，首先介绍你认为最好的方式，然后才是(介绍)其他的。</p>
+<p>你可以添加一个<strong>依赖</strong>章节，例如，<em>依赖X的Y版本(Depends on X version Y)</em> 。这个章节是可选的，可以不写。</p>
+<p>第四个必须编写的小节是<strong>贡献</strong>。尽管它可以使用一个<code>CONTRIBUTING</code> 文件代替。说明<strong>怎样折腾你的库(how to hack your library)</strong>，怎样报告bugs，或者怎样提交特性请求(submit feature requests)。这方面介绍一定要详细。<strong>说明规则</strong>，让收到的请求合并中避免评论每一行<a class="footnote-reference" href="#note-3">[3]</a>，指引贡献者使用恰当的工具(Point contributors to the right tools )，比如linters 或者 compilers。</p>
+<p>你还必须添加一个<strong>测试</strong>章节。说明<strong>怎样安装测试套件</strong>，怎样运行功能测试(functional tests)，以及需要安装的工具。</p>
+<p>如果你使用第三方的东西，或者打算列出贡献者(当然这个也可以写在<strong>作者</strong>章节)，那就添加一个<strong>信用(Credits)</strong>章节。这个章节是可选的，可以不写。</p>
+<p>最后还要记住，添加一个<strong>许可证</strong>章节!</p>
+<p>模板如下(<a href="http://wowubuntu.com/markdown/">Markdown</a> 语法)：</p>
+
+<pre><code>project-x     &lt;-------- 一级标题 (项目名字)
+=========
+
+project-x用更好的方式实现某某功能，通过使用高效的新API，此处省略N个字。
+project-x is a better way to achieve this and that, by leveraging the new API,
+blablabla.
+
+## 使用(Usage)     &lt;-------- 二级标题
+...
+
+## 安装(Installation)
+...
+
+## 依赖(Requirements)
+...
+
+## 贡献(Contributing)
+
+查看 CONTRIBUTING 文件.
+
+## 执行测试(Running the Tests)
+...
+
+## 信用(Credits)
+...
+
+## 许可证(License)
+
+project-x 依据 MIT许可证发布。详细请看捆绑的 LICENSE 文件。
+project-x is released under the MIT License. See the bundled LICENSE file for 
+details.</code></pre>
+<p>正如你所看到的, 我在模板里介绍了两个文件: <code>LICENSE</code>(许可证)和<code>CONTRIBUTING</code>(贡献指南)。<strong>贡献</strong>这一小节的内容用一个文件<code>CONTRIBUTING</code>代替了。<code>LICENSE</code>(许可证)这个文件里包含了你项目选择的许可证，但你应该选用哪个许可证呢？</p>
+
+<h2 id="toc_1">许可证</h2>
+<p>我不想把所有的许可证都一一对比，你可以访问<a href="http://www.tldrlegal.com/">tl;drLegal</a>这个网站，它用易懂的话(simple words)向你介绍实用的(useful)开源许可证相关信息。</p>
+<p>我倾向于使用 <a href="http://www.tldrlegal.com/license/mit-license">MIT许可证</a>，因为它非常自由(liberal)。我这里的建议是<strong>参考下你的社区</strong>，选择最恰当的一个。比如说，在Symfony2 (一个PHP框架)社区，大多数相关的项目或者bundles 都是以MIT许可证发布的。而Java 的项目经常以Apache许可证2.0(Apache License 2.0)发布的。</p>
+<p>根据最近的报道(reports)，<a href="http://www.theregister.co.uk/2013/04/18/github_licensing_study/">大多数 GitHub上的项目没有一个开源许可证</a>。这是不好的(bad)！你必须得有许可证，即使是<a href="http://zh.wikipedia.org/wiki/%E5%95%A4%E9%85%92%E8%BB%9F%E9%AB%94">啤酒软件许可证</a>(<a href="http://en.wikipedia.org/wiki/Beerware">Beerware license</a>)。</p>
+<p>正如<a href="https://news.ycombinator.com/item?id=5990836">Hacker News</a>所提到的，<a href="https://news.ycombinator.com/item?id=5992270">精心(carefully)选择你的许可证</a>。并且，<a href="https://news.ycombinator.com/item?id=5992428">不要用你自己做的许可证或者仅仅声明这个项目属于公共领域 (Public domain，简单来说作品已属于全人类)。公共领域在国际上的确不是准确定义的概念，意味着不同国家会有不同的理解</a>。</p>
+<p>即使你现在有一个文档完善的库和一个许可证，还是没有“征服世界”(dominate the world)<a class="footnote-reference" href="#note-4">[4]</a>。下面，我给出一个概览，介绍在开源项目中我认为重要的东西。</p>
+
+<h2 id="toc_2">写自动化测试(Write Tests &amp; Automate)</h2>
+<p>我们可以通过开源项目写优美的代码，因为这里没有截止期限，也没有“客户”。记住，你项目展示了你能够做什么。作为一个开发者，<strong>你的库就是你的名片</strong>。</p>
+<p><strong>写大量的测试</strong>！如果没有提供一个测试套件，怎么去期望别人能为你的库做出贡献呢？因此, 写测试, 和使用 <a href="http://zh.wikipedia.org/zh-cn/Travis_CI">Travis CI</a>。 添加一个 <code>.travis.yml</code> 文件，描述怎么样运行你的测试。这也是另一种方式写如何运行测试的文档。</p>
+<p>在你的<code>README</code>文件里也添加一个<a href="http://about.travis-ci.org/docs/user/status-images/">状态图片</a>(status image)。</p>
+<p>留意一下(Take a look at)在线工具，例如PHP和JavaScript使用<a href="https://scrutinizer-ci.com/">Scrutinizer</a> , 或者 <a href="http://www.puppetlinter.com/">Puppet Linter</a>。尽量使其自动化。</p>
+
+<h2 id="toc_3">标准化(Be Standard)</h2>
+<p>在你的库中<strong>使用恰当的工具(right tools)</strong>是非常重要的。再看一下你的社区，然后选择大家常用(tend to use)的工具。在用PHP写的程序里，大家都用 <a href="http://getcomposer.org/">Composer</a> 作为管理依赖关系的工具(dependency manager)。不要浪费时间去用PEAR或者其他工具，就用Composer。如果是一个Node.js库，在<a href="https://npmjs.org/">npm</a>上注册它。Ruby 的开发者，请把你的库作为<a href="http://guides.rubygems.org/make-your-own-gem/">gem</a>发布(distribute your library as a gem)。C#的开发者，请使用<a href="http://nuget.org/">NuGet</a>。</p>
+<p>另一个例子，在Symfony2里，在<code>Resources/doc</code> 里添加文档是一个好的做法(good practice)。这是个惯例。<strong>不要重复出现你的文档</strong>，而是在你的<code>README</code>文件里添加一个快速跳到文档的链接。</p>
+
+<h2 id="toc_4">管理问题(Issues)和版本发布(Releases)</h2>
+<p><a href="https://github.com/">GitHub</a>，<a href="http://www.codeplex.com/">CodePlex</a>，或者其他你喜欢的，他们都提供了追踪问题(issue tracker)的工具，请使用它！</p>
+<p>如果你使用GitHub，不要浪费时间在Wiki上。我从来没有发现一个适当的工作流程(decent workflow)。用<code>README</code>文件作为你的文档，或者万一(in case)文档量很大(extensive documentation)的时候使用<a href="https://readthedocs.org/">Read The Docs</a>来做托管。使用 GitHub Issues 来管理里程碑，并用标签对问题进行分类。</p>
+<p>还有，尝试尽快回复所有的问题&hellip;但<a href="http://williamdurand.fr/2013/02/20/burnout/">be careful, and manage your time</a>。对人友好，花时间帮助新来的人。非常值得去学习<a href="https://medium.com/p/aaa2a5437d3a">如何维护一个成功的开源项目</a>。</p>
+<p>另一个建议是，定期地打上版本标签来进行发布(to release often by tagging versions periodically)。谈起版本, 请关注(follow) <a href="http://semver.org/">Semantic Versioning Specification</a>。</p>
+<p>然后，用<code>CHANGELOG</code>(更改日志)这个文件来帮助用户识别出你做出的更改。如果你不向后兼容，写一个<code>UPGRADE</code>(升级)文件介绍说明如何升级。</p>
+
+<h2 id="toc_5">你需要反馈！</h2>
+<p>我<a href="https://github.com/willdurand?tab=repositories">开源大量项目</a>最主要的原因是，可以从用户的反馈中学到很多东西。所以你需要反馈，我需要反馈，每个人都需要反馈！在Twitter，Hacker News等等上分享你的项目。让全世界都知道！人们必须知道你的项目并不是因为它很出色，令人难忘，而是因为人们可以评论它。</p>
+<p>使用 GitHub pages 为你的项目创建主页，如果你愿意还可以买个域名，</p>
+<p>还记得&quot;征服世界&quot;的计划吗？你要实现这个目标几乎需要到的，我们永远不知道。</p>
+
+<h2 id="toc_6">雇人(Hire People)</h2>
+<p>一旦你&quot;征服世界&quot;，招收别人(enroll new people)<a class="footnote-reference" href="#note-5">[5]</a>来帮助你非常重要这是非常棒的体验。这样会给你更多的时间来搞其他开源项目(也可以说是征服另一个世界的计划) :-)   </p>
+
+<h2 id="toc_7">总而言之</h2>
+<p>让一个库开源不仅仅是发布源代码。你还需要再做一些事情来让别人更容易更愉快地使用它。为项目写文档展示了你的教学能力，这样就可以找到恰当的词来表达你的想法。当然，还说明了你在用心地做这件事。</p>
+<p>不要忘记在你的库里面添加测试，如果你在工作中不方便，回家再做。还有别忘了许可证，别找借口！</p>
+<p>开源项目真的非常酷，但是要避免<a href="http://zh.wikipedia.org/wiki/%E9%9D%9E%E6%88%91%E6%89%80%E5%89%B5">非我发明症</a>(Not Invented Here (NIH) Syndrome)。尽可能地做贡献，而不是再开创一个已有的开源项目，重复造轮子。 </p>
+
+<h2 id="toc_8"><a name="tl-dr"></a>TL;DR</h2>
+<p>你的库或者项目：</p>
+
+<ul>
+<li>必须有一个<code>README</code>文件，内容包括名字，描述还有以下章节：<strong>使用方法</strong>，<strong>安装指南</strong>，<strong>贡献规范</strong>，<strong>如何测试</strong>和<strong>许可证</strong>；</li>
+<li>必须有一个显眼的许可证(MUST have a license that is visible)；</li>
+<li>必须能测试(MUST be tested);</li>
+<li>必须标准化或者符合你社区的惯例；</li>
+</ul>
+<p>你：</p>
+
+<ul>
+<li>需要反馈；</li>
+<li>必须待人友善；</li>
+<li>应该招人(enroll people)。</li>
+</ul>
+<p>顺便说一下：如果你发现排版错误和错别字。请<a href="https://github.com/colin4124/colin4124.github.com/edit/master/_source/content/2013-08-06-on-open-sourcing-libraries-cn.md">派生(fork)和修改它</a>。非常感谢！
+本文以<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>许可证发表。</p>
+
+<h4 id="toc_9">译注：</h4>
+
+<ol>
+<li><p><a name="note-1"></a>I use &ldquo;project&rdquo; as a synonym of &ldquo;library&rdquo;,My blog post focuses on libraries as Open Source projects, rather than &ldquo;projects&rdquo; like products (applications). 原作者的开源项目主要是库，所以这篇文章对其他类型的开源项目同样适用。</p></li>
+<li><p><a name="note-2"></a>原文：add some love to your new shiny library you just made publicly available. </p>
+
+<ul>
+<li>love = take care of </li>
+<li>shiny = well, shiny is&hellip; shiny, something which is cool, and beautiful</li>
+</ul></li>
+<li><p><a name="note-3"></a> 原文：<strong>Explain the rules</strong> to avoid commenting every single line in Pull Requests you receive.</p></li>
+<li><p>it&#39;s a joke, 这是个玩笑。</p></li>
+<li><p><a name="note-4"></a> 作者原话：enroll = hire (more or less), but it&#39;s not because of the previous sentence. You don&#39;t hire people &ldquo;for real&rdquo; (like a company would do I mean) 因此我把 enroll 译作 招收</p></li>
+</ol>
+
+    </div>
+
+    
+
+    <div class="entry-tags">
+        
+    </div>
+
+    
+           <div class="ds-thread"></div>
+            <script type="text/javascript">
+                var duoshuo_shortname = 'colin4124'
+                var duoshuoQuery = {short_name: duoshuo_shortname};
+                (function() {
+                var ds = document.createElement('script');
+                ds.type = 'text/javascript';ds.async = true;
+                ds.src = 'http://static.duoshuo.com/embed.js';
+                ds.charset = 'UTF-8';
+                (document.getElementsByTagName('head')[0] 
+                || document.getElementsByTagName('body')[0]).appendChild(ds);
+                 })();
+            </script>
+</div></div>
+        </div>
+
+        <footer id="footer">
+            <hr class="end" />
+            
+            <p class="copyright">
+            <span class="software">
+                Powered by <a href="http://lab.lepture.com/liquidluck/">Felix Felicis</a> 3.8,
+            </span>
+            <span class="theme">
+                Theme <a href="https://github.com/lepture/liquidluck-theme-moment" rel="nofollow">moment</a> 2.0 by <a href="http://lepture.com">Hsiaoming Yang</a>
+            </span>
+            </p>
+        </footer>
+        <script type="text/javascript" src="/static/mobile.js?v=3b6df"></script>
+        
+    </body>
+</html>
