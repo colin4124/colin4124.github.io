@@ -12,7 +12,7 @@ lua:
 
 1. 源码和库都要比许多流行的语言（Python 等等）小至少一个数量级。因为Lua 的源码非常小，简单，如果你想避免增加外部依赖，在你的代码树里只包含整个Lua 实现(implementation)是完全合理的。
 
-2. 非常快。Lua 解释器比大多数脚本语言快得多（同样，快一个数量级并不奇怪），对于一些特定的CPU 架构(x86, ppc)，LuaJIT2 是个非常好的JIT 编译器。使用LuaJIT 经常还能够再加快一个数量级，许多时候，其速度接近C。对于标准Lua，LuaJIT 也是一个“临时”(drop-in)的替代品。
+2. 非常快。Lua 解释器比大多数脚本语言快得多（同样，快一个数量级并不奇怪），对于一些特定的CPU 架构(x86, ppc)，LuaJIT2 是个非常好的JIT 编译器。使用LuaJIT 经常还能够再加快一个数量级，许多时候，其速度接近C。对于标准Lua，LuaJIT 也是一个“直接”(drop-in)的替代品。
 
 3. 拥有 LPEG。LPEG 是Lua “Parsing Expression Grammar”(解析表达式语法)，无论大或小的任务，它简单，强大和快速的解析的能力都能胜任；它是yacc/lex/hairy-regexps 一个很好的替代品。[我用LPEG 和LuaJIT 写了一个语法分析器(parser)，比我用yacc/lex 快多了，并且容易简单的就做出来了。] LEPG 是Lua 的一个扩展包，但是你值得拥有（它是一个源文件）。
 

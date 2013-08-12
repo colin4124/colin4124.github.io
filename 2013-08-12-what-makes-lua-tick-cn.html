@@ -40,12 +40,12 @@
         </span>
     </div>
     <div class="entry-content">
-        <p><a href="http://lua-users.org/lists/lua-l/2012-04/msg00331.html">原文地址：What makes Lua tick</a>
-lua:</p>
+        <p><a href="http://lua-users.org/lists/lua-l/2012-04/msg00331.html">原文地址：What makes Lua tick</a></p>
+<p>lua:</p>
 
 <ol>
 <li><p>源码和库都要比许多流行的语言（Python 等等）小至少一个数量级。因为Lua 的源码非常小，简单，如果你想避免增加外部依赖，在你的代码树里只包含整个Lua 实现(implementation)是完全合理的。</p></li>
-<li><p>非常快。Lua 解释器比大多数脚本语言快得多（同样，快一个数量级并不奇怪），对于一些特定的CPU 架构(x86, ppc)，LuaJIT2 是个非常好的JIT 编译器。使用LuaJIT 经常还能够再加快一个数量级，许多时候，其速度接近C。对于标准Lua，LuaJIT 也是一个“临时”(drop-in)的替代品。</p></li>
+<li><p>非常快。Lua 解释器比大多数脚本语言快得多（同样，快一个数量级并不奇怪），对于一些特定的CPU 架构(x86, ppc)，LuaJIT2 是个非常好的JIT 编译器。使用LuaJIT 经常还能够再加快一个数量级，许多时候，其速度接近C。对于标准Lua，LuaJIT 也是一个“直接”(drop-in)的替代品。</p></li>
 <li><p>拥有 LPEG。LPEG 是Lua “Parsing Expression Grammar”(解析表达式语法)，无论大或小的任务，它简单，强大和快速的解析的能力都能胜任；它是yacc/lex/hairy-regexps 一个很好的替代品。[我用LPEG 和LuaJIT 写了一个语法分析器(parser)，比我用yacc/lex 快多了，并且容易简单的就做出来了。] LEPG 是Lua 的一个扩展包，但是你值得拥有（它是一个源文件）。</p></li>
 <li><p>很棒的C 接口，不管是C 调用Lua，还是Lua 调用C ，都会令你非常愉快的。为了链接(interfacing)又大又复杂的C++ 库，可以使用<a href="http://www.swig.org/translations/chinese/">SWIG</a>(Simplified Wrapper and Interface Generator)，或者是任何众多接口生成器中的一个。（当然也可以用C++ 写简单的C 语言实现的Lua 接口）。</p></li>
 <li><p>授权自由（类似BSD ），如何你愿意，你可以在私有项目中使用。对FOSS 项目来说是GPL 兼容的。</p></li>
