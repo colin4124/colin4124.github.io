@@ -1,4 +1,4 @@
-# 把一个库开源，你该做些什么
+# [译] 把一个库开源，你该做些什么
 
 - date: 2013-08-06
 - begin: 2013-07-06 16:49
@@ -10,7 +10,7 @@
 
 [简要概括：TL;DR](#tl-dr) ([Too long; didn't read](http://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn't_read))
 
-把一个库<a class="footnote-reference" href="#note-1">[1]</a>开源非常简单，仅需几秒钟。你所需要做的仅仅是把公共仓库(public repository) 托管 (hosted) 在网上([GitHub](https://github.com/), [Bitbucket](https://bitbucket.org/),等等)吗？不！事实上，如果你**对非常酷的并且可以公开使用的库悉心照料**的话<a class="footnote-reference" href="#note-2">[2]</a>，这样做对每个人都是件更好的事情。来看下这些是怎么做到的。
+把一个库<a class="footnote-reference" href="#note-1">[1]</a>开源非常简单，仅需几秒钟。你所需要做的仅仅是把公共仓库(public repository) 托管 (hosted) 在网上([GitHub](https://github.com/), [Bitbucket](https://bitbucket.org/),等等)吗？不是的！事实上，如果你**想把你非常酷的库公开，并加以悉心照料**的话<a class="footnote-reference" href="#note-2">[2]</a>，这对每个人都是件好事。来看看我们该怎么做。
 
 ##README的编写
 
