@@ -8,7 +8,7 @@
 
 原文链接：[Starting to Write CSS](http://davidwalsh.name/starting-css)
 
-你是否觉得 CSS 跟以前不再一样了呢？最近几年成了热门话题，许多聪明的人也在谈论它。CSS 远不止是前端开发者应该用来美化网页的小玩意儿。我们关心性能，想要创作出更好的网站。在这篇文章里，我会分享最近几个月学习 CSS 相关的知识和我个人对编写 CSS  代码确切的看法。作为程序员，我真的对每样东西的结构部分很感兴趣。我觉得编写 CSS 的方式应该改变并对此深入研究。我寻找好的处理方式，最佳准则（best principles）和新的工作流程（workflows）。这篇文章就像是在 CSS 世界里旅行的总结。很多人说编写 CSS 不是真正的编程。我并不认同，它同样充满乐趣和挑战性。
+你是否觉得 CSS 不再跟以前一样了呢？最近几年成了热门话题，许多聪明的人也在谈论它。CSS 远不止是前端开发者应该用来美化网页的小玩意儿。我们关心性能，想要创作出更好的网站。在这篇文章里，我会分享最近几个月学习 CSS 相关的知识和我个人对编写 CSS 代码确切的看法。作为程序员，我真的对每样东西的结构部分很感兴趣。我觉得编写 CSS 的方式应该改变并对此深入研究。我寻找好的处理方式，最佳准则（best principles）和新的工作流程（workflows）。这篇文章就像是在 CSS 世界里旅行的总结。很多人说编写 CSS 不是真正的编程。我并不认同，它同样充满乐趣和挑战性。
 
 ## CSS 预处理器（CSS Preprocessors）
 
@@ -127,7 +127,7 @@ h1 {
 
 +  预处理器是一个工具，也就是说，你必须多做一件事，把它添加到把你的开发环境中。你可能想要把它整合进你的应用里，当然这需要额外编写代码。
 
-+  如果你不想让你的代码跟预处理器的弄乱，那么你很有可能需要一个监听工具。另一个用来监听你文件的工具,一旦文件有更新就会火速生成编译后的版本。如果是这样的话，那么每次当你开始开发项目的时候都要运行这个监听工具。也许你会优化这个过程所需的时间，但它还是需要你多留一份心。
++  如果你不想让你的代码跟预处理器的弄乱，那么你很有可能需要一个监听工具。另一个用来监听你文件的工具,一旦文件有更新就会生成编译后的版本。如果是这样的话，那么每次当你开始开发项目的时候都要运行这个监听工具。也许你会优化这个过程所需的时间，但它还是需要你多留一份心。
 
 +  许多开发者总是只盯着他们的 `.less` 或者 `.sass` 文件。但编译后的文件才是重要的。你的 SASS 代码可能很优雅并优化过的，但这并不意味着你最后得到同样优美的 CSS 代码。你可能会有真正需要关心的特定问题。因此，定期地检查编译后的版本。
 
@@ -337,9 +337,9 @@ Brad 并没有止步于此。分子构成了组织（organisms）。按照同样
 ![原子设计 ](/media/2013-09-08-starting-to-write-css-cn/organic.jpg)
 <small>有机的 CSS Organic CSS</small>
 
-几个月前我写了一篇关于 [Organic](https://github.com/VarnaLab/node-organic) 的[文章](http://net.tutsplus.com/tutorials/javascript-ajax/organic-development/)。这是一个很小的 JavaScript 应用程序框架。它更像是设计模式，我个人很喜欢它。我甚至在几个项目里使用了 Organic 并且干得非常好。如果你对它感兴趣，我强烈建议你阅读这篇[博文](http://net.tutsplus.com/tutorials/javascript-ajax/organic-development/)。
+几个月前我写了一篇关于 [Organic](https://github.com/VarnaLab/node-organic) 的[文章](http://net.tutsplus.com/tutorials/javascript-ajax/organic-development/)。这是一个很小的 JavaScript 应用程序框架。它更像是设计模式，我个人很喜欢它。我甚至在几个项目里使用了 Organic 并且它干得非常好。如果你对它感兴趣，我强烈建议你阅读这篇[博文](http://net.tutsplus.com/tutorials/javascript-ajax/organic-development/)。
 
-当我看 Brad Frost 的文章时，我已经对相似的理念非常熟悉，因为我了解 Organic 。Brad 的 *[Atomic Design](http://bradfrostweb.com/blog/post/atomic-web-design/)* 很惊艳，但我决定更进一步，基于原子设计（Atomic Design）理念试着写自己的微框架。我选择 SASS 作为预处理器并在 Github 创建了[仓库](https://github.com/krasimir/organic-css)
+当我看 Brad Frost 的文章时，我已经对相似的理念非常熟悉，因为我了解 Organic 。Brad 的 *[Atomic Design](http://bradfrostweb.com/blog/post/atomic-web-design/)* 十分出色，但我决定更进一步，基于原子设计（Atomic Design）理念试着写自己的微框架。我选择 SASS 作为预处理器并在 Github 创建了[仓库](https://github.com/krasimir/organic-css)
 
 ### 原子 （Atoms）
 
@@ -445,11 +445,11 @@ header {
 Atom → Molecule → Organelle → Cell → Tissue → Organ → Sys → Organism
 ```
 
-你选择什么来让你的 CSS 结构化，这是个问题。目前为止，我只在一个项目里使用过 OrganicCSS，但我能说，它使项目变清晰了。我把不同的元素放在它们各自的目录（文件夹）里并像这样命名类，我才能容易地找到正在编写的是哪一个。例如，如果有一个叫 `header` 的细胞器，我简单地改成 `o-header`。然后，当我看 HTML 代码时可以是了解到，这个元素的 CSS 样式文件在 `organelles` 文件夹。
+你选择什么来让你的 CSS 结构化，这是个问题。目前为止，我只在一个项目里使用过 OrganicCSS，但我能说，它使项目变清晰了。我把不同的元素放在它们各自的目录（文件夹）里并像这样命名类，例如，分子在一个“molecules”目录（文件夹），里面的文件命名为“header_molecule.scss”我才能容易地找到正在编写的是哪一个。例如，如果有一个叫 `header` 的细胞器，我简单地改成 `o-header`。然后，当我看 HTML 代码时可以是了解到，这个元素的 CSS 样式文件在 `organelles` 文件夹。
 
 ## 总结
 
-这个一个有趣的旅行。我不知道是否会在将来使用 OrganicCSS，但这不是重点。我学到的东西才是重要的。我知道必须改变我的 CSS 开发过程，我做到了。我确信我们应该谈论更多 CSS 的结构。如你所见，在文章里我们有很多好的资源。我们只是必须找到它们，学习它们干了什么和如何运行的。只有我们能决定是否使用它们。更好的是，当你看到整个画面才能创作出能更好满足需求的东西。 
+这个一个有趣的旅行。我不知道是否会在将来使用 OrganicCSS，但这不是重点。我学到的东西才是重要的。我知道必须改变我的 CSS 开发过程，我做到了。我确信我们应该谈论更多 CSS 的结构。如你所见，在文章里我们有很多好的资源。我们只是必须找到它们，学习它们干了什么和如何运行的。只有我们能决定是否使用它们。更好的是，当你了解了整个项目才能创作出能更好满足需求的东西。 
 
 
 
