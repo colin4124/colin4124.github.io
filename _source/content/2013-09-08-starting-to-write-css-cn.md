@@ -4,7 +4,7 @@
 - begin: 2013-09-06 15:15
 - tags: 翻译
 
-------------------------
+----------------------------------
 
 原文链接：[Starting to Write CSS](http://davidwalsh.name/starting-css)
 

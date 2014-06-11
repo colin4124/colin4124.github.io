@@ -372,3 +372,23 @@ hr.end {
     background-color: #ccc;
     -webkit-border-radius: 3px;
 }
+
+ /* yuehu ad */
+  .entry-list .yuehu {
+    display: block;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .entry-list .yuehu h2 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -24px;
+  }

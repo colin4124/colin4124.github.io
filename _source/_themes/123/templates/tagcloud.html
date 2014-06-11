@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}Tagcloud - {{site.name}}{% endblock %}
+
+{% block main %}
+<nav class="tagcloud">
+    {% for tag in tags -%}
+    {%- set items = tags[tag] -%}
+    <a href="#{{tag}}">{{tag}}<span class="count">({{items|length}})</span></a>
+    {%- endfor %}
+</nav>
+<div class="entry-list">
+    {% for tag in tags -%}
+    {%- set items = tags[tag] -%}
+    <h3 id="{{tag}}" class="entry-item entry-item-title">
+      <a href="#{{tag}}">{{tag}}</a>
+    </h3>
+    {% for item in items -%}
+    <div class="entry-item">
+        <time class="updated" datetime="{{item.date|xmldatetime}}">{{item.date.strftime('%Y-%m-%d')}}</time>
+        <a href="{{item|permalink}}">{{item.title}}</a>
+    </div>
+    {%- endfor %}
+    {%- endfor %}
+</div>
+{% endblock %}

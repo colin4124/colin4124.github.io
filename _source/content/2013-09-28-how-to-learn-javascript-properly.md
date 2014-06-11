@@ -126,8 +126,8 @@
 // Only one question is in this array, 
 //but you will add all the questions.
 var allQuestions = 
-[{question: "Who is Prime Minister of the United Kingdom?", 
-choices: ["David Cameron", "Gordon Brown", "Winston Churchill", "Tony Blair"], 
+[{question: "Who is Prime Minister of the United Kingdom?",
+choices: ["David Cameron", "Gordon Brown", "Winston Churchill", "Tony Blair"],
 correctAnswer:0}];
 ````
   
