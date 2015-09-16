@@ -70,7 +70,7 @@
 2. 阅读《JavaScript 权威指南》的前言和第 1、2 章。或者《JavaScript 高级程序设计》的介绍，第 1、2 章。
 
 3. - **非常重要：**你在书里碰到的每个代码示例，在 Firefox 或者 Chrome 浏览器的控制台或者 使用[JSFiddle](http://jsfiddle.net/)敲出来，测试下，做些修改（实验下）。不要使用 Safari。我推荐  Firefox —— 添加上 [Firebug 组件](https://addons.mozilla.org/zh-CN/firefox/addon/firebug/)来使用它测试和调试你的代码。浏览器的控制台是你写和运行 JavaScript 代码的地方。
-   - [JSFiddle](http://jsfiddle.net/) 是能够让你在线编写和测试代码的 Web 应用，方便在你的浏览器使用。你能测试各种代码，包括 HTML，CSS 和  JavaScript（和 jQuery）的组合。
+   - [JSFiddle](http://jsfiddle.net/) 是能够让你在线编写和测试代a码的 Web 应用，方便在你的浏览器使用。你能测试各种代码，包括 HTML，CSS 和  JavaScript（和 jQuery）的组合。
 
 4. 完成在 Codecademy 上 [JavaScript Track（历程）](http://www.codecademy.com/tracks/javascript)《介绍 JavaScript》章节。
 

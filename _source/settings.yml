@@ -6,7 +6,7 @@
 #: for instance: {{site.name}}
 site:
     name: 快乐窝  # your site name
-    url: "http://funwo.tk/"  # your site url
+    url: "http://colin4124.github.io/"  # your site url
     # "prefix": "blog",
 
 #: this config defined information of your site
