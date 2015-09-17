@@ -2,7 +2,7 @@
 
 - date: 2013-09-08
 - begin: 2013-09-06 15:15
-- tags: 翻译
+- tags: 翻译, CSS
 
 ----------------------------------
 
@@ -52,7 +52,7 @@
 
 它会原样编译到 CSS 文件里，不管你是否使用到。就像这样，因为这是有效的选择器。在 SASS 里，我们会多一点点灵活性。分别是 mixins，extends 和 placeholders （如果你想了解它们准确的不同之处，我强烈推荐[这篇文章](http://krasimirtsonev.com/blog/article/SASS-mixins-extends-and-placeholders-differences-use-cases)。让我们看下 SASS 及其编译后的结果：
 
-```
+````css
 // sass
 @mixin bordered($color: #000) {
     border: dotted 2px $color;
@@ -67,7 +67,7 @@
 .footer {
     border: dotted 2px #bada55; 
 }
-```
+````
 
 看起来几乎和 LESS 相同，但如果我们看下第二个用例，定义一个占位符（a place holder）：
 
@@ -95,20 +95,20 @@
 
 LESS 和 SASS 都支持定义变量。你可以稍后再访问这些变量，使用它们作为属性的值。
 
-```
+````css
 // sass
 $brand-color: #009f0A;
 ...
 h1 {
     color: $brand-color;
 }
-```
+````
 
 这是个好的特性，因为你可能会在同一个地方，存储一些像公司的颜色或网格宽度之类重要的东西。如果你想要修改,可以不用检查一边所有的代码。
 
 另一个方便的用法是插入变量。下面的例子演示这种方法：
 
-```
+````css
 // sass
 @mixin border($side) {
     border-#{$side}: solid 1px #000;
@@ -121,7 +121,7 @@ h1 {
 .header {
     border-left: solid 1px #000; 
 }
-```
+````
 
 ## 反对预处理器 （Against the preprocessors）
 
@@ -138,7 +138,7 @@ h1 {
 
 好吧，我找到一个可以玩的新工具。预处理器也许能够节省大量的时间，但是单独使用它们不能写出好的结构。我开始思考的第一件事是命名规范。让我们看下面 HTML 代码：
 
-```html
+````html
 <header class="site-header">
     <div class="logo"></div>
     <div class="navigation"></div>
@@ -232,11 +232,11 @@ h1 {
 
 这样，我们就有了可扩展的 `colors-skin` 对象。HTML 代码也许跟下面的类似：
 
-```html
+````html
 <div class="header colors-skin"> ... </div>
 <div class="colors-skin"> ... </div>
 <div class="footer colors-skin"> ... </div>
-```
+````
 
 这种改变有几个好处：
 
@@ -286,31 +286,31 @@ h1 {
 
 这个理念真的很有趣。效仿一些化学技术，物质的基本单位是原子。Brad 把这移到 CSS，我们的网页是由原子构成的。一个原子是这样的：
 
-```html
+````html
 <label>Search the site</label>
-```
+````
 
 或者
 
-```html
+````html
 <input type="text" placeholder="enter keyword" />
-```
+````
 
 也就是说，原子包含 DOM 元素一些基本的样式。例如调配颜色（color palette），字体大小或者转换（transitions）。稍后这些部分会合并成一个分子（molecules）。例如：
 
-```html
+````html
 <form>
     <label>Search the site</label>
     <input type="text" placeholder="enter keyword" />
     <input type="submit" value="search" />
 </form>
-```
+````
 
 这样 `form` 元素包含了几个原子。像这样的抽象化带来灵活性，因为我们也许会用同样的原子构建另一个分子。这样（Together with that），我们能在不同的地方（contexts）重复使用同样的 `form`。
 
 Brad 并没有止步于此。分子构成了组织（organisms）。按照同样的方法，我们可以写成如下，把它称作组织（organisms）：
 
-```html
+````html
 <header>
     <div class="logo">
     <nav>
@@ -326,7 +326,7 @@ Brad 并没有止步于此。分子构成了组织（organisms）。按照同样
         <input type="submit" value="search" />
     </form>
 </header>
-```
+````
 
 这个理念的下一个是模板（templates）。这没有跟化学直接相关，而是放到 Web 环境中（web context）。一旦我们开始合并不同的组织，就是在构造模板。之后这些模板形成了最终的网页。
 
@@ -345,9 +345,9 @@ Brad 并没有止步于此。分子构成了组织（organisms）。按照同样
 
 让我们从框架最小的部分开始 —— 原子。在[维基百科](http://zh.wikipedia.org/wiki/%E5%8E%9F%E5%AD%90)的定义是 *原子是一种元素能保持其化学性质的最小单位。*。在 CSS 的环境(context)中，我认为是一个属性和它的值。例如：
 
-````css
+```css
 margin-top: 24px;
-````
+```
 
 添加原子只是直接在类里面写样式，这种方式不是我想要的。因此如果写成下面这样：
 
@@ -441,9 +441,9 @@ header {
 
 你也许经常想要在其他地方合并几个细胞器。如果是这种情况，添加其他抽象：
 
-```
+````
 Atom → Molecule → Organelle → Cell → Tissue → Organ → Sys → Organism
-```
+````
 
 你选择什么来让你的 CSS 结构化，这是个问题。目前为止，我只在一个项目里使用过 OrganicCSS，但我能说，它使项目变清晰了。我把不同的元素放在它们各自的目录（文件夹）里并像这样命名类，例如，分子在一个“molecules”目录（文件夹），里面的文件命名为“header_molecule.scss”我才能容易地找到正在编写的是哪一个。例如，如果有一个叫 `header` 的细胞器，我简单地改成 `o-header`。然后，当我看 HTML 代码时可以是了解到，这个元素的 CSS 样式文件在 `organelles` 文件夹。
 

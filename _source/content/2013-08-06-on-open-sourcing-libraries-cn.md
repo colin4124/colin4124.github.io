@@ -2,7 +2,7 @@
 
 - date: 2013-08-06
 - begin: 2013-07-06 16:49
-- tags: 翻译
+- tags: 翻译, 开源
 
 ----------------------
 
@@ -10,27 +10,27 @@
 
 [简要概括：TL;DR](#tl-dr) ([Too long; didn't read](http://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn't_read))
 
-把一个库<a class="footnote-reference" href="#note-1">[1]</a>开源非常简单，仅需几秒钟。你所需要做的仅仅是把公共仓库(public repository) 托管 (hosted) 在网上([GitHub](https://github.com/), [Bitbucket](https://bitbucket.org/),等等)吗？不是的！事实上，如果你**想把你非常酷的库公开，并加以悉心照料**的话<a class="footnote-reference" href="#note-2">[2]</a>，这对每个人都是件好事。来看看我们该怎么做。
+把一个库<a class="footnote-reference" href="#note-1">[1]</a>开源非常简单，仅需几秒钟。你所需要做的仅仅是把公共仓库(public repository) 托管 (hosted) 在网上([GitHub](https://github.com/), [Bitbucket](https://bitbucket.org/),等等)吗？不是的！事实上，如果你 **想把你非常酷的库公开，并加以悉心照料**的话<a class="footnote-reference" href="#note-2">[2]</a>，这对每个人都是件好事。来看看我们该怎么做。
 
 ##README的编写
 
-<code>README</code>文件在你的项目中**占据首要地位**。你的项目必须包含它！这个文件必须包含库的**名字**和一个关于它(简短的)**描述**。把**描述**这一章节当作是**电梯游说** (elevator pitch，在乘电梯的30秒内清晰准确地向客户解释清楚解决方案)。
+<code>README</code>文件在你的项目中 **占据首要地位**。你的项目必须包含它！这个文件必须包含库的 **名字**和一个关于它(简短的) **描述**。把 **描述**这一章节当作是 **电梯游说** (elevator pitch，在乘电梯的30秒内清晰准确地向客户解释清楚解决方案)。
 
-然后是编写**使用**章节。尽可能详细地用文字、代码片段、截图或者GIF格式的图片，来描述如何使用你的库。这个就是你项目的**文档**, 你的库很多时候也同样如此, 这将会是你唯一提供的文档。 
+然后是编写 **使用**章节。尽可能详细地用文字、代码片段、截图或者GIF格式的图片，来描述如何使用你的库。这个就是你项目的 **文档**, 你的库很多时候也同样如此, 这将会是你唯一提供的文档。 
 
-先写**使用**指南这部分并不是一个随意的选择。<code>README</code>文件应该能吸引读者(blow your reader's mind)，这样他们就会使用你的库并为它做出贡献(或许不会)。
+先写 **使用**指南这部分并不是一个随意的选择。<code>README</code>文件应该能吸引读者(blow your reader's mind)，这样他们就会使用你的库并为它做出贡献(或许不会)。
 
-第三小节必须写**安装**方法。这个小节以*用户*的角度说明怎样快速安装你的库。如果有多种安装方式，首先介绍你认为最好的方式，然后才是(介绍)其他的。
+第三小节必须写 **安装**方法。这个小节以*用户*的角度说明怎样快速安装你的库。如果有多种安装方式，首先介绍你认为最好的方式，然后才是(介绍)其他的。
 
-你可以添加一个**依赖**章节，例如，*依赖X的Y版本(Depends on X version Y)* 。这个章节是可选的，可以不写。
+你可以添加一个 **依赖**章节，例如， *依赖X的Y版本（Depends on X version Y）* 。这个章节是可选的，可以不写。
 
-第四个必须编写的小节是**贡献**。尽管它可以使用一个<code>CONTRIBUTING</code> 文件代替。说明**怎样折腾你的库(how to hack your library)**，怎样报告bugs，或者怎样提交特性请求(submit feature requests)。这方面介绍一定要详细。**说明规则**，让收到的请求合并中避免评论每一行<a class="footnote-reference" href="#note-3">[3]</a>，指引贡献者使用恰当的工具(Point contributors to the right tools )，比如linters 或者 compilers。
+第四个必须编写的小节是 **贡献**。尽管它可以使用一个<code>CONTRIBUTING</code> 文件代替。说明 **怎样折腾你的库(how to hack your library)**，怎样报告bugs，或者怎样提交特性请求(submit feature requests)。这方面介绍一定要详细。 **说明规则**，让收到的请求合并中避免评论每一行<a class="footnote-reference" href="#note-3">[3]</a>，指引贡献者使用恰当的工具(Point contributors to the right tools )，比如linters 或者 compilers。
 
-你还必须添加一个**测试**章节。说明**怎样安装测试套件**，怎样运行功能测试(functional tests)，以及需要安装的工具。
+你还必须添加一个 **测试**章节。说明 **怎样安装测试套件**，怎样运行功能测试(functional tests)，以及需要安装的工具。
 
-如果你使用第三方的东西，或者打算列出贡献者(当然这个也可以写在**作者**章节)，那就添加一个**信用(Credits)**章节。这个章节是可选的，可以不写。
+如果你使用第三方的东西，或者打算列出贡献者(当然这个也可以写在 **作者**章节)，那就添加一个 **信用(Credits)**章节。这个章节是可选的，可以不写。
 
-最后还要记住，添加一个**许可证**章节!
+最后还要记住，添加一个 **许可证**章节!
 
 模板如下([Markdown](http://wowubuntu.com/markdown/) 语法)：
 	
@@ -67,13 +67,13 @@
 	details.
     project-x 依据 MIT许可证发布。详细请看捆绑的 LICENSE 文件。
 
-正如你所看到的, 我在模板里介绍了两个文件: <code>LICENSE</code>(许可证)和<code>CONTRIBUTING</code>(贡献指南)。**贡献**这一小节的内容用一个文件<code>CONTRIBUTING</code>代替了。<code>LICENSE</code>(许可证)这个文件里包含了你项目选择的许可证，但你应该选用哪个许可证呢？
+正如你所看到的, 我在模板里介绍了两个文件: <code>LICENSE</code>(许可证)和<code>CONTRIBUTING</code>(贡献指南)。 **贡献**这一小节的内容用一个文件<code>CONTRIBUTING</code>代替了。<code>LICENSE</code>(许可证)这个文件里包含了你项目选择的许可证，但你应该选用哪个许可证呢？
 
 ##许可证
 
 我不想把所有的许可证都一一对比，你可以访问[tl;drLegal](http://www.tldrlegal.com/)这个网站，它用易懂的话(simple words)向你介绍实用的(useful)开源许可证相关信息。
 
-我倾向于使用 [MIT许可证](http://www.tldrlegal.com/license/mit-license)，因为它非常自由(liberal)。我这里的建议是**参考下你的社区**，选择最恰当的一个。比如说，在Symfony2 (一个PHP框架)社区，大多数相关的项目或者bundles 都是以MIT许可证发布的。而Java 的项目经常以Apache许可证2.0(Apache License 2.0)发布的。
+我倾向于使用 [MIT许可证](http://www.tldrlegal.com/license/mit-license)，因为它非常自由(liberal)。我这里的建议是 **参考下你的社区**，选择最恰当的一个。比如说，在Symfony2 (一个PHP框架)社区，大多数相关的项目或者bundles 都是以MIT许可证发布的。而Java 的项目经常以Apache许可证2.0(Apache License 2.0)发布的。
 
 根据最近的报道(reports)，[大多数 GitHub上的项目没有一个开源许可证](http://www.theregister.co.uk/2013/04/18/github_licensing_study/)。这是不好的(bad)！你必须得有许可证，即使是[啤酒软件许可证](http://zh.wikipedia.org/wiki/%E5%95%A4%E9%85%92%E8%BB%9F%E9%AB%94)([Beerware license](http://en.wikipedia.org/wiki/Beerware))。
 
@@ -83,7 +83,7 @@
 
 ##写自动化测试(Write Tests & Automate)
 
-我们可以通过开源项目写优美的代码，因为这里没有截止期限，也没有“客户”。记住，你项目展示了你能够做什么。作为一个开发者，**你的库就是你的名片**。
+我们可以通过开源项目写优美的代码，因为这里没有截止期限，也没有“客户”。记住，你项目展示了你能够做什么。作为一个开发者， **你的库就是你的名片**。
 
 **写大量的测试**！如果没有提供一个测试套件，怎么去期望别人能为你的库做出贡献呢？因此, 写测试, 和使用 [Travis CI](http://zh.wikipedia.org/zh-cn/Travis_CI)。 添加一个 <code>.travis.yml</code> 文件，描述怎么样运行你的测试。这也是另一种方式写如何运行测试的文档。
 
@@ -93,9 +93,9 @@
 
 ##标准化(Be Standard)
 
-在你的库中**使用恰当的工具(right tools)**是非常重要的。再看一下你的社区，然后选择大家常用(tend to use)的工具。在用PHP写的程序里，大家都用 [Composer](http://getcomposer.org/) 作为管理依赖关系的工具(dependency manager)。不要浪费时间去用PEAR或者其他工具，就用Composer。如果是一个Node.js库，在[npm](https://npmjs.org/)上注册它。Ruby 的开发者，请把你的库作为[gem](http://guides.rubygems.org/make-your-own-gem/)发布(distribute your library as a gem)。C#的开发者，请使用[NuGet](http://nuget.org/)。
+在你的库中 **使用恰当的工具(right tools)**是非常重要的。再看一下你的社区，然后选择大家常用(tend to use)的工具。在用PHP写的程序里，大家都用 [Composer](http://getcomposer.org/) 作为管理依赖关系的工具(dependency manager)。不要浪费时间去用PEAR或者其他工具，就用Composer。如果是一个Node.js库，在[npm](https://npmjs.org/)上注册它。Ruby 的开发者，请把你的库作为[gem](http://guides.rubygems.org/make-your-own-gem/)发布(distribute your library as a gem)。C#的开发者，请使用[NuGet](http://nuget.org/)。
 
-另一个例子，在Symfony2里，在<code>Resources/doc</code> 里添加文档是一个好的做法(good practice)。这是个惯例。**不要重复出现你的文档**，而是在你的<code>README</code>文件里添加一个快速跳到文档的链接。
+另一个例子，在Symfony2里，在<code>Resources/doc</code> 里添加文档是一个好的做法(good practice)。这是个惯例。 **不要重复出现你的文档**，而是在你的<code>README</code>文件里添加一个快速跳到文档的链接。
 
 ##管理问题(Issues)和版本发布(Releases)
 
@@ -133,7 +133,7 @@
 
 你的库或者项目：
 
-- 必须有一个<code>README</code>文件，内容包括名字，描述还有以下章节：**使用方法**，**安装指南**，**贡献规范**，**如何测试**和**许可证**；
+- 必须有一个<code>README</code>文件，内容包括名字，描述还有以下章节： **使用方法**， **安装指南**， **贡献规范**， **如何测试**和 **许可证**；
 - 必须有一个显眼的许可证(MUST have a license that is visible)；
 - 必须能测试(MUST be tested);
 - 必须标准化或者符合你社区的惯例；
@@ -155,7 +155,7 @@
     - love = take care of 
     - shiny = well, shiny is... shiny, something which is cool, and beautiful
 
-3. <a name="note-3"></a> 原文：**Explain the rules** to avoid commenting every single line in Pull Requests you receive.
+3. <a name="note-3"></a> 原文： **Explain the rules** to avoid commenting every single line in Pull Requests you receive.
 
 4. it's a joke, 这是个玩笑。
 

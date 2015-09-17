@@ -2,7 +2,7 @@
 
 - date: 2013-09-28
 - begin: 2013-09-25 12:31
-- tags: 翻译
+- tags: 翻译, JavaScript
 
 ----------------------------------------
 
@@ -37,7 +37,7 @@
  
 ## 这个教程用到的资源 （Resources For This Course）
 
-更新：Reddit 用户 d0gsbody 刚在（4月8日） Reddit 为这个路线图创建了一个**学习小组**。他和这个小组的成员热心助人并且非常活跃。我推荐你参加这个小组，他们会保持你的积极性和帮助你按自己的方式学习 JavaScript 。自己从头开始学习 JavaScript 是很困难的。这是小组的链接：[Learning JS Properly – Study Group on Reddit.](Learning JS Properly – Study Group on Reddit.)
+更新：Reddit 用户 d0gsbody 刚在（4月8日） Reddit 为这个路线图创建了一个 **学习小组**。他和这个小组的成员热心助人并且非常活跃。我推荐你参加这个小组，他们会保持你的积极性和帮助你按自己的方式学习 JavaScript 。自己从头开始学习 JavaScript 是很困难的。这是小组的链接：[Learning JS Properly – Study Group on Reddit.](Learning JS Properly – Study Group on Reddit.)
 
 我们使用两本书的其中一本，一本是对编程初学者来说非常理想的，如果你只有有点编程经验，另一本更好。
 
@@ -95,7 +95,7 @@
 
 4. 回到 Codecademy 完成 JavaScript track 的 6、7、8 节（(Data Structures （数据结构）到 Object 2（对象））。
 
-5. 当你在  Codecademy，开始构建在[Projects track](http://www.codecademy.com/tracks/projects) 5个小的**基本项目**。之后，就完成了  Codecademy。这是件好事，因为你自己实践得越多，学得就越快，为开始自己独立编程准备得就越多。
+5. 当你在  Codecademy，开始构建在[Projects track](http://www.codecademy.com/tracks/projects) 5个小的 **基本项目**。之后，就完成了  Codecademy。这是件好事，因为你自己实践得越多，学得就越快，为开始自己独立编程准备得就越多。
 
 6. - 阅读《JavaScript 权威指南》的 13，15，16 和 19 章。
    - 或者阅读《JavaScript 高级程序设计》的 8，9，10，11，13 和 14 章。这本书没有涉及到 jQuery，Codecademy 设计到的 jQuery 不充足。参加这个 jQuery 课程，这是免费的 ———— [http://try.jquery.com/](http://try.jquery.com/)。
@@ -109,7 +109,7 @@
 
 毫无疑问 WebStorm 绝对是 JavaScript 开发者最棒的编辑器（IDE）。当 30 天的试用期到期之后需要花费 $49.00 美元，但这很可能是你作为 JavaScript 开发者，除了购买这个课程学习 JavaScript 使用的书之外最好的投资。
 
-确保你设置了 WebStorm 使用了 ** JSHint**。 JSHint 是
+确保你设置了 WebStorm 使用了 **JSHint**。 JSHint 是
 
 ## 你的第一个项目 ————— 动态提问（A Dynamic Quiz）
 
@@ -154,7 +154,10 @@ correctAnswer:0}];
 
 1. - 阅读《JavaScript 权威指南》的第 9，18，21 章。
    - 或者阅读我的博客文章 *[OOP In JavaScript: What You NEED to Know](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)*。
-   - 或者阅读《JavaScript 高级程序设计》的第 6 章（这次只阅读“对象创建”和“继承”小节） 和 16，22，24 章。注意：在整个路线图里，本书的这个章节是你碰到的技术含量最多的。你自己决定是否打算阅读完这些内容。你应该至少学会原型模式（Prototype Pattern），工厂模式（Factory Pattern）和原型的继承（Prototypal Inheritance），你不必知道所有其他的模式。
+   - 或者阅读《JavaScript 高级程序设计》的第 6 章（这次只阅读“对象创建”和“继承”小节） 和 16，22，
+   - 
+   - 
+   -  章。注意：在整个路线图里，本书的这个章节是你碰到的技术含量最多的。你自己决定是否打算阅读完这些内容。你应该至少学会原型模式（Prototype Pattern），工厂模式（Factory Pattern）和原型的继承（Prototypal Inheritance），你不必知道所有其他的模式。
 
 2. 进一步改进你的 Quiz 应用：
    - 使用 [Twitter Bootstrap](http://v2.bootcss.com/)为整个页面布局，包括把 quiz 的元素弄得看起来更专业。作为额外的好处（As an added bonus），使用 Twitter Bootstrap 用户界面组件的[标签页](http://v2.bootcss.com/javascript.html#tabs)，展示 4 个不同的提问，一个标签放一个。

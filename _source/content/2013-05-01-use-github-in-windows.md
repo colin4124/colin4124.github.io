@@ -1,7 +1,7 @@
-# 在 Windows 下使用 Github的配置
+# 在 Windows 下使用 GitHub的配置
 
 - date: 2013-05-01 08:03
-- tags: 技术
+- tags: 技术, Git, GitHub
 
 ---------------------
 
@@ -15,9 +15,9 @@
 
 ![搜索git git-completion](/media/2013-05-01-use-github-in-windows/github-2.png)
 
-### 申请github帐号
+### 申请GitHub帐号
 
-打开 [Github](https://github.com/) 注册一个帐号
+打开 [GitHub](https://github.com/) 注册一个帐号
 
 ### 设置 git
 
@@ -25,11 +25,11 @@
 
 	git config --global user.name "Your Name Here"
 
-**2. 设置你的Email， 这得和你在github 申请时用的邮箱一致。把引号里的your_email@example.com 换成你的邮箱地址**
+**2. 设置你的Email， 这得和你在GitHub 申请时用的邮箱一致。把引号里的your_email@example.com 换成你的邮箱地址**
 
 	git config --global user.email "your_email@example.com"
     
-###通过SSH来访问 Github
+###通过SSH来访问 GitHub
 
 **1.生成 SSH 密钥**
 
@@ -40,7 +40,7 @@
 	Generating public/private rsa key pair.
 	# Enter file in which to save the key (/c/Users/you/.ssh/id_rsa):
 
-**3. 看到下面这个提示，意思是每次用git 访问 github时，输入的验证短语，可以不写，直接回车**
+**3. 看到下面这个提示，意思是每次用git 访问 GitHub时，输入的验证短语，可以不写，直接回车**
 
 	Enter passphrase (empty for no passphrase): [Type a passphrase]
 	# Enter same passphrase again: [Type passphrase again]
@@ -48,9 +48,9 @@
 **4. 然后输入下面的命令，把SSH key 复制到剪贴板。**
 	clip < ~/.ssh/id_rsa.pub
 
-**5. 去你github的设置页面(右上角) 添加 这个 SSH key**
+**5. 去你GitHub的设置页面(右上角) 添加 这个 SSH key**
 
-![github的设置](/media/2013-05-01-use-github-in-windows/github-3.png)
+![GitHub的设置](/media/2013-05-01-use-github-in-windows/github-3.png)
 
 **6. 在设置页面左边那一栏找到 SSH Keys**
 
@@ -64,7 +64,7 @@
 
 ![粘贴 SSH key](/media/2013-05-01-use-github-in-windows/github-7.png)
 
-**9. 输入以下命令测试是否可以连接上github**
+**9. 输入以下命令测试是否可以连接上GitHub**
 
     ssh -T git@github.com
 
