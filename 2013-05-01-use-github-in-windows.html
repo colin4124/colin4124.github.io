@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>在 Windows 下使用 Github的配置 - 快乐窝</title>
+        <title>在 Windows 下使用 GitHub的配置 - 快乐窝</title>
         <script>if (top !== self) top.location = self.location;</script>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
         <link rel="stylesheet" href="/static/style.css?v=b6205" />
@@ -24,13 +24,12 @@
             <nav id="nav" role="navigation">
                 
                 <a href="/">Home</a>
-                <a href="/about.html">About</a>
             </nav>
         </header>
 
         <div id="main">
             <div class="container"><div class="hentry">
-    <h1 class="entry-title">在 Windows 下使用 Github的配置</h1>
+    <h1 class="entry-title">在 Windows 下使用 GitHub的配置</h1>
     <div class="entry-meta">
         <time class="updated" datetime="2013-05-01T08:03:00+08:00" pubdate>
             <a href="/2013/">2013-05-01</a>
@@ -40,24 +39,24 @@
         </span>
     </div>
     <div class="entry-content">
-        <h2 id="toc_0">通过 Cygwin 安装 git</h2>
+        <h2>通过 Cygwin 安装 git</h2>
 <p>至于怎么安装和使用 Cygwin 参考 <a href="/2013-04-28-a-bref-usage-of-cygwin.html">Cygwin:在window下用linux的方式工作</a> </p>
 <p>打开<code>setup.exe</code>, 安装 <code>openssh git git-completion</code></p>
 <p><img src="/media/2013-05-01-use-github-in-windows/github-1.png" alt="搜索 openssh"/></p>
 <p><img src="/media/2013-05-01-use-github-in-windows/github-2.png" alt="搜索git git-completion"/></p>
 
-<h3 id="toc_1">申请github帐号</h3>
-<p>打开 <a href="https://github.com/">Github</a> 注册一个帐号</p>
+<h3>申请GitHub帐号</h3>
+<p>打开 <a href="https://github.com/">GitHub</a> 注册一个帐号</p>
 
-<h3 id="toc_2">设置 git</h3>
+<h3>设置 git</h3>
 <p><strong>1. 设置你的名字， 每次用git 提交时才知道是谁修改的。输入以下命令， 把引号里的Your Name Here 换成是你想起的名字</strong></p>
 
 <pre><code>git config --global user.name &quot;Your Name Here&quot;</code></pre>
-<p><strong>2. 设置你的Email， 这得和你在github 申请时用的邮箱一致。把引号里的<a href="mailto:your_email@example.com">your_email@example.com</a> 换成你的邮箱地址</strong></p>
+<p><strong>2. 设置你的Email， 这得和你在GitHub 申请时用的邮箱一致。把引号里的<a href="mailto:your_email@example.com">your_email@example.com</a> 换成你的邮箱地址</strong></p>
 
 <pre><code>git config --global user.email &quot;your_email@example.com&quot;</code></pre>
 
-<h3 id="toc_3">通过SSH来访问 Github</h3>
+<h3>通过SSH来访问 GitHub</h3>
 <p><strong>1.生成 SSH 密钥</strong></p>
 
 <pre><code>ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</code></pre>
@@ -65,21 +64,21 @@
 
 <pre><code>Generating public/private rsa key pair.
 # Enter file in which to save the key (/c/Users/you/.ssh/id_rsa):</code></pre>
-<p><strong>3. 看到下面这个提示，意思是每次用git 访问 github时，输入的验证短语，可以不写，直接回车</strong></p>
+<p><strong>3. 看到下面这个提示，意思是每次用git 访问 GitHub时，输入的验证短语，可以不写，直接回车</strong></p>
 
 <pre><code>Enter passphrase (empty for no passphrase): [Type a passphrase]
 # Enter same passphrase again: [Type passphrase again]</code></pre>
 <p><strong>4. 然后输入下面的命令，把SSH key 复制到剪贴板。</strong>
     clip &lt; ~/.ssh/id_rsa.pub</p>
-<p><strong>5. 去你github的设置页面(右上角) 添加 这个 SSH key</strong></p>
-<p><img src="/media/2013-05-01-use-github-in-windows/github-3.png" alt="github的设置"/></p>
+<p><strong>5. 去你GitHub的设置页面(右上角) 添加 这个 SSH key</strong></p>
+<p><img src="/media/2013-05-01-use-github-in-windows/github-3.png" alt="GitHub的设置"/></p>
 <p><strong>6. 在设置页面左边那一栏找到 SSH Keys</strong></p>
 <p><img src="/media/2013-05-01-use-github-in-windows/github-4.png" alt="在设置页面左边那一栏找到 SSH Keys"/></p>
 <p><strong>7. 点击&quot;Add SSH key&quot;</strong></p>
 <p><img src="/media/2013-05-01-use-github-in-windows/github-6.png" alt="点击&quot;Add SSH key&quot;"/></p>
 <p><strong>8. 在 key 那一栏粘贴 SSH key, 确保第4步的命令你已经输入了. Title就是为这个SSH key 做个标记，知道这个SSH key是来自哪里的，比如我的是win7, 就知道是我笔记本上win7的系统</strong></p>
 <p><img src="/media/2013-05-01-use-github-in-windows/github-7.png" alt="粘贴 SSH key"/></p>
-<p><strong>9. 输入以下命令测试是否可以连接上github</strong></p>
+<p><strong>9. 输入以下命令测试是否可以连接上GitHub</strong></p>
 
 <pre><code>ssh -T git@github.com</code></pre>
 <p> <strong>你会看到一个警告，输入 yes</strong></p>
@@ -90,7 +89,7 @@
 <p><strong>然后输入你第3步设置的验证短语，没有设置的直接回车</strong></p>
 <p><img src="/media/2013-05-01-use-github-in-windows/github-8.png" alt="输入你第3步设置的验证短语"/></p>
 
-<h4 id="toc_4">10. 如果看到下面的提示，恭喜你，成功了</h4>
+<h4>10. 如果看到下面的提示，恭喜你，成功了</h4>
 
 <pre><code>Hi username! You've successfully authenticated, but GitHub does not
 # provide shell access.</code></pre>
@@ -100,7 +99,7 @@
     
 
     <div class="entry-tags">
-        <a href="/tag/#技术">技术</a>
+        <a href="/tag/#技术">技术</a><a href="/tag/#Git">Git</a><a href="/tag/#GitHub">GitHub</a>
     </div>
 
     
@@ -112,7 +111,7 @@
             
             <p class="copyright">
             <span class="software">
-                Powered by <a href="http://lab.lepture.com/liquidluck/">Felix Felicis</a> 3.8,
+                Powered by <a href="http://lab.lepture.com/liquidluck/">Felix Felicis</a> 3.8.1,
             </span>
             <span class="theme">
                 Theme <a href="https://github.com/lepture/liquidluck-theme-moment" rel="nofollow">moment</a> 2.0 by <a href="http://lepture.com">Hsiaoming Yang</a>

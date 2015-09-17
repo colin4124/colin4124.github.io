@@ -16,7 +16,7 @@
 
 ### 安装
 
-点击[下载](http://cygwin.com/setup.exe)setup.exe，下载完后双击即可开始安装。
+点击[下载](http://cygwin.com/setup.exe) setup.exe，下载完后双击即可开始安装。
 
 ####1. 选择第一个从网上下载安装。
 ![setup1](/media/2013-04-28-a-bref-usage-of-cygwin/setup1.jpg)

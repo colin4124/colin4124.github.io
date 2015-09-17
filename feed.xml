@@ -1,33 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>快乐窝</title>
-    <link href="http://funwo.tk/feed.xml" rel="self" />
-    <link href="http://funwo.tk/" />
-    <updated>2013-11-20T06:52:48+08:00</updated>
-    <id>http://funwo.tk/</id>
+    <link href="http://colin4124.github.io/feed.xml" rel="self" />
+    <link href="http://colin4124.github.io/" />
+    <updated>2015-09-17T21:10:32+08:00</updated>
+    <id>http://colin4124.github.io/</id>
     <entry>
-        <title type="html"><![CDATA[[译] 我遇到的最好的职业生涯建议]]></title>
+        <title type="html"><![CDATA[全国大学生计算机博弈大赛总结：苏拉卡尔棋]]></title>
         <author><name>咧威</name></author>
-        <link href="http://funwo.tk/2013-11-19-the-best-career-advice-ive-received.html"/>
-        <published>2013-11-19T00:00:00+08:00</published>
-        <updated>2013-11-20T06:52:48+08:00</updated>
-        <id>http://funwo.tk/2013-11-19-the-best-career-advice-ive-received.html</id>
-        <category scheme="http://funwo.tk/tag/#翻译" term="翻译" label="翻译" />
-        <content type="html" xml:base="http://funwo.tk/" xml:lang="en">
-            <![CDATA[ <p>原文链接：<a href="http://www.nczonline.net/blog/2013/10/15/the-best-career-advice-ive-received/">The best career advice I’ve received</a></p>
-<p>最近我跟一位同事进行有趣的讨论。我们回顾各自的工作经历时想到，我们丰富多彩的个性，可能是怎样对自身造成深远的负面影响。我是一个从大学出来的混蛋（有人会说我仍是个混蛋，但这并不是我要说的重点）。我自大、尖酸刻薄（bitingly sarcastic），通常是无礼的性格。我觉得，这些我全都知道，为此感到非常的自豪。</p>
-<p>我有个习惯，告诉更有经验的工程师，他们做错了。尽管很多时候我是对的，I didn’t have the personality to make it effective. During one particularly engaging conversation，</p>
+        <link href="http://colin4124.github.io/2014-09-24-about-surakarta-game.html"/>
+        <published>2014-09-24T18:36:00+08:00</published>
+        <updated>2015-09-17T21:10:32+08:00</updated>
+        <id>http://colin4124.github.io/2014-09-24-about-surakarta-game.html</id>
+        <category scheme="http://colin4124.github.io/tag/#计算机博弈" term="计算机博弈" label="计算机博弈" />
+        <content type="html" xml:base="http://colin4124.github.io/" xml:lang="en">
+            <![CDATA[ <h2>比赛结果</h2>
+<p>2014年8月18日至20日 “成理杯”全国大学生计算机博弈大赛暨第八届全国计算机博弈锦标赛在成都理工大学举行。咧威所在的苏拉尾巴团队荣获苏拉卡尔塔棋比赛项目的二等奖。</p>
+<p><img src="/media/2014-09-24-about-surakarta-game/award.jpg" alt="苏拉卡尔塔棋比赛项目的二等奖"/></p>
+
+<h2>参赛感受</h2>
+<p>刚开始加入博弈小组的时候，咧威只学过大一上课教授的C++ 知识，也仅仅是停留在只会课后练习题的水平（<a href="http://stupid-cpp-answers.rtfd.org/" title="无脑流的C++题解">部分习题解答</a>）。然而，如何将所学的知识应用到实际中，或者是如何写出有趣的程序，咧威是一点经验都没有。</p>
+<p>这次比赛给了咧威团队协作，独立完成一个项目的机会，懂得如何跟队友、老师沟通，怎样根据开发过程中遇到的问题去找资料解决困难。咧威从最简单的井字棋入手（<a href="http://tictactoe-cpp.rtfd.org/" title="井子棋 C++ 实现的教程">相关文档</a>），巩固了之前学的编程知识。课堂上没有教如何编写图形界面，于是咧威就自学Qt 图形界面库，去图书馆借书入门，然后根据开发功能的需求，查官方文档。遇到问题，就拜托Google。从刚开始的茫然无措，然后自己慢慢摸索；从简单的命令行界面到漂亮的图形界面，从简单的随机算法到可以人机对战的博弈算法（Alpha–beta 减枝）， 从纯粹的记忆知识，到在实践中学习。这个过程中，锻炼了自学能力和提高了编程技术。</p>
+<p>比赛的过程中，咧威的算法不是十分优秀，只能说是中规中矩，比较稳定，在小组赛败给了北科大和北理工的团队，位于第三名。有些学校的程序虽然算法好，但是不稳定，在即将赢棋的时候崩溃了。在算法、程序设计方面，稳定性第一位，其次是算法的提高。咧威们团队还有一个优点是，程序界面很优美、简洁，比赛期间得到其他学校老师的赞许。</p>
+<p><img src="/media/2014-09-24-about-surakarta-game/1.jpg" alt="苏拉卡尔塔棋比赛项目的二等奖" title="咧威的小黑 VS 小白"/></p>
+<p>编程是个技术活，需要实实在在地动手实践才能掌握；编程更是艺术活，仅仅能够运行是不够的，还得打磨，重构，让程序高效地运行，让代码简洁优雅。以艺术的角度看待编程，这仅仅是靠课堂讲授的内容是体会不到的。必须亲自敲出代码，而且当数量达到一定程度之后，才能体会到好代码与烂代码的区别，从而提高编程的能力。</p>
+<p>这种需要实实在在的编程能力的比赛，有趣、且富有挑战性，体现了“纸上得来终觉浅，绝知此事要躬行”的古训。就算明白了书上算法的原理，也未必能够根据实际需求把算法实现。是骡子还是马，博弈比赛提供了试金石的机会。</p>
+
+<h2>软件的起源及成长过程</h2>
+<p>苏拉尾巴于2014年初开发，一开始采用Qt 作为图形界面的框架，所用到的图片来自Github 上的<a href="https://github.com/sy112233/Surakarta">sy112233/Surakarta</a> 开源项目，但是没有参考它的源代码。</p>
+<p>5月份开始使用 git 作为代码的版本控制软件。</p>
+<p>7月份完成搜索、估值函数，还有选择先后手的功能。</p>
+<p>8月份完成吃子的动画效果，悔棋和计时功能，并完善程序。</p>
+<p><img src="/media/2014-09-24-about-surakarta-game/suratail-game.gif" alt="苏拉卡尔塔棋比赛项目的二等奖"/></p>
 ]]>
         </content>
     </entry><entry>
         <title type="html"><![CDATA[[译] 如何恰当地学习 JavaScript]]></title>
         <author><name>咧威</name></author>
-        <link href="http://funwo.tk/2013-09-28-how-to-learn-javascript-properly.html"/>
+        <link href="http://colin4124.github.io/2013-09-28-how-to-learn-javascript-properly.html"/>
         <published>2013-09-28T00:00:00+08:00</published>
-        <updated>2013-11-14T08:02:40+08:00</updated>
-        <id>http://funwo.tk/2013-09-28-how-to-learn-javascript-properly.html</id>
-        <category scheme="http://funwo.tk/tag/#翻译" term="翻译" label="翻译" />
-        <content type="html" xml:base="http://funwo.tk/" xml:lang="en">
+        <updated>2015-09-08T10:12:36+08:00</updated>
+        <id>http://colin4124.github.io/2013-09-28-how-to-learn-javascript-properly.html</id>
+        <category scheme="http://colin4124.github.io/tag/#翻译" term="翻译" label="翻译" />
+        <category scheme="http://colin4124.github.io/tag/#JavaScript" term="JavaScript" label="JavaScript" />
+        <content type="html" xml:base="http://colin4124.github.io/" xml:lang="en">
             <![CDATA[ <p>原文链接：<a href="http://javascriptissexy.com/how-to-learn-javascript-properly/">How to Learn JavaScript Properly</a></p>
 <p><strong>恰当地学习 JavaScript （适合第一次编程和非 JavaScript 的程序员）</strong> </p>
 
@@ -44,7 +60,7 @@
 <p>你确实打算学习 JavaScript，这是在这里的原因，如果你打算开发现代的网站和 Web 应用（包括互联网创业），这是明智的选择。尽管网上有大量教你 JavaScript 的资源，但是找到学习“Web 的语言”最高效和最有益的方法并不容易并且会令人沮丧。</p>
 <p>值得注意的是，不像前几年那样，你需要知道真正服务端的语言（例如 PHP，Rails，Java，Python，或者 Perl）才能开发可扩展的，动态的，数据库驱动的（database-driven）Web 应用程序，现在你可以单独使用 JavaScript 做到同样的甚至更好的效果。</p>
 
-<h2 id="toc_0">不要这样学 JavaScript （How NOT To Learn JavaScript）</h2>
+<h2>不要这样学 JavaScript （How NOT To Learn JavaScript）</h2>
 
 <ul>
 <li><p>初学 JavaScript 时，不要尝试那些一小段（bits of）跟 JavaScript 无关或者相关的在线教程。这是学习编程语言最糟糕的方式。无数次地学习这样的教程会有些用，但这个过程效率底下，缺乏彻底学习主旨所需的恰当的层次结构。这导致在开始建立网站和 Web 应用程序时，你会经常不知所措。总之，你不会学到，把这语言当成工具——你的工具来使用的实际知识。</p></li>
@@ -52,8 +68,8 @@
 <li><p>不要尝试只用  Codecademy 来学习这门语言，因为尽管你知道如何编写非常小的 JavaScript 程序片段，却绝对没有学会足够的知识去构建一个 Web 应用程序的。不过我在下面补充的学习资源里推荐 Codecademy 。</p></li>
 </ul>
 
-<h2 id="toc_1">这个教程用到的资源 （Resources For This Course）</h2>
-<p>更新：Reddit 用户 d0gsbody 刚在（4月8日） Reddit 为这个路线图创建了一个<strong>学习小组</strong>。他和这个小组的成员热心助人并且非常活跃。我推荐你参加这个小组，他们会保持你的积极性和帮助你按自己的方式学习 JavaScript 。自己从头开始学习 JavaScript 是很困难的。这是小组的链接：<a href="Learning%20JS%20Properly%20%E2%80%93%20Study%20Group%20on%20Reddit.">Learning JS Properly – Study Group on Reddit.</a></p>
+<h2>这个教程用到的资源 （Resources For This Course）</h2>
+<p>更新：Reddit 用户 d0gsbody 刚在（4月8日） Reddit 为这个路线图创建了一个 <strong>学习小组</strong>。他和这个小组的成员热心助人并且非常活跃。我推荐你参加这个小组，他们会保持你的积极性和帮助你按自己的方式学习 JavaScript 。自己从头开始学习 JavaScript 是很困难的。这是小组的链接：<a href="Learning%20JS%20Properly%20%E2%80%93%20Study%20Group%20on%20Reddit.">Learning JS Properly – Study Group on Reddit.</a></p>
 <p>我们使用两本书的其中一本，一本是对编程初学者来说非常理想的，如果你只有有点编程经验，另一本更好。</p>
 <p>你可以使用下面两本书的其中一本：</p>
 <p>我个人非常喜欢第一本书，因为作者讲解主题非常棒，涵盖了高级 JavaScript 主题。不过，如果你至少了解一些非常基础的 Web 开发，最好使用这本书。因此，如果你只有点编程或者 Web 开发（不必是 JavaScript） 经验，购买这本书：</p>
@@ -70,10 +86,10 @@
 <p>注册一个 <a href="http://www.codecademy.com/">Codecademy</a> 帐号。这是一个在线学习编程的平台：你在网站写代码，浏览器就正确显示结果（这同样也是免费服务）。</p>
 <p><a href="http://javascriptissexy.com/">JavaScriptIsSexy</a>博客的文章关注对象，闭包（Closures），变量范围，Hoist，函数还有更多。</p>
 
-<h2 id="toc_2">学成 JavaScript 的路线图</h2>
+<h2>学成 JavaScript 的路线图</h2>
 <p>如果要完成整个课程要点，你将会在 <strong>6 到 8 周</strong> 里学习几乎全部的 JavaScript 语言（还有 jQuery 和一些 HTML5）。如果你没有足够的时间在 6 周内完成全部的章节，学习时间尽力不要超过 8 周。学习的时间越久，你掌握和记住学到的东西就越困难。</p>
 
-<h2 id="toc_3">第 1 和 2 周（介绍，数据类型，表达式和操作符）</h2>
+<h2>第 1 和 2 周（介绍，数据类型，表达式和操作符）</h2>
 
 <ol>
 <li><p>如果你没有很好地了解 HTML 和 CSS，那么就去 Codecademy 完成 <a href="http://www.codecademy.com/tracks/web">Web 基础</a>的历程（Track）。</p></li>
@@ -83,7 +99,7 @@
 </ul>
 
 <ul>
-<li><a href="http://jsfiddle.net/">JSFiddle</a> 是能够让你在线编写和测试代码的 Web 应用，方便在你的浏览器使用。你能测试各种代码，包括 HTML，CSS 和  JavaScript（和 jQuery）的组合。</li>
+<li><a href="http://jsfiddle.net/">JSFiddle</a> 是能够让你在线编写和测试代a码的 Web 应用，方便在你的浏览器使用。你能测试各种代码，包括 HTML，CSS 和  JavaScript（和 jQuery）的组合。</li>
 </ul></li>
 <li><p>完成在 Codecademy 上 <a href="http://www.codecademy.com/tracks/javascript">JavaScript Track（历程）</a>《介绍 JavaScript》章节。</p></li>
 <li><p>阅读《JavaScript 权威指南》的第 3、4 章。或者《JavaScript 高级程序设计》的前言和第 3、4 章。你可以跳过 位操作（Bitwise Operators）这个章节。几乎在你的 JavaScript 生涯用不到这些知识。再次强调，务必停下来在你的浏览器控制台（或者 JSFiddle）编写示例代码，还有做下实验—— 改变一些变量的值和微调（tweak）一下代码。</p></li>
@@ -91,7 +107,7 @@
 <li><p>完成 Codecademy 上 <a href="http://www.codecademy.com/tracks/javascript">JavaScript Track（历程）</a>的第 2 到 5 章节。</p></li>
 </ol>
 
-<h2 id="toc_4">第 3、4 周（对象，数组，函数，DOM，jQuery）</h2>
+<h2>第 3、4 周（对象，数组，函数，DOM，jQuery）</h2>
 
 <ol>
 <li><p>看我的这篇文章<a href="http://javascriptissexy.com/javascript-objects-in-detail/">《JavaScript Objects in Detail》</a>。或者《JavaScript 权威指南》的第 6 章，或者《JavaScript 高级程序设计》的第 6 章。注意：只阅读 “理解对象（Understanding Objects）” 章节。这三个里哪个都行，尽管这两本教材深入更多的细节，如果你阅读并完全地理解我的文章，可以自信地跳过额外的细节。</p></li>
@@ -108,7 +124,7 @@
 <li>现在， Codecademy 仍对你学习如何编写代码提供很大的帮助。尤其是指导你完成小项目和小应用程序的开发过程，通过像 if 语句，for 循环和变量构造的非常基本的代码。</li>
 </ul></li>
 <li><p>回到 Codecademy 完成 JavaScript track 的 6、7、8 节（(Data Structures （数据结构）到 Object 2（对象））。</p></li>
-<li><p>当你在  Codecademy，开始构建在<a href="http://www.codecademy.com/tracks/projects">Projects track</a> 5个小的<strong>基本项目</strong>。之后，就完成了  Codecademy。这是件好事，因为你自己实践得越多，学得就越快，为开始自己独立编程准备得就越多。</p></li>
+<li><p>当你在  Codecademy，开始构建在<a href="http://www.codecademy.com/tracks/projects">Projects track</a> 5个小的 <strong>基本项目</strong>。之后，就完成了  Codecademy。这是件好事，因为你自己实践得越多，学得就越快，为开始自己独立编程准备得就越多。</p></li>
 <li><ul>
 <li>阅读《JavaScript 权威指南》的 13，15，16 和 19 章。</li>
 </ul>
@@ -120,12 +136,12 @@
 <li><p>在<a href="http://try.jquery.com/">http://try.jquery.com/</a>完成全部的jQuery 课程。</p></li>
 </ol>
 
-<h2 id="toc_5">使用终极 JavaScript 编辑器：WebStorm</h2>
+<h2>使用终极 JavaScript 编辑器：WebStorm</h2>
 <p>在你建立第一个项目之前，如果你打算成为 JavaScript 开发者或者经常使用 JavaScript，你现在应该休息下，下载 <a href="http://www.jetbrains.com/webstorm/">WebStorm</a> 的试用版。在<a href="http://2oahu.com/blog/webstorm-javascript/">这里</a>（特别为这个教程而写）学习如何着手。</p>
 <p>毫无疑问 WebStorm 绝对是 JavaScript 开发者最棒的编辑器（IDE）。当 30 天的试用期到期之后需要花费 $49.00 美元，但这很可能是你作为 JavaScript 开发者，除了购买这个课程学习 JavaScript 使用的书之外最好的投资。</p>
-<p>确保你设置了 WebStorm 使用了 ** JSHint**。 JSHint 是</p>
+<p>确保你设置了 WebStorm 使用了 <strong>JSHint</strong>。 JSHint 是</p>
 
-<h2 id="toc_6">你的第一个项目 ————— 动态提问（A Dynamic Quiz）</h2>
+<h2>你的第一个项目 ————— 动态提问（A Dynamic Quiz）</h2>
 <p>此时，你已经学习足够的知识来构建一个可靠的易管理的 Web 应用。除非你能够成功地构建我在下面描述的应用，否则不要继续。如果你有困惑，在 Stack Overflow 提问并重新阅读书里的章节，完全理解概念。</p>
 <p>你正在构建一个 JavaScript 提问应用（你也会用到 HTML 和 CSS），具备的功能如下：</p>
 
@@ -135,15 +151,6 @@
 <li>记录用户的得分，并且在最后的页面显示最后的得分。最后的页面只显示得分，所以把移除最后的问题。（Tally the user’s score and display the final score on the last page. The last page will only show the score, so remove the last question.）</li>
 <li>用一个数组存储所有的问题。每个问题，连同它的选项和正确的答案，应该存储在一个对象里。存储问题的数组应该跟下面的类似：</li>
 </ul>
-
-<script>
-// Only one question is in this array, 
-//but you will add all the questions.
-var allQuestions = 
-[{question: "Who is Prime Minister of the United Kingdom?",
-choices: ["David Cameron", "Gordon Brown", "Winston Churchill", "Tony Blair"],
-correctAnswer:0}];
-</script>
 <div class="highlight"><pre><span class="c1">// Only one question is in this array, </span>
 <span class="c1">//but you will add all the questions.</span>
 <span class="kd">var</span> <span class="nx">allQuestions</span> <span class="o">=</span> 
@@ -157,7 +164,7 @@ correctAnswer:0}];
 <li>你可以在下面的评论里或者最好在 Stack Overflow 寻求帮助。你很有可能在 Stack Overflow 得到一个提示或者准确的回答。</li>
 </ul>
 
-<h2 id="toc_7">第 5 和 第 6 周（正则表达式，窗口对象（Window Object），事件，jQuery）</h2>
+<h2>第 5 和 第 6 周（正则表达式，窗口对象（Window Object），事件，jQuery）</h2>
 
 <ol>
 <li>- 阅读《JavaScript 权威指南》的第 10，14，17和 20 章。
@@ -180,7 +187,7 @@ correctAnswer:0}];
 </ul></li>
 </ol>
 
-<h2 id="toc_8">第 7 周，如果需要到第 8 周（类，继承，更多 HTML5）</h2>
+<h2>第 7 周，如果需要到第 8 周（类，继承，更多 HTML5）</h2>
 
 <ol>
 <li><ul>
@@ -188,8 +195,14 @@ correctAnswer:0}];
 </ul>
 
 <ul>
-<li>或者阅读我的博客文章 *<a href="http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/">OOP In JavaScript: What You NEED to Know</a>*。</li>
-<li>或者阅读《JavaScript 高级程序设计》的第 6 章（这次只阅读“对象创建”和“继承”小节） 和 16，22，24 章。注意：在整个路线图里，本书的这个章节是你碰到的技术含量最多的。你自己决定是否打算阅读完这些内容。你应该至少学会原型模式（Prototype Pattern），工厂模式（Factory Pattern）和原型的继承（Prototypal Inheritance），你不必知道所有其他的模式。</li>
+<li>或者阅读我的博客文章 <em><a href="http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/">OOP In JavaScript: What You NEED to Know</a></em>。</li>
+</ul>
+
+<h2>- 或者阅读《JavaScript 高级程序设计》的第 6 章（这次只阅读“对象创建”和“继承”小节） 和 16，22，</h2>
+
+<ul>
+<li></li>
+<li> 章。注意：在整个路线图里，本书的这个章节是你碰到的技术含量最多的。你自己决定是否打算阅读完这些内容。你应该至少学会原型模式（Prototype Pattern），工厂模式（Factory Pattern）和原型的继承（Prototypal Inheritance），你不必知道所有其他的模式。</li>
 </ul></li>
 <li><p>进一步改进你的 Quiz 应用：</p>
 
@@ -202,7 +215,7 @@ correctAnswer:0}];
 <li><p>下一步：选定构建一个个人项目，开始快速构建你的项目（当你头脑里一切都还是新的时候）。当你困惑时，使用《JavaScript 权威指南》（或者《JavaScript 高级程序设计》，如果你拥有它）作为参考书。当然做个 Stack Overflow 活跃的成员：问问题和回答别人程序员的问题。</p></li>
 </ol>
 
-<h2 id="toc_9">继续提高</h2>
+<h2>继续提高</h2>
 
 <ol>
 <li><a href="http://javascriptissexy.com/learn-backbone-js-completely/">完整地学习 Backbone.js</a></li>
@@ -211,7 +224,7 @@ correctAnswer:0}];
 <li>阅读我即将完成的文章 <em>the Three Best Front-end JavaScript Frameworks</em></li>
 </ol>
 
-<h2 id="toc_10">鼓励的话</h2>
+<h2>鼓励的话</h2>
 <p>祝你学习一切顺利。永不言弃！当你挣扎并感到无知时（你可能时常如此），总要记住，世界上许多（很可能大部分）其他新手，甚至有经验的程序员都有可能遇到这样的情况。</p>
 <p>当你第一次学习编程时，尤其是过了青少年时期（pass your teenage years），刚开始都是很困难的。青少年没有恐惧，没有失去的东西，并且可以在充满热情的东西投入大量的时间。所以对他们来说，只有简短的障碍才会出现挑战。</p>
 <p>但是在青少年时期之后，你想快速得到结果，因为没有充足的时间花费大量的时间在看似无关紧要的小事上。但是你必须深入了解这些东西，并且不要泄气。只是继续并坚持这个任务或者寻找 bug 直到搞定它。因为值得的奖励在最后成功的时候等着你 ————编程很有趣并且有利益回报的（lucrative）。</p>
@@ -223,42 +236,26 @@ correctAnswer:0}];
     </entry><entry>
         <title type="html"><![CDATA[[译] 开始写 CSS 吧]]></title>
         <author><name>咧威</name></author>
-        <link href="http://funwo.tk/2013-09-08-starting-to-write-css-cn.html"/>
+        <link href="http://colin4124.github.io/2013-09-08-starting-to-write-css-cn.html"/>
         <published>2013-09-08T00:00:00+08:00</published>
-        <updated>2013-11-14T08:06:38+08:00</updated>
-        <id>http://funwo.tk/2013-09-08-starting-to-write-css-cn.html</id>
-        <category scheme="http://funwo.tk/tag/#翻译" term="翻译" label="翻译" />
-        <content type="html" xml:base="http://funwo.tk/" xml:lang="en">
+        <updated>2015-09-08T14:23:05+08:00</updated>
+        <id>http://colin4124.github.io/2013-09-08-starting-to-write-css-cn.html</id>
+        <category scheme="http://colin4124.github.io/tag/#翻译" term="翻译" label="翻译" />
+        <category scheme="http://colin4124.github.io/tag/#CSS" term="CSS" label="CSS" />
+        <content type="html" xml:base="http://colin4124.github.io/" xml:lang="en">
             <![CDATA[ <p>原文链接：<a href="http://davidwalsh.name/starting-css">Starting to Write CSS</a></p>
 <p>你是否觉得 CSS 不再跟以前一样了呢？最近几年成了热门话题，许多聪明的人也在谈论它。CSS 远不止是前端开发者应该用来美化网页的小玩意儿。我们关心性能，想要创作出更好的网站。在这篇文章里，我会分享最近几个月学习 CSS 相关的知识和我个人对编写 CSS 代码确切的看法。作为程序员，我真的对每样东西的结构部分很感兴趣。我觉得编写 CSS 的方式应该改变并对此深入研究。我寻找好的处理方式，最佳准则（best principles）和新的工作流程（workflows）。这篇文章就像是在 CSS 世界里旅行的总结。很多人说编写 CSS 不是真正的编程。我并不认同，它同样充满乐趣和挑战性。</p>
 
-<h2 id="toc_0">CSS 预处理器（CSS Preprocessors）</h2>
+<h2>CSS 预处理器（CSS Preprocessors）</h2>
 <p><img src="/media/2013-09-08-starting-to-write-css-cn/preprocessors.jpg" alt="当一个程序员开始写 CSS 时发生了什么"/>
 <small>当一个程序员开始写 CSS 时发生了什么：你 -&gt; 编写代码 -&gt; 预处理器 -&gt; CSS 代码 -&gt; 网页</small></p>
 <p>好吧，让我们面对它。这世上编写纯的 CSS 不是件有趣的事情。预处理器使用一些类似 CSS 语法，神奇地生成有效的 CSS 代码。在你和最终发送给浏览器的样式之间，它添加了一个中间层。这没有听起来那么坏，因为预处理器提供了一些真正实用的特性。</p>
 
-<h2 id="toc_1">合并（Concatenation）</h2>
+<h2>合并（Concatenation）</h2>
 <p>我认为能使你的文件合并在一起是最有价值的事情之一。我确信，你了解当在你的 <code>.css</code> 文件用 <code>@import</code>时，实际上告诉浏览器“麻烦你顺便也捎带这个文件”。 确实如此，发送新的请求，这有点不好，因为你可能会有非常多的文件。发送额外的请求会降低应用的性能。如果你使用 CSS 预处理器，这个问题将会解决。它们会很容易地把你所有的样式编译到单一的 <code>.css</code> 文件。</p>
 
-<h2 id="toc_2">扩展 （Extending）</h2>
+<h2>扩展 （Extending）</h2>
 <p>主要有两个 CSS 预处理器 —— <a href="http://lesscss.org/">LESS</a> and <a href="http://sass-lang.com/">SASS</a>。它们都支持扩展。没错，工作方式略有不同，不过想法（idea）是一样的。你写一个有一串属性的基本类（通常称作 mixin），之后把这些属性导入到另一个选择器。例如：</p>
-
-<style>
-// less
-.bordered(@color: #000) {
-    border: dotted 2px @color;
-}
-.header { .bordered; }
-.footer { .bordered(#BADA55); }
-
-// compiles to
-.header {
-    border: dotted 2px #000000;
-}
-.footer {
-    border: dotted 2px #bada55;
-}
-</style>
 <div class="highlight"><pre><span class="o">//</span> <span class="nt">less</span>
 <span class="nc">.bordered</span><span class="o">(</span><span class="k">@color</span><span class="o">:</span> <span class="nf">#000</span><span class="o">)</span> <span class="p">{</span>
     <span class="nt">border</span><span class="o">:</span> <span class="nt">dotted</span> <span class="nt">2px</span> <span class="k">@color</span><span class="p">;</span>
@@ -275,51 +272,27 @@ correctAnswer:0}];
 <span class="p">}</span>
 </pre></div>
 <p>这里有个问题，如果你定义了一个没有参数的 mixin，也就是说像这样：</p>
-
-<style>
-.bordered {
-    border: dotted 2px #000;
-}
-</style>
 <div class="highlight"><pre><span class="nc">.bordered</span> <span class="p">{</span>
     <span class="k">border</span><span class="o">:</span> <span class="k">dotted</span> <span class="m">2px</span> <span class="m">#000</span><span class="p">;</span>
 <span class="p">}</span>
 </pre></div>
 <p>它会原样编译到 CSS 文件里，不管你是否使用到。就像这样，因为这是有效的选择器。在 SASS 里，我们会多一点点灵活性。分别是 mixins，extends 和 placeholders （如果你想了解它们准确的不同之处，我强烈推荐<a href="http://krasimirtsonev.com/blog/article/SASS-mixins-extends-and-placeholders-differences-use-cases">这篇文章</a>。让我们看下 SASS 及其编译后的结果：</p>
+<div class="highlight"><pre><span class="o">//</span> <span class="nt">sass</span>
+<span class="k">@mixin</span> <span class="nt">bordered</span><span class="o">($</span><span class="nt">color</span><span class="o">:</span> <span class="nf">#000</span><span class="o">)</span> <span class="p">{</span>
+    <span class="nt">border</span><span class="o">:</span> <span class="nt">dotted</span> <span class="nt">2px</span> <span class="o">$</span><span class="nt">color</span><span class="o">;</span>
+<span class="p">}</span>
+<span class="nc">.header</span> <span class="p">{</span> <span class="o">@</span><span class="n">include</span> <span class="n">bordered</span><span class="p">;</span> <span class="p">}</span>
+<span class="nc">.footer</span> <span class="p">{</span> <span class="o">@</span><span class="n">include</span> <span class="n">bordered</span><span class="p">(</span><span class="m">#BADA55</span><span class="p">);</span> <span class="p">}</span>
 
-<pre><code>// sass
-@mixin bordered($color: #000) {
-    border: dotted 2px $color;
-}
-.header { @include bordered; }
-.footer { @include bordered(#BADA55); }
-
-// compiles to
-.header {
-    border: dotted 2px black; 
-}
-.footer {
-    border: dotted 2px #bada55; 
-}</code></pre>
+<span class="o">//</span> <span class="nt">compiles</span> <span class="nt">to</span>
+<span class="nc">.header</span> <span class="p">{</span>
+    <span class="k">border</span><span class="o">:</span> <span class="k">dotted</span> <span class="m">2px</span> <span class="nb">black</span><span class="p">;</span> 
+<span class="p">}</span>
+<span class="nc">.footer</span> <span class="p">{</span>
+    <span class="k">border</span><span class="o">:</span> <span class="k">dotted</span> <span class="m">2px</span> <span class="m">#bada55</span><span class="p">;</span> 
+<span class="p">}</span>
+</pre></div>
 <p>看起来几乎和 LESS 相同，但如果我们看下第二个用例，定义一个占位符（a place holder）：</p>
-
-<style>
-// sass
-%bordered {
-    border: dotted 2px #000;
-}
-.header { 
-    @extend %bordered; 
-}
-.footer { 
-    @extend %bordered; 
-}
-
-// compiles to
-.header, .footer {
-    border: dotted 2px #000; 
-}
-</style>
 <div class="highlight"><pre><span class="o">//</span> <span class="nt">sass</span>
 <span class="o">%</span><span class="nt">bordered</span> <span class="p">{</span>
     <span class="k">border</span><span class="o">:</span> <span class="k">dotted</span> <span class="m">2px</span> <span class="m">#000</span><span class="p">;</span>
@@ -338,32 +311,32 @@ correctAnswer:0}];
 </pre></div>
 <p>有两个很好的事情发生。首先，这里不会编译 <code>.bordered</code> 类（there is no .bordered class compiled）。第二，SASS 合并了选择器，这让我们的 CSS 更短一些。</p>
 
-<h2 id="toc_3">配置 （Configuration）</h2>
+<h2>配置 （Configuration）</h2>
 <p>LESS 和 SASS 都支持定义变量。你可以稍后再访问这些变量，使用它们作为属性的值。</p>
-
-<pre><code>// sass
-$brand-color: #009f0A;
-...
-h1 {
-    color: $brand-color;
-}</code></pre>
+<div class="highlight"><pre><span class="o">//</span> <span class="nt">sass</span>
+<span class="o">$</span><span class="nt">brand-color</span><span class="o">:</span> <span class="nf">#009f0A</span><span class="o">;</span>
+<span class="o">...</span>
+<span class="nt">h1</span> <span class="p">{</span>
+    <span class="k">color</span><span class="o">:</span> <span class="err">$</span><span class="n">brand</span><span class="o">-</span><span class="k">color</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
 <p>这是个好的特性，因为你可能会在同一个地方，存储一些像公司的颜色或网格宽度之类重要的东西。如果你想要修改,可以不用检查一边所有的代码。</p>
 <p>另一个方便的用法是插入变量。下面的例子演示这种方法：</p>
+<div class="highlight"><pre><span class="o">//</span> <span class="nt">sass</span>
+<span class="k">@mixin</span> <span class="nt">border</span><span class="o">($</span><span class="nt">side</span><span class="o">)</span> <span class="p">{</span>
+    <span class="nt">border-</span><span class="err">#</span><span class="p">{</span><span class="err">$</span><span class="n">side</span><span class="p">}</span><span class="o">:</span> <span class="nt">solid</span> <span class="nt">1px</span> <span class="nf">#000</span><span class="o">;</span>
+<span class="p">}</span>
+<span class="nc">.header</span> <span class="p">{</span>
+    <span class="o">@</span><span class="n">include</span> <span class="k">border</span><span class="p">(</span><span class="s2">&quot;left&quot;</span><span class="p">);</span>
+<span class="p">}</span>
 
-<pre><code>// sass
-@mixin border($side) {
-    border-#{$side}: solid 1px #000;
-}
-.header {
-    @include border(&quot;left&quot;);
-}
+<span class="o">//</span> <span class="nt">compiles</span> <span class="nt">to</span>
+<span class="nc">.header</span> <span class="p">{</span>
+    <span class="k">border-left</span><span class="o">:</span> <span class="k">solid</span> <span class="m">1px</span> <span class="m">#000</span><span class="p">;</span> 
+<span class="p">}</span>
+</pre></div>
 
-// compiles to
-.header {
-    border-left: solid 1px #000; 
-}</code></pre>
-
-<h2 id="toc_4">反对预处理器 （Against the preprocessors）</h2>
+<h2>反对预处理器 （Against the preprocessors）</h2>
 
 <ul>
 <li><p> 预处理器是一个工具，也就是说，你必须多做一件事，把它添加到把你的开发环境中。你可能想要把它整合进你的应用里，当然这需要额外编写代码。</p></li>
@@ -371,7 +344,7 @@ h1 {
 <li><p> 许多开发者总是只盯着他们的 <code>.less</code> 或者 <code>.sass</code> 文件。但编译后的文件才是重要的。你的 SASS 代码可能很优雅并优化过的，但这并不意味着你最后得到同样优美的 CSS 代码。你可能会有真正需要关心的特定问题。因此，定期地检查编译后的版本。</p></li>
 </ul>
 
-<h2 id="toc_5">BEM</h2>
+<h2>BEM</h2>
 <p><img src="/media/2013-09-08-starting-to-write-css-cn/bem.jpg" alt="BEM 代表块 Block 元素 Element 修饰符 Modifier"/>
 <small>BEM代表块（Block），元素（Element），修饰符（Modifier）。</small></p>
 <p>好吧，我找到一个可以玩的新工具。预处理器也许能够节省大量的时间，但是单独使用它们不能写出好的结构。我开始思考的第一件事是命名规范。让我们看下面 HTML 代码：</p>
@@ -381,46 +354,21 @@ h1 {
 <span class="nt">&lt;/header&gt;</span>
 </pre></div>
 <p>样式可能跟这个类似：</p>
-
-<style>
-.site-header { ... }
-.logo { ... }
-.navigation { ... }
-</style>
 <div class="highlight"><pre><span class="nc">.site-header</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span>
 <span class="nc">.logo</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span>
 <span class="nc">.navigation</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span>
 </pre></div>
 <p>当然，这会奏效。但有个问题，阅读这个 CSS 你不能理解它，例如， <code>logo</code> 属于 <code>header</code>。你也许有另一个小的 logo 图片用在 footer。下一个逻辑步骤是写一个后代选择器。</p>
-
-<style>
-.site-header .logo { ... }
-</style>
 <div class="highlight"><pre><span class="nc">.site-header</span> <span class="nc">.logo</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span>
 </pre></div>
 <p>然而使用这种选择器不是个好主意，因为这把样式紧绑到特定的标记层次（it tights styles to specific tags hierarchy）。如果我把 logo 移到 <code>header</code> 标签外面会怎样呢？这样式会失效。另一个你能做的是把 <code>site-header</code> 添加到 logo 类的名字中：</p>
-
-<style>
-.site-header-logo { ... }
-</style>
 <div class="highlight"><pre><span class="nc">.site-header-logo</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span>
 </pre></div>
 <p>这很好，不言自明（self explanatory）。但这不是在所有的情况下都奏效。以后，在十二月份可能想要使用圣诞节版的 logo。那么，我不能写成：</p>
-
-<style>
-.site-header-logo-xmas { ... }
-</style>
 <div class="highlight"><pre><span class="nc">.site-header-logo-xmas</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span>
 </pre></div>
 <p>因为我的逻辑是写一个选择器能够匹配嵌套在 HTML 里的标记。</p>
 <p><a href="http://bem.info/method/definitions/">BEM</a> 是这种情况的解决方案。它意思是块（Block），元素（Element），修饰符（Modifier）和创建一些你可以遵循的规则。使用 BEM，我们小小的例子会变成这样：</p>
-
-<style>
-.site-header { ... } /* block */
-.site-header__logo { ... } /* element */
-.site-header__logo--xmas { ... } /* modifier */
-.site-header__navigation { ... } /* element */
-</style>
 <div class="highlight"><pre><span class="nc">.site-header</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span> <span class="c">/* block */</span>
 <span class="nc">.site-header__logo</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span> <span class="c">/* element */</span>
 <span class="nc">.site-header__logo--xmas</span> <span class="p">{</span> <span class="o">...</span> <span class="p">}</span> <span class="c">/* modifier */</span>
@@ -429,28 +377,13 @@ h1 {
 <p>也就是说，<code>.site-header</code> 是我们的块（our block）。logo 和 导航（navigation）这个块的元素（elements），logo 的 <code>xmas</code> 版本是修饰符（modifier）。也许这看起来简单，但这真的强大。一旦你开始使用它会发现让你更好的结构化。反对的理由主要是 BEM 的语法。没错，这看来确实有点难看，但我准备好对这个好系统的命名妥协。</p>
 <p>（值得阅读：<a href="http://bem.info/method/definitions/">这里</a> 和 <a href="http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/">这里</a> )</p>
 
-<h2 id="toc_6">OOCSS</h2>
+<h2>OOCSS</h2>
 <p><img src="/media/2013-09-08-starting-to-write-css-cn/oocss.jpg" alt="面向对象的 CSS"/>
 <small>面向对象的 CSS</small></p>
 <p>我找到了 BEM 就能准确地命名我的类，然后就开始思考构造（composition）。也许我第一次阅读的文章是关于<a href="https://github.com/stubbornella/oocss/wiki">面向对象的 CSS</a>。面向对象编程有时是关于添加抽象并且 CSS 能够支持它。是否使用预处理器，你都应该了解 OOCSS 。作为码农（coder），我发现这个理念真的跟平时编程很接近，例如 JavaScript 。这是两个主要原则（principles）：</p>
 
-<h3 id="toc_7">结构和表层分开 （Separate structure and skin）</h3>
+<h3>结构和表层分开 （Separate structure and skin）</h3>
 <p>让我们用下面的例子：</p>
-
-<style>
-.header {
-    background: #BADA55;
-    color: #000;
-    width: 960px;
-    margin: 0 auto;
-}
-.footer {
-    background: #BADA55;
-    text-align: center;
-    color: #000;
-    padding-top: 20px;
-}
-</style>
 <div class="highlight"><pre><span class="nc">.header</span> <span class="p">{</span>
     <span class="k">background</span><span class="o">:</span> <span class="m">#BADA55</span><span class="p">;</span>
     <span class="k">color</span><span class="o">:</span> <span class="m">#000</span><span class="p">;</span>
@@ -465,21 +398,6 @@ h1 {
 <span class="p">}</span>
 </pre></div>
 <p>这里有些样式是重复的。我们可以把它们提取到另一个类，如下：</p>
-
-<style>
-.colors-skin {
-    background: #BADA55;
-    color: #000;
-}
-.header {
-    width: 960px;
-    margin: 0 auto;
-}
-.footer {
-    text-align: center;
-    padding-top: 20px;
-}
-</style>
 <div class="highlight"><pre><span class="nc">.colors-skin</span> <span class="p">{</span>
     <span class="k">background</span><span class="o">:</span> <span class="m">#BADA55</span><span class="p">;</span>
     <span class="k">color</span><span class="o">:</span> <span class="m">#000</span><span class="p">;</span>
@@ -506,25 +424,19 @@ h1 {
 <li>我们移除了 CSS 文件里的重复项，这让文件更小。</li>
 </ul>
 
-<h3 id="toc_8">容器和内容分开 （Separate container and content）</h3>
+<h3>容器和内容分开 （Separate container and content）</h3>
 <p>这里的理念是，不管每个元素放在哪里，都应该被应用同一种样式。因此，你应该避免跟下面类似的选择器用法：</p>
-
-<style>
-.header .social-widget {
-    width: 250px;
-}
-</style>
 <div class="highlight"><pre><span class="nc">.header</span> <span class="nc">.social-widget</span> <span class="p">{</span>
     <span class="k">width</span><span class="o">:</span> <span class="m">250px</span><span class="p">;</span>
 <span class="p">}</span>
 </pre></div>
 <p>这是因为如果你把 <code>.social-widget</code> 移到 <code>.header</code> 容器（container）外面，宽度（width）就会不相同。一般来说这不是好的做法，尤其是给整个页面到处都使用的部分添加样式。这个原则鼓励使 CSS 模块化，我强烈建议利用充足的时间尝试下。就我个人而言，遵守这个原则意味着能够编写出更好的 CSS。</p>
 
-<h3 id="toc_9">框架 （The framework）</h3>
+<h3>框架 （The framework）</h3>
 <p>如果你在 GitHub 打开 <a href="https://github.com/stubbornella/oocss">OOCSS repository</a> 会看到一个框架。是的，这个框架用到面向对象的 CSS 理念，并且有一堆很酷的组件可以立即使用（ready-to-use）。某些时候我并不喜欢框架。如果你思考一下的话会发现，<code>framework</code> 这个单词有部分 <code>frame</code> 和 <code>work</code>，你确实在条条框框（frame）里工作（work）。你确实要对框架妥协并且必须遵守它的规则。我更愿意使用微框架（micro-frameworks）或者只提供最基本特性的工具。当然我不是打算重新发明轮子，但我总是试着在两者之间取得平衡。经常这样，现成可用（ready-to-use）的解决方案会带来混乱复杂的系统。我的建议是，干一件事只为了一个特定的目的。如果你可能多地包含方方面面，你的下场将会是……你懂的，一个框架。</p>
-<p>但是，我强烈推荐你查看下 OOCSS 框架。这是一个独特的知识（It&#39;s an unique piece of knowledge），也许会满足你的需求。<a href="https://twitter.com/stubbornella">Nicole Sullivan </a> 托管这个 repository （仓库）。她是 OOCSS 的创始人（She is a pioneer in OOCSS），如果你有空的话我建议你查看下这个 <a href="http://www.youtube.com/watch?v=GhX8iPcDSsI"> presentations/talks</a>。</p>
+<p>但是，我强烈推荐你查看下 OOCSS 框架。这是一个独特的知识（It&rsquo;s an unique piece of knowledge），也许会满足你的需求。<a href="https://twitter.com/stubbornella">Nicole Sullivan </a> 托管这个 repository （仓库）。她是 OOCSS 的创始人（She is a pioneer in OOCSS），如果你有空的话我建议你查看下这个 <a href="http://www.youtube.com/watch?v=GhX8iPcDSsI"> presentations/talks</a>。</p>
 
-<h2 id="toc_10">SMACSS</h2>
+<h2>SMACSS</h2>
 <p><img src="/media/2013-09-08-starting-to-write-css-cn/smacss.jpg" alt="可量化和模块化 CSS 架构"/>
 <small>Scalable and Modular Architecture for CSS 可量化和模块化的 CSS 架构</small></p>
 <p>另一个流行的理念是 <a href="http://smacss.com/">SMACSS</a>。SMACSS 表示可量化（Scalable）和模块化（Modular）的 CSS 架构。<a href="https://twitter.com/snookca">Jonathan Snook</a> 为 CSS 开发者介绍了风格指南（introduces something like style guide for the CSS developers）。这个想法是把你的应用分成以下几种类型：</p>
@@ -538,7 +450,7 @@ h1 {
 </ul>
 <p>我没有使用 SMACSS 的经验，但它非常受欢迎，并确实提倡了好的想法。它更像是一个理念而不是框架，这非常好。因此，你不会受严格的规则，类或者是组件（ components）束缚。</p>
 
-<h2 id="toc_11">原子设计 （Atomic design）</h2>
+<h2>原子设计 （Atomic design）</h2>
 <p><img src="/media/2013-09-08-starting-to-write-css-cn/atomic.jpg" alt="原子设计 "/>
 <small>原子（Atoms） -&gt; 分子（molecules） -&gt; 组织（organisms） -&gt; 模板（Templates） -&gt; 网页（Pages）</small></p>
 <p>了解 OOCSS 和 SMACSS 之后我寻找一个恰当的象征（metaphor），很快我看到了 <a href="http://bradfrostweb.com/blog/post/atomic-web-design/">Atomic Design</a> 这篇文章，很好地展示 <em>原子设计（ Atomic Design）</em> 这个好的理念。作者是 <a href="http://bradfrostweb.com/">Brad Frost</a>，是个知名的 Web 开发者，主要从事<a href="http://bradfrost.github.io/this-is-responsive/index.html">自适应式</a>（responsive）和移动终端方面的工作。</p>
@@ -576,30 +488,17 @@ h1 {
 <p>这个理念的下一个是模板（templates）。这没有跟化学直接相关，而是放到 Web 环境中（web context）。一旦我们开始合并不同的组织，就是在构造模板。之后这些模板形成了最终的网页。</p>
 <p>你可能已经使用相似的方法开发你的应用软件。然而，以合理的方式命名会带来好的架构。你和所有你的团队队员在开发中会明白一些事情。把一件东西分成原子和分子是挺重要的一部分，因为这会改善 Web 应用程序的开发过程和维护。</p>
 
-<h2 id="toc_12">OrganicCSS</h2>
+<h2>OrganicCSS</h2>
 <p><img src="/media/2013-09-08-starting-to-write-css-cn/organic.jpg" alt="原子设计 "/>
 <small>有机的 CSS Organic CSS</small></p>
 <p>几个月前我写了一篇关于 <a href="https://github.com/VarnaLab/node-organic">Organic</a> 的<a href="http://net.tutsplus.com/tutorials/javascript-ajax/organic-development/">文章</a>。这是一个很小的 JavaScript 应用程序框架。它更像是设计模式，我个人很喜欢它。我甚至在几个项目里使用了 Organic 并且它干得非常好。如果你对它感兴趣，我强烈建议你阅读这篇<a href="http://net.tutsplus.com/tutorials/javascript-ajax/organic-development/">博文</a>。</p>
 <p>当我看 Brad Frost 的文章时，我已经对相似的理念非常熟悉，因为我了解 Organic 。Brad 的 <em><a href="http://bradfrostweb.com/blog/post/atomic-web-design/">Atomic Design</a></em> 十分出色，但我决定更进一步，基于原子设计（Atomic Design）理念试着写自己的微框架。我选择 SASS 作为预处理器并在 Github 创建了<a href="https://github.com/krasimir/organic-css">仓库</a></p>
 
-<h3 id="toc_13">原子 （Atoms）</h3>
-<p>让我们从框架最小的部分开始 —— 原子。在<a href="http://zh.wikipedia.org/wiki/%E5%8E%9F%E5%AD%90">维基百科</a>的定义是 *原子是一种元素能保持其化学性质的最小单位。*。在 CSS 的环境(context)中，我认为是一个属性和它的值。例如：</p>
-
-<style>
-margin-top: 24px;
-</style>
+<h3>原子 （Atoms）</h3>
+<p>让我们从框架最小的部分开始 —— 原子。在<a href="http://zh.wikipedia.org/wiki/%E5%8E%9F%E5%AD%90">维基百科</a>的定义是 <em>原子是一种元素能保持其化学性质的最小单位。</em>。在 CSS 的环境(context)中，我认为是一个属性和它的值。例如：</p>
 <div class="highlight"><pre><span class="nt">margin-top</span><span class="o">:</span> <span class="nt">24px</span><span class="o">;</span>
 </pre></div>
 <p>添加原子只是直接在类里面写样式，这种方式不是我想要的。因此如果写成下面这样：</p>
-
-<style>
-body {
-    margin-top: 24px;
-}
-header {
-    margin-top: 24px;   
-}
-</style>
 <div class="highlight"><pre><span class="nt">body</span> <span class="p">{</span>
     <span class="k">margin-top</span><span class="o">:</span> <span class="m">24px</span><span class="p">;</span>
 <span class="p">}</span>
@@ -608,29 +507,11 @@ header {
 <span class="p">}</span>
 </pre></div>
 <p>预处理器就会保持这个样子。我想要的最后结果是：</p>
-
-<style>
-body, header {
-    margin-top: 24px;
-}
-</style>
 <div class="highlight"><pre><span class="nt">body</span><span class="o">,</span> <span class="nt">header</span> <span class="p">{</span>
     <span class="k">margin-top</span><span class="o">:</span> <span class="m">24px</span><span class="p">;</span>
 <span class="p">}</span>
 </pre></div>
 <p>SASS 使用占位符（place holders）实现这个效果。也就是说：</p>
-
-<style>
-%margin-top-24 {
-    margin-top: 24px;
-}
-body {
-    @extend %margin-top-24; 
-}
-header {
-    @extend %margin-top-24; 
-}
-</style>
 <div class="highlight"><pre><span class="o">%</span><span class="nt">margin-top-24</span> <span class="p">{</span>
     <span class="k">margin-top</span><span class="o">:</span> <span class="m">24px</span><span class="p">;</span>
 <span class="p">}</span>
@@ -642,15 +523,6 @@ header {
 <span class="p">}</span>
 </pre></div>
 <p>因此，我必须使用占位符（placeholders）。这也就意味着我必须有大量预定义的并且我能使用的占位符（placeholders）。就在那时，我决定这个框架将只包含原子。也许还有一些类似通常的 <code>reset.css</code>，网格定义等等。我想要为 CSS 开发写一些基本的东西（I wanted to write something which acts as a base for the CSS development）。也许一个又一个项目之后我将会看到一些可以放进核心的模式，但刚开始我想保持 repo（仓库）整洁简单。为了使一些东西始终如一的，我为定义原子创建 mixin。如下：</p>
-
-<style>
-@include define-atom("block") {
-    display: block;
-}
-@include define-atom("font-family") {
-    font-family: Georgia;
-}
-</style>
 <div class="highlight"><pre><span class="k">@include</span> <span class="nt">define-atom</span><span class="o">(</span><span class="s2">&quot;block&quot;</span><span class="o">)</span> <span class="p">{</span>
     <span class="nt">display</span><span class="o">:</span> <span class="nt">block</span><span class="o">;</span>
 <span class="p">}</span>
@@ -659,16 +531,6 @@ header {
 <span class="p">}</span>
 </pre></div>
 <p>使用这种方式我创建了一堆容易应用到每个项目的原子。你可以在<a href="https://github.com/krasimir/organic-css/tree/master/src/atoms">这里</a>查阅。我从别的框架里使用了一些最佳做法，所以并不是全归功于我。这里是个在分子里混合原子的 mixin：</p>
-
-<style>
-@mixin header { /* <- molecule called 'header' 称作 `header` 的分子*/
-    @include atoms((
-        block,
-        clearfix,
-        font-family
-    ));
-}
-</style>
 <div class="highlight"><pre><span class="k">@mixin</span> <span class="nt">header</span> <span class="p">{</span> <span class="c">/* &lt;- molecule called &#39;header&#39; 称作 `header` 的分子*/</span>
     <span class="k">@include</span> <span class="nt">atoms</span><span class="o">((</span>
         <span class="nt">block</span><span class="o">,</span>
@@ -678,19 +540,8 @@ header {
 <span class="p">}</span>
 </pre></div>
 
-<h3 id="toc_14">分子 （Molecules）</h3>
+<h3>分子 （Molecules）</h3>
 <p>分子是需要样式的 DOM 元素，但是没有子代。或者是没有直接联系的子代。例如 <code>&lt;img src=&quot;logo.jpg&quot; /&gt;</code> 可以是分子。如果你觉得在网页里识别出分子，只需思考下什么是有原子构成的。如果一些元素是由其他分子构成的，那么很可能是一个（细胞器）。下面几行展示的是如何定义一个分子：</p>
-
-<style>
-@mixin login-box { 
-    @include atoms((
-        block,
-        font-size-20,
-        margin-top-23,
-        bold
-    ));
-}
-</style>
 <div class="highlight"><pre><span class="k">@mixin</span> <span class="nt">login-box</span> <span class="p">{</span> 
     <span class="k">@include</span> <span class="nt">atoms</span><span class="o">((</span>
         <span class="nt">block</span><span class="o">,</span>
@@ -702,16 +553,8 @@ header {
 </pre></div>
 <p>我面前有些有趣的东西。让我们看下 <code>body</code> 标记。这是什么？是一个分子或者其他东西吗？没错，它通过原子需要一些样式，但通常包含了其他分子。它应该是其他东西。我做出决定，CSS 应该是主角。也就是说，如果 <code>body</code> 标记需要一些原子提供样式，那就是分子，理论上，我不该给它附加上任何其他的分子。这看起来有点不切实际，但在大多数情况下，这会阻止你使用后代选择器，这个好兆头。</p>
 
-<h3 id="toc_15">细胞器 （Organelles）</h3>
+<h3>细胞器 （Organelles）</h3>
 <p>一旦你能够识别出哪个 DOM 元素是分子，你将会知道什么细胞器。例如，典型的 <code>form</code> 元素是一个细胞器的好例子。它包含了分子像 <code>label</code>，<code>input</code> 或者 <code>textarea</code>。</p>
-
-<style>
-.login-form {
-    @include label;
-    @include input;
-    @include textarea;
-}
-</style>
 <div class="highlight"><pre><span class="nc">.login-form</span> <span class="p">{</span>
     <span class="o">@</span><span class="n">include</span> <span class="n">label</span><span class="p">;</span>
     <span class="o">@</span><span class="n">include</span> <span class="n">input</span><span class="p">;</span>
@@ -721,27 +564,27 @@ header {
 <p>这个框架中，细胞器（Organelles）是第一个跟当前应用紧密相关的
 。原子和分子在不同项目中会有所改变，而细胞器却不会。</p>
 
-<h3 id="toc_16">更多的抽象 （More abstractions）</h3>
+<h3>更多的抽象 （More abstractions）</h3>
 <p>你也许经常想要在其他地方合并几个细胞器。如果是这种情况，添加其他抽象：</p>
 
 <pre><code>Atom → Molecule → Organelle → Cell → Tissue → Organ → Sys → Organism</code></pre>
 <p>你选择什么来让你的 CSS 结构化，这是个问题。目前为止，我只在一个项目里使用过 OrganicCSS，但我能说，它使项目变清晰了。我把不同的元素放在它们各自的目录（文件夹）里并像这样命名类，例如，分子在一个“molecules”目录（文件夹），里面的文件命名为“header_molecule.scss”我才能容易地找到正在编写的是哪一个。例如，如果有一个叫 <code>header</code> 的细胞器，我简单地改成 <code>o-header</code>。然后，当我看 HTML 代码时可以是了解到，这个元素的 CSS 样式文件在 <code>organelles</code> 文件夹。</p>
 
-<h2 id="toc_17">总结</h2>
+<h2>总结</h2>
 <p>这个一个有趣的旅行。我不知道是否会在将来使用 OrganicCSS，但这不是重点。我学到的东西才是重要的。我知道必须改变我的 CSS 开发过程，我做到了。我确信我们应该谈论更多 CSS 的结构。如你所见，在文章里我们有很多好的资源。我们只是必须找到它们，学习它们干了什么和如何运行的。只有我们能决定是否使用它们。更好的是，当你了解了整个项目才能创作出能更好满足需求的东西。 </p>
 ]]>
         </content>
     </entry><entry>
         <title type="html"><![CDATA[[译] 阅读别人的代码]]></title>
         <author><name>咧威</name></author>
-        <link href="http://funwo.tk/2013-09-06-reading-other-peoples-code-cn.html"/>
+        <link href="http://colin4124.github.io/2013-09-06-reading-other-peoples-code-cn.html"/>
         <published>2013-09-06T00:00:00+08:00</published>
-        <updated>2013-09-22T09:03:56+08:00</updated>
-        <id>http://funwo.tk/2013-09-06-reading-other-peoples-code-cn.html</id>
-        <category scheme="http://funwo.tk/tag/#翻译" term="翻译" label="翻译" />
-        <content type="html" xml:base="http://funwo.tk/" xml:lang="en">
-            <![CDATA[ <p>原文链接：<a href="http://www.mahdiyusuf.com/post/32154944661/reading-other-peoples-code">Reading Other People&#39;s Code</a></p>
-<p>我确实喜欢阅读别人的代码，这可以让你了解别人是怎样解决常见问题，有时还会提供编写代码时你不该做什么的格言。这还会教你许多必要的<strong>阅读别人代码的技能</strong>。不幸的是，阅读别人的代码并不会感到方便<a href="http://abstrusegoose.com/strips/you_down_wit_OPC-yeah_you_know_me.png">有趣</a>。</p>
+        <updated>2013-09-22T17:03:56+08:00</updated>
+        <id>http://colin4124.github.io/2013-09-06-reading-other-peoples-code-cn.html</id>
+        <category scheme="http://colin4124.github.io/tag/#翻译" term="翻译" label="翻译" />
+        <content type="html" xml:base="http://colin4124.github.io/" xml:lang="en">
+            <![CDATA[ <p>原文链接：<a href="http://www.mahdiyusuf.com/post/32154944661/reading-other-peoples-code">Reading Other People&rsquo;s Code</a></p>
+<p>我确实喜欢阅读别人的代码，这可以让你了解别人是怎样解决常见问题，有时还会提供编写代码时你不该做什么的格言。这还会教你许多必要的**阅读别人代码的技能**。不幸的是，阅读别人的代码并不会感到方便<a href="http://abstrusegoose.com/strips/you_down_wit_OPC-yeah_you_know_me.png">有趣</a>。</p>
 <p>现在，问你自己两个问题：</p>
 
 <ol>
@@ -756,7 +599,7 @@ header {
 <p>许多人避免阅读代码仅仅是因为他们讨厌走出自己的舒适区。如果文档所说的跟代码所做的是一样的话，那阅读文档是高效利用时间的方式。往往很多时候，文档是过时的，不靠谱的，甚至也许还会撒谎。你唯一能确信的是<a href="http://www.codinghorror.com/blog/2012/04/learn-to-read-the-source-luke.html">源码</a>。</p>
 <p>整个<a href="http://github.com/">行业</a>已经树立了分享和编写代码的观念，却没有阅读。</p>
 
-<h2 id="toc_0">阅读</h2>
+<h2>阅读</h2>
 <p>如何阅读（What about reading）？我认为阅读和编写代码正如听和说一样都是整体的。每个人都喜欢说/写自己的表达方式；艺术在工艺的背后，但如果没有对应的听/读，都不会欣赏这两者。</p>
 <p>如果我递给你一本书并让你指出是从哪里开始阅读的，你会翻过致谢，目录，和其他编辑名单，然后翻到正文第一页或第一章。棒极了！</p>
 <p>现在如果我递给你打印出的一堆代码，你能告诉我从哪里开始会容易阅读吗？你能轻松地给代码分章节吗？你的读者必须这样吗？如果没有一个主要的方法会怎样？: )</p>
@@ -777,7 +620,7 @@ header {
 <p>那么来回答这些问题：</p>
 <p>你是从哪里开始阅读软件的？作者开始写的地方。就算它实际上没干什么也不要紧，一个未完成的故事你仍然能够阅读它，不是吗？</p>
 
-<h2 id="toc_1">Rainman</h2>
+<h2>Rainman</h2>
 <p>在这里告诉大家，今天（2012/9/23）我将开始开发 <a href="http://www.github.com/myusuf3/rainman">Rainman</a>。这个工具将会使用 git 仓库以明智的方式重现 git 提交（commits）和差异（diffs），并展示了清晰透明的软件开发过程。</p>
 <p>这样你会认为提交（commits）实在是太有用了吧。大多数情况是这样，这也是我为什么打算也提供一个记录工具，让开发者记录软件开发的过程并能重现精细明了的开发过程。</p>
 <p>这仍然是在初始阶段，欢迎在 <a href="https://github.com/myusuf3/rainman/issues">GitHub issues</a> 提交反馈和建议。</p>
@@ -786,13 +629,14 @@ header {
     </entry><entry>
         <title type="html"><![CDATA[[译] 写给设计师的黄金比例指南]]></title>
         <author><name>咧威</name></author>
-        <link href="http://funwo.tk/2013-08-20-the-golden-ratio-cn.html"/>
+        <link href="http://colin4124.github.io/2013-08-20-the-golden-ratio-cn.html"/>
         <published>2013-08-20T00:00:00+08:00</published>
-        <updated>2013-09-22T09:03:56+08:00</updated>
-        <id>http://funwo.tk/2013-08-20-the-golden-ratio-cn.html</id>
-        <category scheme="http://funwo.tk/tag/#翻译" term="翻译" label="翻译" />
-        <content type="html" xml:base="http://funwo.tk/" xml:lang="en">
-            <![CDATA[ <p>原文链接：<a href="http://www.creativebloq.com/design/designers-guide-golden-ratio-12121546">The Golden Ratio: a designer&#39;s guide</a></p>
+        <updated>2015-09-08T10:05:32+08:00</updated>
+        <id>http://colin4124.github.io/2013-08-20-the-golden-ratio-cn.html</id>
+        <category scheme="http://colin4124.github.io/tag/#翻译" term="翻译" label="翻译" />
+        <category scheme="http://colin4124.github.io/tag/#设计" term="设计" label="设计" />
+        <content type="html" xml:base="http://colin4124.github.io/" xml:lang="en">
+            <![CDATA[ <p>原文链接：<a href="http://www.creativebloq.com/design/designers-guide-golden-ratio-12121546">The Golden Ratio: a designer&rsquo;s guide</a></p>
 <p>原文作者：<a href="http://twitter.com/samh">Sam Hampton-Smith</a></p>
 <p><strong>更新：黄金比例是一个简单优美的数学理论，它可以使你的设计比例恰当，看着舒适。 我们讲解下如何使用它。</strong></p>
 <p>在大自然中，有一个常见的数学比例，你可以在设计中利用它创作出舒适自然的作品。我们称它为黄金比例，尽管它又被称作黄金分割(或者希腊字母φ。</p>
@@ -804,38 +648,38 @@ header {
 <p>&gt; &hellip;按比例关系绘制能为我们提供看起来自然的螺旋线</p>
 <p>人们相信在艺术和设计领域里黄金比例的使用至少已有4000年，或许更久——有些人认为,古埃及人利用这个原理建立了金字塔。如今在很多时候，你会发现身边的音乐，艺术和设计领域都利用了黄金比例。</p>
 
-<h2 id="toc_0">应用实例</h2>
+<h2>应用实例</h2>
 <p>在整个艺术和设计的历史中，黄金比例的应用都被很好的记录了下来，你可以在建筑大师的每个设计中看到它。通过应用一个类似的操作方法，你可以把相同的设计理念运用到你的作品中。这里有两个个例子可以启发你：</p>
 
-<h3 id="toc_1">帕提农神庙（The Parthenon）</h3>
+<h3>帕提农神庙（The Parthenon）</h3>
 <p><img src="/media/2013-08-20-the-golden-ratio-cn/panthenon.jpg" alt="帕提农神庙"/></p>
 <p>古希腊建筑利用黄金比例确定了建筑宽高、柱廊大小，甚至是支柱位置间的尺寸关系，令人赏心悦目。达到让人感觉建筑完全成比例的效果。<a href="http://zh.wikipedia.org/wiki/%E6%96%B0%E5%8F%A4%E5%85%B8%E4%B8%BB%E4%B9%89%E5%BB%BA%E7%AD%91">新古典主义建筑</a>运动也再次利用了这些原理。</p>
 
-<h3 id="toc_2">最后的晚餐</h3>
+<h3>最后的晚餐</h3>
 <p><img src="/media/2013-08-20-the-golden-ratio-cn/lastsupper.jpg" alt="最后的晚餐"/></p>
 <p><a href="http://zh.wikipedia.org/wiki/%E5%88%97%E5%A5%A5%E7%BA%B3%E5%A4%9A%C2%B7%E8%BE%BE%C2%B7%E8%8A%AC%E5%A5%87">列奥纳多·达·芬奇</a>（Leonardo da Vinci）像历代（throughout the ages）许多其他的艺术家一样
 ，大量使用了黄金比例来创造让人赏心悦目的作品。在《最后的晚餐》这部作品中，他把人物安排在下面的三分之二处（即黄金比例两部分中较大处），而耶稣(Jesus)的位置则按照黄金矩形的布置完美地划分在画布上。</p>
 
-<h2 id="toc_3">网页设计的实例</h2>
+<h2>网页设计的实例</h2>
 
-<h3 id="toc_4">Twitter改版（The Twitter redesign）</h3>
+<h3>Twitter改版（The Twitter redesign）</h3>
 <p><img src="/media/2013-08-20-the-golden-ratio-cn/goldentwitter.jpg" alt="Twitter 2010年的改版可不是碰运气。"/></p>
 <p>&gt; Twitter 2010年的改版可不是碰运气。</p>
 <p>Twitter的创意总监（creative director）Doug Bowman 在他的 Flickr 公布这个截图，解释公司是如何在2010年的改版中使用黄金比例的。他解释道：“每一个好奇新版 Twitter 的人都知道我们得到这些比例可不是碰运气的。”</p>
 
-<h3 id="toc_5">Apple iCloud</h3>
+<h3>Apple iCloud</h3>
 <p><img src="/media/2013-08-20-the-golden-ratio-cn/icloud01.jpg" alt="iCloud 图标设计并不是随意的素描"/></p>
 <p>&gt; iCloud 图标设计并不是随意的素描&hellip;</p>
 <p>苹果的iCloud 图标设计是牢牢(firmly)建立在黄金比例的数学基础上的，正如Takamasa Matsumoto 在<a href="http://stam-design-stam.blogspot.co.uk/2011/06/law-of-beauty-hidden-behind-icloud-icon.html">博客文章</a>(原日文版：<a href="http://stam-design-stam.blogspot.co.uk/2011/06/icloud.html">这里</a>)的解释和下面展示带注解的图片示例一样：</p>
 <p><img src="/media/2013-08-20-the-golden-ratio-cn/icloud2.jpg" alt="...而是明确基于黄金比例"/></p>
 <p>&gt; &hellip;而是明确基于黄金比例</p>
 
-<h2 id="toc_6">大自然中的实例</h2>
+<h2>大自然中的实例</h2>
 <p><img src="/media/2013-08-20-the-golden-ratio-cn/goldenratioinnature.jpg" alt="身边从贝壳到花儿的大自然中随处可发现黄金比例"/></p>
 <p>&gt; 身边从贝壳到花儿的大自然中随处可发现黄金比例</p>
 <p>大自然有无数黄金比例的实例——你能在身边的比例观察到！花，贝壳，菠萝，甚至是蜂窝都在它们的构造中展现出同样的比例原则。所以在日常生活里利用黄金比例在你的设计作品中是理所当然的。</p>
 
-<h2 id="toc_7">如何构造一个黄金比例矩形</h2>
+<h2>如何构造一个黄金比例矩形</h2>
 <p>制作一个<a href="http://zh.wikipedia.org/wiki/%E9%BB%84%E9%87%91%E7%9F%A9%E5%BD%A2">黄金矩形</a>非常简单，从一个基本的正方形开始。跟着下面的步骤来制作你自己的黄金比例：</p>
 <p>第一步：画一个正方形。这将会是矩形短边的长度。</p>
 <p><img src="/media/2013-08-20-the-golden-ratio-cn/step01.jpg" alt="第一步"/></p>
@@ -848,37 +692,37 @@ header {
 <p>第五步：参照原来的矩形，用新的水平线画出一个矩形。</p>
 <p><img src="/media/2013-08-20-the-golden-ratio-cn/step05.jpg" alt="第五步"/></p>
 
-<h2 id="toc_8">在你的设计作品里使用黄金比例</h2>
+<h2>在你的设计作品里使用黄金比例</h2>
 <p>使用黄金比例比你预想的还要简单！这里有几个快速技巧用来在你的布局估计它，或者你可以在略加思索后能将这一概念完全融会贯通。</p>
 
-<h3 id="toc_9">快速方法</h3>
-<p>如果你已经接触过<a href="http://zh.wikipedia.org/wiki/%E4%B8%89%E5%88%86%E6%B3%95_(%E6%A7%8B%E5%9C%96">三分法</a>)，你将会对把区域横竖分割成三等分的做法(构图如同“井”字)很熟悉。这些线的交点将标明图形的自然焦点。</p>
+<h3>快速方法</h3>
+<p>如果你已经接触过<a href="http://zh.wikipedia.org/wiki/%E4%B8%89%E5%88%86%E6%B3%95_(%E6%A7%8B%E5%9C%96)">三分法</a>，你将会对把区域横竖分割成三等分的做法(构图如同“井”字)很熟悉。这些线的交点将标明图形的自然焦点。</p>
 <p>摄影师被教导把主要对象放在这些相交线的其中一条上，以获得一个赏心悦目的构图。同样的原理可以运用到你的页面布局，网页原型和海报设计上。</p>
 <p>尽管三分法可以应用于任何形状，如果你以约 1:1.6 的比例应用到一个矩形，会得到一个黄金矩形，使构图更加顺眼。</p>
 
-<h3 id="toc_10">完整的实现</h3>
+<h3>完整的实现</h3>
 <p>如果你打算在你的设计里完全实现黄金比例，确保内容和侧边栏面积的比例关系是 1:1.61 就很容易做到（例如设计一个网页）。</p>
 <p>让这个比例上下浮动一两点来使数字符合像素或者点，这么做是可以的。如果你的内容面积是 640px ，侧边栏是 400px，足矣达到黄金比例的效果，即使确切说比例是 1:1.6 ，而不是上面说的 1:1.61 。</p>
 <p><img src="/media/2013-08-20-the-golden-ratio-cn/useratiowebdesign.jpg" alt="使用黄金比例会让网页布局更自然，更顺眼"/></p>
 <p>&gt; 使用黄金比例会让网页布局更自然，更顺眼</p>
 <p>当然，你也可以用同样的比例再细分内容和侧边栏的面积，然后网页的头部，内容区域，底部和导航栏都可以设计成相同的基本黄金比例。</p>
 
-<h2 id="toc_11">黄金比例工具</h2>
+<h2>黄金比例工具</h2>
 
-<h3 id="toc_12">01 <a href="https://itunes.apple.com/us/app/goldenratio-tool-for-every/id485258055?mt=12">GoldenRATIO</a></h3>
+<h3>01 <a href="https://itunes.apple.com/us/app/goldenratio-tool-for-every/id485258055?mt=12">GoldenRATIO</a></h3>
 <p><img src="/media/2013-08-20-the-golden-ratio-cn/goldenapp.jpg" alt="GoldenRATIO 的收藏功能为重复的任务保存设置"/></p>
 <p>&gt; GoldenRATIO 的收藏功能为重复的任务保存设置</p>
 <p>GoldenRATIO 软件方便地把黄金比例运用到网页，界面和布局的设计里。可以在Mac App 商店里花 $2.99 美元购买，它的功能有：视觉反馈的计算器，为重复的任务保存屏幕位置和设置的收藏夹，点击(click-thru)模式可以让它在Photoshop  作为overlay并仍可以在画布(canvas)上操作。</p>
 
-<h3 id="toc_13">02 <a href="http://www.pearsonified.com/typography/">Golden Ratio Typography Calculator</a>（字体黄金比例计算器）</h3>
+<h3>02 <a href="http://www.pearsonified.com/typography/">Golden Ratio Typography Calculator</a>（字体黄金比例计算器）</h3>
 <p>这个计算器出自<a href="http://www.pearsonified.com/">Pearsonified</a>，它帮你创建一行符合黄金比例原则的完美字体。只需输入字体大小，内容区域的宽度，或者两者在网站内的数值都行，然后点击 <code>Set my type!</code> 按钮。如果你想为每行的文字优化，你可以输入一个可选的 CPL 值。</p>
 
-<h3 id="toc_14">03 <a href="http://www.thismanslife.co.uk/projects/phiculator/">Phicalculator</a></h3>
+<h3>03 <a href="http://www.thismanslife.co.uk/projects/phiculator/">Phicalculator</a></h3>
 <p><img src="/media/2013-08-20-the-golden-ratio-cn/phi.jpg" alt="Phicalculator 只做一件事，并且做到最好"/></p>
 <p>&gt; Phicalculator 只做一件事，并且做到最好</p>
 <p>这个简单实用的免费软件，可以在 Mac 和 PC 上使用。输入任何数字它都能计算出对应的黄金比例数字。</p>
 
-<h3 id="toc_15">04 <a href="http://atrise.com/golden-section/">Atrise Golden Section</a></h3>
+<h3>04 <a href="http://atrise.com/golden-section/">Atrise Golden Section</a></h3>
 <p><img src="/media/2013-08-20-the-golden-ratio-cn/atrise.jpg" alt="Atrise工具能让你根据黄金比例做视觉上的设计"/></p>
 <p>&gt; Atrise工具能让你根据黄金比例做视觉上的设计</p>
 <p>这个在屏幕上有尺子和网格的软件，能节省你费时杂乱的计算并能让你看得到黄金比例的设计过程。你可以在项目制作过程中，直接看到和更改协调的形式和大小。普通许可证需要 49 美元，但你可以免费下载试用版，为期 30 天。</p>
@@ -887,12 +731,13 @@ header {
     </entry><entry>
         <title type="html"><![CDATA[[译] 选择Lua语言的九个理由]]></title>
         <author><name>咧威</name></author>
-        <link href="http://funwo.tk/2013-08-12-what-makes-lua-tick-cn.html"/>
+        <link href="http://colin4124.github.io/2013-08-12-what-makes-lua-tick-cn.html"/>
         <published>2013-08-12T02:14:51+08:00</published>
-        <updated>2013-09-22T09:03:56+08:00</updated>
-        <id>http://funwo.tk/2013-08-12-what-makes-lua-tick-cn.html</id>
-        <category scheme="http://funwo.tk/tag/#翻译" term="翻译" label="翻译" />
-        <content type="html" xml:base="http://funwo.tk/" xml:lang="en">
+        <updated>2015-09-08T09:03:30+08:00</updated>
+        <id>http://colin4124.github.io/2013-08-12-what-makes-lua-tick-cn.html</id>
+        <category scheme="http://colin4124.github.io/tag/#翻译" term="翻译" label="翻译" />
+        <category scheme="http://colin4124.github.io/tag/#Lua" term="Lua" label="Lua" />
+        <content type="html" xml:base="http://colin4124.github.io/" xml:lang="en">
             <![CDATA[ <p><a href="http://lua-users.org/lists/lua-l/2012-04/msg00331.html">原文地址：What makes Lua tick</a></p>
 <p>lua:</p>
 
@@ -913,26 +758,27 @@ header {
     </entry><entry>
         <title type="html"><![CDATA[[译] 把一个库开源，你该做些什么]]></title>
         <author><name>咧威</name></author>
-        <link href="http://funwo.tk/2013-08-06-on-open-sourcing-libraries-cn.html"/>
+        <link href="http://colin4124.github.io/2013-08-06-on-open-sourcing-libraries-cn.html"/>
         <published>2013-08-06T00:00:00+08:00</published>
-        <updated>2013-09-22T09:03:56+08:00</updated>
-        <id>http://funwo.tk/2013-08-06-on-open-sourcing-libraries-cn.html</id>
-        <category scheme="http://funwo.tk/tag/#翻译" term="翻译" label="翻译" />
-        <content type="html" xml:base="http://funwo.tk/" xml:lang="en">
+        <updated>2015-09-08T09:39:58+08:00</updated>
+        <id>http://colin4124.github.io/2013-08-06-on-open-sourcing-libraries-cn.html</id>
+        <category scheme="http://colin4124.github.io/tag/#翻译" term="翻译" label="翻译" />
+        <category scheme="http://colin4124.github.io/tag/#开源" term="开源" label="开源" />
+        <content type="html" xml:base="http://colin4124.github.io/" xml:lang="en">
             <![CDATA[ <p>原文地址: <a href="http://williamdurand.fr/2013/07/04/on-open-sourcing-libraries/">On Open Sourcing Libraries</a></p>
-<p><a href="#tl-dr">简要概括：TL;DR</a> (<a href="http://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn&#x27;t_read">Too long; didn&#39;t read</a>)</p>
-<p>把一个库<a class="footnote-reference" href="#note-1">[1]</a>开源非常简单，仅需几秒钟。你所需要做的仅仅是把公共仓库(public repository) 托管 (hosted) 在网上(<a href="https://github.com/">GitHub</a>, <a href="https://bitbucket.org/">Bitbucket</a>,等等)吗？不是的！事实上，如果你<strong>想把你非常酷的库公开，并加以悉心照料</strong>的话<a class="footnote-reference" href="#note-2">[2]</a>，这对每个人都是件好事。来看看我们该怎么做。</p>
+<p><a href="#tl-dr">简要概括：TL;DR</a> (<a href="http://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn&#x27;t_read">Too long; didn&rsquo;t read</a>)</p>
+<p>把一个库<a class="footnote-reference" href="#note-1">[1]</a>开源非常简单，仅需几秒钟。你所需要做的仅仅是把公共仓库(public repository) 托管 (hosted) 在网上(<a href="https://github.com/">GitHub</a>, <a href="https://bitbucket.org/">Bitbucket</a>,等等)吗？不是的！事实上，如果你 <strong>想把你非常酷的库公开，并加以悉心照料</strong>的话<a class="footnote-reference" href="#note-2">[2]</a>，这对每个人都是件好事。来看看我们该怎么做。</p>
 
-<h2 id="toc_0">README的编写</h2>
-<p><code>README</code>文件在你的项目中<strong>占据首要地位</strong>。你的项目必须包含它！这个文件必须包含库的<strong>名字</strong>和一个关于它(简短的)<strong>描述</strong>。把<strong>描述</strong>这一章节当作是<strong>电梯游说</strong> (elevator pitch，在乘电梯的30秒内清晰准确地向客户解释清楚解决方案)。</p>
-<p>然后是编写<strong>使用</strong>章节。尽可能详细地用文字、代码片段、截图或者GIF格式的图片，来描述如何使用你的库。这个就是你项目的<strong>文档</strong>, 你的库很多时候也同样如此, 这将会是你唯一提供的文档。 </p>
-<p>先写<strong>使用</strong>指南这部分并不是一个随意的选择。<code>README</code>文件应该能吸引读者(blow your reader&#39;s mind)，这样他们就会使用你的库并为它做出贡献(或许不会)。</p>
-<p>第三小节必须写<strong>安装</strong>方法。这个小节以*用户*的角度说明怎样快速安装你的库。如果有多种安装方式，首先介绍你认为最好的方式，然后才是(介绍)其他的。</p>
-<p>你可以添加一个<strong>依赖</strong>章节，例如，<em>依赖X的Y版本(Depends on X version Y)</em> 。这个章节是可选的，可以不写。</p>
-<p>第四个必须编写的小节是<strong>贡献</strong>。尽管它可以使用一个<code>CONTRIBUTING</code> 文件代替。说明<strong>怎样折腾你的库(how to hack your library)</strong>，怎样报告bugs，或者怎样提交特性请求(submit feature requests)。这方面介绍一定要详细。<strong>说明规则</strong>，让收到的请求合并中避免评论每一行<a class="footnote-reference" href="#note-3">[3]</a>，指引贡献者使用恰当的工具(Point contributors to the right tools )，比如linters 或者 compilers。</p>
-<p>你还必须添加一个<strong>测试</strong>章节。说明<strong>怎样安装测试套件</strong>，怎样运行功能测试(functional tests)，以及需要安装的工具。</p>
-<p>如果你使用第三方的东西，或者打算列出贡献者(当然这个也可以写在<strong>作者</strong>章节)，那就添加一个<strong>信用(Credits)</strong>章节。这个章节是可选的，可以不写。</p>
-<p>最后还要记住，添加一个<strong>许可证</strong>章节!</p>
+<h2>README的编写</h2>
+<p><code>README</code>文件在你的项目中 <strong>占据首要地位</strong>。你的项目必须包含它！这个文件必须包含库的 <strong>名字</strong>和一个关于它(简短的) <strong>描述</strong>。把 <strong>描述</strong>这一章节当作是 <strong>电梯游说</strong> (elevator pitch，在乘电梯的30秒内清晰准确地向客户解释清楚解决方案)。</p>
+<p>然后是编写 <strong>使用</strong>章节。尽可能详细地用文字、代码片段、截图或者GIF格式的图片，来描述如何使用你的库。这个就是你项目的 <strong>文档</strong>, 你的库很多时候也同样如此, 这将会是你唯一提供的文档。 </p>
+<p>先写 <strong>使用</strong>指南这部分并不是一个随意的选择。<code>README</code>文件应该能吸引读者(blow your reader&rsquo;s mind)，这样他们就会使用你的库并为它做出贡献(或许不会)。</p>
+<p>第三小节必须写 <strong>安装</strong>方法。这个小节以*用户*的角度说明怎样快速安装你的库。如果有多种安装方式，首先介绍你认为最好的方式，然后才是(介绍)其他的。</p>
+<p>你可以添加一个 <strong>依赖</strong>章节，例如， <em>依赖X的Y版本（Depends on X version Y）</em> 。这个章节是可选的，可以不写。</p>
+<p>第四个必须编写的小节是 <strong>贡献</strong>。尽管它可以使用一个<code>CONTRIBUTING</code> 文件代替。说明 <strong>怎样折腾你的库(how to hack your library)</strong>，怎样报告bugs，或者怎样提交特性请求(submit feature requests)。这方面介绍一定要详细。 <strong>说明规则</strong>，让收到的请求合并中避免评论每一行<a class="footnote-reference" href="#note-3">[3]</a>，指引贡献者使用恰当的工具(Point contributors to the right tools )，比如linters 或者 compilers。</p>
+<p>你还必须添加一个 <strong>测试</strong>章节。说明 <strong>怎样安装测试套件</strong>，怎样运行功能测试(functional tests)，以及需要安装的工具。</p>
+<p>如果你使用第三方的东西，或者打算列出贡献者(当然这个也可以写在 <strong>作者</strong>章节)，那就添加一个 <strong>信用(Credits)</strong>章节。这个章节是可选的，可以不写。</p>
+<p>最后还要记住，添加一个 <strong>许可证</strong>章节!</p>
 <p>模板如下(<a href="http://wowubuntu.com/markdown/">Markdown</a> 语法)：</p>
 
 <pre><code>project-x     &lt;-------- 一级标题 (项目名字)
@@ -967,50 +813,50 @@ See CONTRIBUTING file.
 project-x is released under the MIT License. See the bundled LICENSE file for 
 details.
 project-x 依据 MIT许可证发布。详细请看捆绑的 LICENSE 文件。</code></pre>
-<p>正如你所看到的, 我在模板里介绍了两个文件: <code>LICENSE</code>(许可证)和<code>CONTRIBUTING</code>(贡献指南)。<strong>贡献</strong>这一小节的内容用一个文件<code>CONTRIBUTING</code>代替了。<code>LICENSE</code>(许可证)这个文件里包含了你项目选择的许可证，但你应该选用哪个许可证呢？</p>
+<p>正如你所看到的, 我在模板里介绍了两个文件: <code>LICENSE</code>(许可证)和<code>CONTRIBUTING</code>(贡献指南)。 <strong>贡献</strong>这一小节的内容用一个文件<code>CONTRIBUTING</code>代替了。<code>LICENSE</code>(许可证)这个文件里包含了你项目选择的许可证，但你应该选用哪个许可证呢？</p>
 
-<h2 id="toc_1">许可证</h2>
+<h2>许可证</h2>
 <p>我不想把所有的许可证都一一对比，你可以访问<a href="http://www.tldrlegal.com/">tl;drLegal</a>这个网站，它用易懂的话(simple words)向你介绍实用的(useful)开源许可证相关信息。</p>
-<p>我倾向于使用 <a href="http://www.tldrlegal.com/license/mit-license">MIT许可证</a>，因为它非常自由(liberal)。我这里的建议是<strong>参考下你的社区</strong>，选择最恰当的一个。比如说，在Symfony2 (一个PHP框架)社区，大多数相关的项目或者bundles 都是以MIT许可证发布的。而Java 的项目经常以Apache许可证2.0(Apache License 2.0)发布的。</p>
+<p>我倾向于使用 <a href="http://www.tldrlegal.com/license/mit-license">MIT许可证</a>，因为它非常自由(liberal)。我这里的建议是 <strong>参考下你的社区</strong>，选择最恰当的一个。比如说，在Symfony2 (一个PHP框架)社区，大多数相关的项目或者bundles 都是以MIT许可证发布的。而Java 的项目经常以Apache许可证2.0(Apache License 2.0)发布的。</p>
 <p>根据最近的报道(reports)，<a href="http://www.theregister.co.uk/2013/04/18/github_licensing_study/">大多数 GitHub上的项目没有一个开源许可证</a>。这是不好的(bad)！你必须得有许可证，即使是<a href="http://zh.wikipedia.org/wiki/%E5%95%A4%E9%85%92%E8%BB%9F%E9%AB%94">啤酒软件许可证</a>(<a href="http://en.wikipedia.org/wiki/Beerware">Beerware license</a>)。</p>
 <p>正如<a href="https://news.ycombinator.com/item?id=5990836">Hacker News</a>所提到的，<a href="https://news.ycombinator.com/item?id=5992270">精心(carefully)选择你的许可证</a>。并且，<a href="https://news.ycombinator.com/item?id=5992428">不要用你自己做的许可证或者仅仅声明这个项目属于公共领域 (Public domain，简单来说作品已属于全人类)。公共领域在国际上的确不是准确定义的概念，意味着不同国家会有不同的理解</a>。</p>
 <p>即使你现在有一个文档完善的库和一个许可证，还是没有“征服世界”(dominate the world)<a class="footnote-reference" href="#note-4">[4]</a>。下面，我给出一个概览，介绍在开源项目中我认为重要的东西。</p>
 
-<h2 id="toc_2">写自动化测试(Write Tests &amp; Automate)</h2>
-<p>我们可以通过开源项目写优美的代码，因为这里没有截止期限，也没有“客户”。记住，你项目展示了你能够做什么。作为一个开发者，<strong>你的库就是你的名片</strong>。</p>
+<h2>写自动化测试(Write Tests &amp; Automate)</h2>
+<p>我们可以通过开源项目写优美的代码，因为这里没有截止期限，也没有“客户”。记住，你项目展示了你能够做什么。作为一个开发者， <strong>你的库就是你的名片</strong>。</p>
 <p><strong>写大量的测试</strong>！如果没有提供一个测试套件，怎么去期望别人能为你的库做出贡献呢？因此, 写测试, 和使用 <a href="http://zh.wikipedia.org/zh-cn/Travis_CI">Travis CI</a>。 添加一个 <code>.travis.yml</code> 文件，描述怎么样运行你的测试。这也是另一种方式写如何运行测试的文档。</p>
 <p>在你的<code>README</code>文件里也添加一个<a href="http://about.travis-ci.org/docs/user/status-images/">状态图片</a>(status image)。</p>
 <p>留意一下(Take a look at)在线工具，例如PHP和JavaScript使用<a href="https://scrutinizer-ci.com/">Scrutinizer</a> , 或者 <a href="http://www.puppetlinter.com/">Puppet Linter</a>。尽量使其自动化。</p>
 
-<h2 id="toc_3">标准化(Be Standard)</h2>
-<p>在你的库中<strong>使用恰当的工具(right tools)</strong>是非常重要的。再看一下你的社区，然后选择大家常用(tend to use)的工具。在用PHP写的程序里，大家都用 <a href="http://getcomposer.org/">Composer</a> 作为管理依赖关系的工具(dependency manager)。不要浪费时间去用PEAR或者其他工具，就用Composer。如果是一个Node.js库，在<a href="https://npmjs.org/">npm</a>上注册它。Ruby 的开发者，请把你的库作为<a href="http://guides.rubygems.org/make-your-own-gem/">gem</a>发布(distribute your library as a gem)。C#的开发者，请使用<a href="http://nuget.org/">NuGet</a>。</p>
-<p>另一个例子，在Symfony2里，在<code>Resources/doc</code> 里添加文档是一个好的做法(good practice)。这是个惯例。<strong>不要重复出现你的文档</strong>，而是在你的<code>README</code>文件里添加一个快速跳到文档的链接。</p>
+<h2>标准化(Be Standard)</h2>
+<p>在你的库中 <strong>使用恰当的工具(right tools)</strong>是非常重要的。再看一下你的社区，然后选择大家常用(tend to use)的工具。在用PHP写的程序里，大家都用 <a href="http://getcomposer.org/">Composer</a> 作为管理依赖关系的工具(dependency manager)。不要浪费时间去用PEAR或者其他工具，就用Composer。如果是一个Node.js库，在<a href="https://npmjs.org/">npm</a>上注册它。Ruby 的开发者，请把你的库作为<a href="http://guides.rubygems.org/make-your-own-gem/">gem</a>发布(distribute your library as a gem)。C#的开发者，请使用<a href="http://nuget.org/">NuGet</a>。</p>
+<p>另一个例子，在Symfony2里，在<code>Resources/doc</code> 里添加文档是一个好的做法(good practice)。这是个惯例。 <strong>不要重复出现你的文档</strong>，而是在你的<code>README</code>文件里添加一个快速跳到文档的链接。</p>
 
-<h2 id="toc_4">管理问题(Issues)和版本发布(Releases)</h2>
+<h2>管理问题(Issues)和版本发布(Releases)</h2>
 <p><a href="https://github.com/">GitHub</a>，<a href="http://www.codeplex.com/">CodePlex</a>，或者其他你喜欢的，他们都提供了追踪问题(issue tracker)的工具，请使用它！</p>
 <p>如果你使用GitHub，不要浪费时间在Wiki上。我从来没有发现一个适当的工作流程(decent workflow)。用<code>README</code>文件作为你的文档，或者万一(in case)文档量很大(extensive documentation)的时候使用<a href="https://readthedocs.org/">Read The Docs</a>来做托管。使用 GitHub Issues 来管理里程碑，并用标签对问题进行分类。</p>
 <p>还有，尝试尽快回复所有的问题&hellip;但<a href="http://williamdurand.fr/2013/02/20/burnout/">be careful, and manage your time</a>。对人友好，花时间帮助新来的人。非常值得去学习<a href="https://medium.com/p/aaa2a5437d3a">如何维护一个成功的开源项目</a>。</p>
 <p>另一个建议是，定期地打上版本标签来进行发布(to release often by tagging versions periodically)。谈起版本, 请关注(follow) <a href="http://semver.org/">Semantic Versioning Specification</a>。</p>
 <p>然后，用<code>CHANGELOG</code>(更改日志)这个文件来帮助用户识别出你做出的更改。如果你不向后兼容，写一个<code>UPGRADE</code>(升级)文件介绍说明如何升级。</p>
 
-<h2 id="toc_5">你需要反馈！</h2>
+<h2>你需要反馈！</h2>
 <p>我<a href="https://github.com/willdurand?tab=repositories">开源大量项目</a>最主要的原因是，可以从用户的反馈中学到很多东西。所以你需要反馈，我需要反馈，每个人都需要反馈！在Twitter，Hacker News等等上分享你的项目。让全世界都知道！人们必须知道你的项目并不是因为它很出色，令人难忘，而是因为人们可以评论它。</p>
 <p>使用 GitHub pages 为你的项目创建主页，如果你愿意还可以买个域名，</p>
 <p>还记得&quot;征服世界&quot;的计划吗？你要实现这个目标几乎需要到的，我们永远不知道。</p>
 
-<h2 id="toc_6">雇人(Hire People)</h2>
+<h2>雇人(Hire People)</h2>
 <p>一旦你&quot;征服世界&quot;，招收别人(enroll new people)<a class="footnote-reference" href="#note-5">[5]</a>来帮助你非常重要这是非常棒的体验。这样会给你更多的时间来搞其他开源项目(也可以说是征服另一个世界的计划) :-)   </p>
 
-<h2 id="toc_7">总而言之</h2>
+<h2>总而言之</h2>
 <p>让一个库开源不仅仅是发布源代码。你还需要再做一些事情来让别人更容易更愉快地使用它。为项目写文档展示了你的教学能力，这样就可以找到恰当的词来表达你的想法。当然，还说明了你在用心地做这件事。</p>
 <p>不要忘记在你的库里面添加测试，如果你在工作中不方便，回家再做。还有别忘了许可证，别找借口！</p>
 <p>开源项目真的非常酷，但是要避免<a href="http://zh.wikipedia.org/wiki/%E9%9D%9E%E6%88%91%E6%89%80%E5%89%B5">非我发明症</a>(Not Invented Here (NIH) Syndrome)。尽可能地做贡献，而不是再开创一个已有的开源项目，重复造轮子。 </p>
 
-<h2 id="toc_8"><a name="tl-dr"></a>TL;DR</h2>
+<h2><a name="tl-dr"></a>TL;DR</h2>
 <p>你的库或者项目：</p>
 
 <ul>
-<li>必须有一个<code>README</code>文件，内容包括名字，描述还有以下章节：<strong>使用方法</strong>，<strong>安装指南</strong>，<strong>贡献规范</strong>，<strong>如何测试</strong>和<strong>许可证</strong>；</li>
+<li>必须有一个<code>README</code>文件，内容包括名字，描述还有以下章节： <strong>使用方法</strong>， <strong>安装指南</strong>， <strong>贡献规范</strong>， <strong>如何测试</strong>和 <strong>许可证</strong>；</li>
 <li>必须有一个显眼的许可证(MUST have a license that is visible)；</li>
 <li>必须能测试(MUST be tested);</li>
 <li>必须标准化或者符合你社区的惯例；</li>
@@ -1025,7 +871,7 @@ project-x 依据 MIT许可证发布。详细请看捆绑的 LICENSE 文件。</c
 <p>顺便说一下：如果你发现排版错误和错别字。请<a href="https://github.com/colin4124/colin4124.github.com/edit/master/_source/content/2013-08-06-on-open-sourcing-libraries-cn.md">派生(fork)和修改它</a>。非常感谢！
 本文以<a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>许可证发表。</p>
 
-<h4 id="toc_9">译注：</h4>
+<h4>译注：</h4>
 
 <ol>
 <li><p><a name="note-1"></a>I use &ldquo;project&rdquo; as a synonym of &ldquo;library&rdquo;,My blog post focuses on libraries as Open Source projects, rather than &ldquo;projects&rdquo; like products (applications). 原作者的开源项目主要是库，所以这篇文章对其他类型的开源项目同样适用。</p></li>
@@ -1035,39 +881,41 @@ project-x 依据 MIT许可证发布。详细请看捆绑的 LICENSE 文件。</c
 <li>love = take care of </li>
 <li>shiny = well, shiny is&hellip; shiny, something which is cool, and beautiful</li>
 </ul></li>
-<li><p><a name="note-3"></a> 原文：<strong>Explain the rules</strong> to avoid commenting every single line in Pull Requests you receive.</p></li>
-<li><p>it&#39;s a joke, 这是个玩笑。</p></li>
-<li><p><a name="note-4"></a> 作者原话：enroll = hire (more or less), but it&#39;s not because of the previous sentence. You don&#39;t hire people &ldquo;for real&rdquo; (like a company would do I mean) 因此我把 enroll 译作 招收</p></li>
+<li><p><a name="note-3"></a> 原文： <strong>Explain the rules</strong> to avoid commenting every single line in Pull Requests you receive.</p></li>
+<li><p>it&rsquo;s a joke, 这是个玩笑。</p></li>
+<li><p><a name="note-4"></a> 作者原话：enroll = hire (more or less), but it&rsquo;s not because of the previous sentence. You don&rsquo;t hire people &ldquo;for real&rdquo; (like a company would do I mean) 因此我把 enroll 译作 招收</p></li>
 </ol>
 ]]>
         </content>
     </entry><entry>
-        <title type="html"><![CDATA[在 Windows 下使用 Github的配置]]></title>
+        <title type="html"><![CDATA[在 Windows 下使用 GitHub的配置]]></title>
         <author><name>咧威</name></author>
-        <link href="http://funwo.tk/2013-05-01-use-github-in-windows.html"/>
+        <link href="http://colin4124.github.io/2013-05-01-use-github-in-windows.html"/>
         <published>2013-05-01T08:03:00+08:00</published>
-        <updated>2013-09-22T09:03:56+08:00</updated>
-        <id>http://funwo.tk/2013-05-01-use-github-in-windows.html</id>
-        <category scheme="http://funwo.tk/tag/#技术" term="技术" label="技术" />
-        <content type="html" xml:base="http://funwo.tk/" xml:lang="en">
-            <![CDATA[ <h2 id="toc_0">通过 Cygwin 安装 git</h2>
+        <updated>2015-09-08T10:00:21+08:00</updated>
+        <id>http://colin4124.github.io/2013-05-01-use-github-in-windows.html</id>
+        <category scheme="http://colin4124.github.io/tag/#技术" term="技术" label="技术" />
+        <category scheme="http://colin4124.github.io/tag/#Git" term="Git" label="Git" />
+        <category scheme="http://colin4124.github.io/tag/#GitHub" term="GitHub" label="GitHub" />
+        <content type="html" xml:base="http://colin4124.github.io/" xml:lang="en">
+            <![CDATA[ <h2>通过 Cygwin 安装 git</h2>
 <p>至于怎么安装和使用 Cygwin 参考 <a href="/2013-04-28-a-bref-usage-of-cygwin.html">Cygwin:在window下用linux的方式工作</a> </p>
 <p>打开<code>setup.exe</code>, 安装 <code>openssh git git-completion</code></p>
 <p><img src="/media/2013-05-01-use-github-in-windows/github-1.png" alt="搜索 openssh"/></p>
 <p><img src="/media/2013-05-01-use-github-in-windows/github-2.png" alt="搜索git git-completion"/></p>
 
-<h3 id="toc_1">申请github帐号</h3>
-<p>打开 <a href="https://github.com/">Github</a> 注册一个帐号</p>
+<h3>申请GitHub帐号</h3>
+<p>打开 <a href="https://github.com/">GitHub</a> 注册一个帐号</p>
 
-<h3 id="toc_2">设置 git</h3>
+<h3>设置 git</h3>
 <p><strong>1. 设置你的名字， 每次用git 提交时才知道是谁修改的。输入以下命令， 把引号里的Your Name Here 换成是你想起的名字</strong></p>
 
 <pre><code>git config --global user.name &quot;Your Name Here&quot;</code></pre>
-<p><strong>2. 设置你的Email， 这得和你在github 申请时用的邮箱一致。把引号里的<a href="mailto:your_email@example.com">your_email@example.com</a> 换成你的邮箱地址</strong></p>
+<p><strong>2. 设置你的Email， 这得和你在GitHub 申请时用的邮箱一致。把引号里的<a href="mailto:your_email@example.com">your_email@example.com</a> 换成你的邮箱地址</strong></p>
 
 <pre><code>git config --global user.email &quot;your_email@example.com&quot;</code></pre>
 
-<h3 id="toc_3">通过SSH来访问 Github</h3>
+<h3>通过SSH来访问 GitHub</h3>
 <p><strong>1.生成 SSH 密钥</strong></p>
 
 <pre><code>ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</code></pre>
@@ -1075,21 +923,21 @@ project-x 依据 MIT许可证发布。详细请看捆绑的 LICENSE 文件。</c
 
 <pre><code>Generating public/private rsa key pair.
 # Enter file in which to save the key (/c/Users/you/.ssh/id_rsa):</code></pre>
-<p><strong>3. 看到下面这个提示，意思是每次用git 访问 github时，输入的验证短语，可以不写，直接回车</strong></p>
+<p><strong>3. 看到下面这个提示，意思是每次用git 访问 GitHub时，输入的验证短语，可以不写，直接回车</strong></p>
 
 <pre><code>Enter passphrase (empty for no passphrase): [Type a passphrase]
 # Enter same passphrase again: [Type passphrase again]</code></pre>
 <p><strong>4. 然后输入下面的命令，把SSH key 复制到剪贴板。</strong>
     clip &lt; ~/.ssh/id_rsa.pub</p>
-<p><strong>5. 去你github的设置页面(右上角) 添加 这个 SSH key</strong></p>
-<p><img src="/media/2013-05-01-use-github-in-windows/github-3.png" alt="github的设置"/></p>
+<p><strong>5. 去你GitHub的设置页面(右上角) 添加 这个 SSH key</strong></p>
+<p><img src="/media/2013-05-01-use-github-in-windows/github-3.png" alt="GitHub的设置"/></p>
 <p><strong>6. 在设置页面左边那一栏找到 SSH Keys</strong></p>
 <p><img src="/media/2013-05-01-use-github-in-windows/github-4.png" alt="在设置页面左边那一栏找到 SSH Keys"/></p>
 <p><strong>7. 点击&quot;Add SSH key&quot;</strong></p>
 <p><img src="/media/2013-05-01-use-github-in-windows/github-6.png" alt="点击&quot;Add SSH key&quot;"/></p>
 <p><strong>8. 在 key 那一栏粘贴 SSH key, 确保第4步的命令你已经输入了. Title就是为这个SSH key 做个标记，知道这个SSH key是来自哪里的，比如我的是win7, 就知道是我笔记本上win7的系统</strong></p>
 <p><img src="/media/2013-05-01-use-github-in-windows/github-7.png" alt="粘贴 SSH key"/></p>
-<p><strong>9. 输入以下命令测试是否可以连接上github</strong></p>
+<p><strong>9. 输入以下命令测试是否可以连接上GitHub</strong></p>
 
 <pre><code>ssh -T git@github.com</code></pre>
 <p> <strong>你会看到一个警告，输入 yes</strong></p>
@@ -1100,7 +948,7 @@ project-x 依据 MIT许可证发布。详细请看捆绑的 LICENSE 文件。</c
 <p><strong>然后输入你第3步设置的验证短语，没有设置的直接回车</strong></p>
 <p><img src="/media/2013-05-01-use-github-in-windows/github-8.png" alt="输入你第3步设置的验证短语"/></p>
 
-<h4 id="toc_4">10. 如果看到下面的提示，恭喜你，成功了</h4>
+<h4>10. 如果看到下面的提示，恭喜你，成功了</h4>
 
 <pre><code>Hi username! You've successfully authenticated, but GitHub does not
 # provide shell access.</code></pre>
@@ -1109,58 +957,59 @@ project-x 依据 MIT许可证发布。详细请看捆绑的 LICENSE 文件。</c
     </entry><entry>
         <title type="html"><![CDATA[Cygwin：在window下用linux的方式工作]]></title>
         <author><name>咧威</name></author>
-        <link href="http://funwo.tk/2013-04-28-a-bref-usage-of-cygwin.html"/>
+        <link href="http://colin4124.github.io/2013-04-28-a-bref-usage-of-cygwin.html"/>
         <published>2013-04-28T23:17:00+08:00</published>
-        <updated>2013-09-22T09:03:56+08:00</updated>
-        <id>http://funwo.tk/2013-04-28-a-bref-usage-of-cygwin.html</id>
-        <category scheme="http://funwo.tk/tag/#技术" term="技术" label="技术" />
-        <content type="html" xml:base="http://funwo.tk/" xml:lang="en">
-            <![CDATA[ <h2 id="toc_0">缘起</h2>
+        <updated>2015-09-17T17:30:01+08:00</updated>
+        <id>http://colin4124.github.io/2013-04-28-a-bref-usage-of-cygwin.html</id>
+        <category scheme="http://colin4124.github.io/tag/#技术" term="技术" label="技术" />
+        <category scheme="http://colin4124.github.io/tag/#Cygwin" term="Cygwin" label="Cygwin" />
+        <content type="html" xml:base="http://colin4124.github.io/" xml:lang="en">
+            <![CDATA[ <h2>缘起</h2>
 <p>咧威习惯了linux之后，换到Windows没有命令行就特别不爽。另一个原因是咧威的朋友CXY在学校没有自己的电脑，只能去机房或者网吧，用linux不方便，虚拟机占资源太大。</p>
 
-<h2 id="toc_1">Cygwin VS MinGW</h2>
+<h2>Cygwin VS MinGW</h2>
 <p>这个两个都是在windows体验Linux的工具。<a href="http://zh.wikipedia.org/wiki/MinGW" title="MinGW">MinGW</a> (Minimalist GNU for Windows) 很精简，只提供了常用的软件，对中文支持不太好。而<a href="http://zh.wikipedia.org/wiki/Cygwin" title="Cygwin">Cygwin</a>
 提供了大量的工具，更能满足在Windows上用Linux方式工作的需求，希望它能够帮助你摆脱对Windows的依赖。</p>
 
-<h3 id="toc_2">安装</h3>
-<p>点击<a href="http://cygwin.com/setup.exe">下载</a>setup.exe，下载完后双击即可开始安装。</p>
+<h3>安装</h3>
+<p>点击<a href="http://cygwin.com/setup.exe">下载</a> setup.exe，下载完后双击即可开始安装。</p>
 
-<h4 id="toc_3">1. 选择第一个从网上下载安装。</h4>
+<h4>1. 选择第一个从网上下载安装。</h4>
 <p><img src="/media/2013-04-28-a-bref-usage-of-cygwin/setup1.jpg" alt="setup1"/></p>
 
-<h4 id="toc_4">2. 选择安装的目录，咧威选择的是U盘的目录，根据你自己的情况而定.然后选择“All Users”所有用户都可以使用。</h4>
+<h4>2. 选择安装的目录，咧威选择的是U盘的目录，根据你自己的情况而定.然后选择“All Users”所有用户都可以使用。</h4>
 <p><img src="/media/2013-04-28-a-bref-usage-of-cygwin/setup2.png" alt="setup2"/></p>
 
-<h4 id="toc_5">3. 选择一个用来放安装文件的目录,我起了“CygwinInstall-file”这个名字，跟安装目录相区别</h4>
+<h4>3. 选择一个用来放安装文件的目录,我起了“CygwinInstall-file”这个名字，跟安装目录相区别</h4>
 <p><img src="/media/2013-04-28-a-bref-usage-of-cygwin/setup3.png" alt="setup3"/></p>
 
-<h4 id="toc_6">4. 弹出“文件夹不存在，是否创建”，选择“是”</h4>
+<h4>4. 弹出“文件夹不存在，是否创建”，选择“是”</h4>
 <p><img src="/media/2013-04-28-a-bref-usage-of-cygwin/setup4.png" alt="setup4"/></p>
 
-<h4 id="toc_7">5. 选择第一个“Direct Connection”直接连接</h4>
+<h4>5. 选择第一个“Direct Connection”直接连接</h4>
 <p><img src="/media/2013-04-28-a-bref-usage-of-cygwin/setup5.png" alt="setup5"/></p>
 
-<h4 id="toc_8">6. 在“User URL：” 那一栏输入 <a href="ftp://ftp.iij.ad.jp/pub/cygwin/">ftp://ftp.iij.ad.jp/pub/cygwin/</a> 然后点击“Add” 就是自动选择 <a href="ftp://ftp.iij.ad.jp/pub/cygwin/">ftp://ftp.iij.ad.jp/pub/cygwin/</a> 最后点击“下一步”就行了</h4>
+<h4>6. 在“User URL：” 那一栏输入 <a href="ftp://ftp.iij.ad.jp/pub/cygwin/">ftp://ftp.iij.ad.jp/pub/cygwin/</a> 然后点击“Add” 就是自动选择 <a href="ftp://ftp.iij.ad.jp/pub/cygwin/">ftp://ftp.iij.ad.jp/pub/cygwin/</a> 最后点击“下一步”就行了</h4>
 <p><img src="/media/2013-04-28-a-bref-usage-of-cygwin/setup6.png" alt="setup6"/></p>
 
-<h4 id="toc_9">7. 在&quot;Search&quot; 输入 gcc 搜索，然后点击Devel组前的+号，找到 gcc4-core gcc4-g++，</h4>
+<h4>7. 在&quot;Search&quot; 输入 gcc 搜索，然后点击Devel组前的+号，找到 gcc4-core gcc4-g++，</h4>
 <p><img src="/media/2013-04-28-a-bref-usage-of-cygwin/setup7.png" alt="setup7"/></p>
 
-<h4 id="toc_10">点击Skip变成如图所示</h4>
+<h4>点击Skip变成如图所示</h4>
 <p><img src="/media/2013-04-28-a-bref-usage-of-cygwin/setup8.png" alt="setup8"/></p>
 
-<h4 id="toc_11">8. 同理搜索并选择一下安装包</h4>
+<h4>8. 同理搜索并选择一下安装包</h4>
 
 <ul>
 <li> Devel组：make </li>
 <li> Editors组： vim vim-common </li>
 </ul>
 
-<h4 id="toc_12">9. 最后一路点击“下一步”就可以了,以后再需要再安装什么软件，再次重复上述步骤，搜索安装就OK了。</h4>
+<h4>9. 最后一路点击“下一步”就可以了,以后再需要再安装什么软件，再次重复上述步骤，搜索安装就OK了。</h4>
 
-<h2 id="toc_13">配置</h2>
+<h2>配置</h2>
 
-<h4 id="toc_14">1. 如何访问Windows的盘符</h4>
+<h4>1. 如何访问Windows的盘符</h4>
 <p>执行 mount 命令后可以看到Windows下的盘符被映射到 /cygdrive 特殊目录下。</p>
 
 <pre><code>$ mount
@@ -1179,18 +1028,18 @@ F: on /cygdrive/f type vfat (binary,posix=0,user,noumount,auto)</code></pre>
 $ cygpath -w ~/            注释： -w 代表 --windows ～/ 是用户的home目录
 F:\Cygwin\home\think\      注释：  F： 是咧威安装Cygwin的目录所在的盘，think是咧威的用户名</code></pre>
 
-<h4 id="toc_15">2. 用户主目录不一致的问题</h4>
+<h4>2. 用户主目录不一致的问题</h4>
 <p>Cygwin 确定用户主目录有几个不同的依据，要按照顺序确定主目录：首先查看系统的 HOME 环境变量，其次查看 /etc/passwd 中为用户设置的主目录。有的软件遵照这个原则，而有些 Cygwin 应用如 SSH，却没有使用 HOME 环境变量而是直接使用 /etc/passwd 中的设置。要想避免在同一个 Cygwin 环境下有两个不同的用户主目录设置，可以采用下面两种方法。</p>
 <p>方法1：修改 Cygwin 启动的批处理文件（如：C:\cygwin\Cygwin.bat ），在批处理的开头添加如下的一行代码，就可以防止其他软件在 Windows 引入的 HOME 环境变量被带入到 Cygwin 中。</p>
 
 <pre><code>set HOME=</code></pre>
 <p>方法2：如果希望使用 HOME 环境变量指向的主目录，则可通过手工编辑 /etc/passwd 文件，将其中的用户主目录修改成 HOME 环境变量所指向的目录。</p>
 
-<h4 id="toc_16">3. 命令行补齐忽略文件名大小写</h4>
+<h4>3. 命令行补齐忽略文件名大小写</h4>
 <p>Windows 的文件系统忽略文件名的大小写，在 Cygwin 下最好对命令行补齐进行相关设置，以忽略大小写，这样使用起来更方便。</p>
 <p>编辑文件 ~/.inputrc ，在其中添加设置“set completion-ignore-case on”，或者取消已有的相关设置前面的井（#）号注释符。修改完毕后，再重新进入 Cygwin，这样就可以实现命令行补齐对文件名大小写的忽略。</p>
 
-<h4 id="toc_17">4.将Cygwin 添加到右键菜单里</h4>
+<h4>4.将Cygwin 添加到右键菜单里</h4>
 <p><img src="/media/2013-04-28-a-bref-usage-of-cygwin/setup9.png" alt="setup9"/></p>
 <p>在实际使用中，要在Cygwin 用cd 进入某个盘，某个文件夹里有点麻烦，我一般是一路鼠标双击进入之后右键，打开Cygwin 就是在当前目录了。</p>
 <p>配置方式如下：</p>
@@ -1200,7 +1049,7 @@ F:\Cygwin\home\think\      注释：  F： 是咧威安装Cygwin的目录所在�
 
 <pre><code>chere -i -fp -c -t mintty</code></pre></li>
 <li><p>默认只添加文件夹和驱动器的右键菜单，
-新建以<strong>.reg</strong> 为后缀名的文件。方法：右击，在“右键菜单”中选择“新建”，在“新建”中选择文本文档，然后重命名，连同 <strong>.txt</strong> 也改了 。例如我新建的是 <strong>menu.reg</strong> 。选择它右键，在打开方式选择“记事本”。输入以下：</p>
+新建以 <strong>.reg</strong> 为后缀名的文件。方法：右击，在“右键菜单”中选择“新建”，在“新建”中选择文本文档，然后重命名，连同 <strong>.txt</strong> 也改了 。例如我新建的是 <strong>menu.reg</strong> 。选择它右键，在打开方式选择“记事本”。输入以下：</p>
 
 <pre><code>Windows Registry Editor Version 5.00
 
@@ -1210,10 +1059,10 @@ F:\Cygwin\home\think\      注释：  F： 是咧威安装Cygwin的目录所在�
 @=&quot;F:\\cygwin\\bin\\mintty.exe -e f:\\cygwin\\bin\\bash -c \&quot;/bin/xhere /bin/bash.exe\&quot;&quot;</code></pre></li>
 </ol>
 <p><strong>注意：</strong> <code>@=&quot;F:\\\cygwin</code> 中的F：改为你Cygwin安装所在的盘。我这里是F盘。然后双击这个文件，点击“是”就OK了。</p>
-<p>如果出现 <strong>“您在注册表编辑器中只能导入二进位注册文件”</strong> 的错误, 用记事本打开然后另存为<strong>ANSI 编码格式</strong>。如果不改名保存提示“是否替换” 选择 “是”。</p>
+<p>如果出现 <strong>“您在注册表编辑器中只能导入二进位注册文件”</strong> 的错误, 用记事本打开然后另存为 <strong>ANSI 编码格式</strong>。如果不改名保存提示“是否替换” 选择 “是”。</p>
 <p><img src="/media/2013-04-28-a-bref-usage-of-cygwin/setup10.png" alt="setup10"/></p>
 
-<h2 id="toc_18">开始体验Cygwin的linux工作方式</h2>
+<h2>开始体验Cygwin的linux工作方式</h2>
 <p>以后如果需要，再次打开 setup.exe 重新上述方法即可</p>
 <p>推荐的学习linux资料当然<a href="http://linux.vbird.org/" title="鸟哥私房菜">鸟哥私房菜</a>啦，从左边的导航栏开始看起，从“新手建议”——&gt;“开始阅读之前”——&gt;……最后</p>
 
@@ -1221,49 +1070,49 @@ F:\Cygwin\home\think\      注释：  F： 是咧威安装Cygwin的目录所在�
 <p><strong>注意：</strong>简体主站就不去看了，翻译得不是很好，宁愿你去搜索鸟哥私房菜的电子书。第三章和第四章也可以不用看了，这和安装Linux相关，而我们已经在Windows下构建好了Linux</p>
 </blockquote>
 
-<h2 id="toc_19">有什么问题可以在下面评论</h2>
+<h2>有什么问题可以在下面评论</h2>
 ]]>
         </content>
     </entry><entry>
         <title type="html"><![CDATA[重写、重构的摘要和感想]]></title>
         <author><name>咧威</name></author>
-        <link href="http://funwo.tk/2013-03-25-summary-of-rewrite-reconstruction-with-my-thinking.html"/>
+        <link href="http://colin4124.github.io/2013-03-25-summary-of-rewrite-reconstruction-with-my-thinking.html"/>
         <published>2013-03-25T16:29:00+08:00</published>
-        <updated>2013-09-22T09:03:56+08:00</updated>
-        <id>http://funwo.tk/2013-03-25-summary-of-rewrite-reconstruction-with-my-thinking.html</id>
-        <category scheme="http://funwo.tk/tag/#技术" term="技术" label="技术" />
-        <content type="html" xml:base="http://funwo.tk/" xml:lang="en">
-            <![CDATA[ <h1 id="toc_0">缘起</h1>
-<p>最近在忙<a href="http://wecaseproject.tk/" title="微盒">微盒主页</a>,之前的主页开发是由<a href="http://weibo.com/319880777">@雨宮汐</a>维护的。由于网页代码是别人写，不了解，在网页加入一些东西时显得困难。所以冒出了<q>要不自己<strong>重写</strong>一个吧</q>的念头。</p>
+        <updated>2015-09-08T09:30:40+08:00</updated>
+        <id>http://colin4124.github.io/2013-03-25-summary-of-rewrite-reconstruction-with-my-thinking.html</id>
+        <category scheme="http://colin4124.github.io/tag/#技术" term="技术" label="技术" />
+        <content type="html" xml:base="http://colin4124.github.io/" xml:lang="en">
+            <![CDATA[ <h1>缘起</h1>
+<p>最近在忙<a href="http://wecaseproject.tk/" title="微盒">微盒主页</a>,之前的主页开发是由<a href="http://weibo.com/319880777">@雨宮汐</a>维护的。由于网页代码是别人写，不了解，在网页加入一些东西时显得困难。所以冒出了<q>要不自己 <strong>重写</strong>一个吧</q>的念头。</p>
 <p>碰巧，在<a href="http://weibo.com/blogread">@IT技术博客大学习</a>看到<a href="http://blogread.cn/it/article/1107?f=wb">关于重构和重写</a>的文章，接下来又看了<a href="http://blog.csdn.net/whatcanhumdo/article/details/5311697">你永远不应该做的事</a>（这篇文章用 Netscape当例子）、<a href="http://blogread.cn/it/article/5331?f=sa">什么是重构，什么不是重构</a>、<a href="http://blogread.cn/it/article/556?f=sa">网站重构到底是什么，网站重构到底要多久</a>、<a href="http://blogread.cn/it/article/5996?f=sa">如何避免重构带来的危险</a>一系列的文章。强烈建议去看完整的文章。下面将是一些摘要及感想：</p>
 
-<h1 id="toc_1">什么是重构，什么不是重构</h1>
+<h1>什么是重构，什么不是重构</h1>
 <p>重构(Refactoring)这个词最初由Martin Fowler 和 Kent Beck给下的定义，它是:</p>
 
 <blockquote>
 <p><strong>一种修改，使软件的内部结构更容易理解，在不改变软件的可见行为方式前提下使软件更容易变更…它是一种有节制的     整理代码、使bug产生几率最小化的方法。</strong></p>
 </blockquote>
-<p>重构的结果是引用了快捷方法、去除了重复代码和死代码，使设计和逻辑更加清晰。<strong>重构很简单。</strong>尽可能在写代码前先写测试能够防止你犯错误。小规模的、独立的、稳妥的对代码进行结构上的调整，每次调整完后都要进行测试，确保你没有改变代码的行为特征——<strong>功能和以前一样，只是代码上看着不同。</strong></p>
-<p>在这个过程中发现了bug、修改bug，这不是重构。优化不是重构。强化异常捕捉、增加预防性代码不是重构。让代码更容易测试不是重构——<strong>尽管重构能达到相同的效果。这些所有的事都是有益的。但这些都不是重构。</strong></p>
+<p>重构的结果是引用了快捷方法、去除了重复代码和死代码，使设计和逻辑更加清晰。 <strong>重构很简单</strong>。尽可能在写代码前先写测试能够防止你犯错误。小规模的、独立的、稳妥的对代码进行结构上的调整，每次调整完后都要进行测试，确保你没有改变代码的行为特征—— <strong>功能和以前一样，只是代码上看着不同。</strong></p>
+<p>在这个过程中发现了bug、修改bug，这不是重构。优化不是重构。强化异常捕捉、增加预防性代码不是重构。让代码更容易测试不是重构—— <strong>尽管重构能达到相同的效果。这些所有的事都是有益的。但这些都不是重构。</strong></p>
 <p><strong>你不是为了重构而重构，你重构是因为你想做其它的事情，而重构能帮助你完成这些事情。不要对那些你不打算进行变更或不会变更的代码进行重构。</strong></p>
 
-<h2 id="toc_2">为理解而做简略重构(Scratch Refactoring)</h2>
-<p>Michael Feather的《Working Effectively with Legacy Code》这本书里提到了简略重构(Scratch Refactoring)的概念；Martin Fowler称之为<strong>“为理解而重构”</strong>。这是用来对付那些你不理解的(或不能忍受的)代码，清理它们，这样在你打算真正动手修改它前，你能对它们是干什么的有了更好的理解，同样也对你debug这些代码有帮助。<strong>一旦你能清楚了一个变量或方法的真正意图，重命名它们，给它们一个更合适的名称，删除那些你不喜欢看的(或觉得没有用的)代码，拆解复杂的条件语句，把长程序分解成数个容易理解的小程序。</strong></p>
-<p>重构可以、也应该融入到你写代码或维护代码的过程中——作为日常开发/质量管理的组成部分，就像写测试和代码审查一样。<strong>重构应该被安静的，持续的和低调的完成。</strong>它需要我们把工作精力分出一部分给它，它需要在我们的工期评估和风险评估中考虑到它的存在。<strong>如果做的正确，你不需要去解释或向外人验证这部分工作。</strong></p>
-<p>花几分钟、一两个小时做重构，就像是你开发过程中的一种修改，是工作的一部分。<strong>如果它让你花了数天时间，或者更长，那不是重构；那是重写，或重新设计。</strong>如果你需要明确的留出一部分时间(或整个sprint周期)来重构代码，如果需要为清理代码而申请批准，或把清理代码作为一个开发需求，那你不是在重构——即使你用了重构的技术和工具，你仍然做的是另外一种工作。</p>
-<p>有些程序员认为对代码进行根本的、重大的修改是他们的权利和义务，在重构的名义下进行重新设计、重写，为了将来，也不辜负自己的技艺。重新设计和重写有时候是你正确的该做的事情。<strong>但出于坦诚和表述清楚，请不要把这些活动赋以重构的名义。</strong></p>
+<h2>为理解而做简略重构(Scratch Refactoring)</h2>
+<p>Michael Feather的《Working Effectively with Legacy Code》这本书里提到了简略重构(Scratch Refactoring)的概念；Martin Fowler称之为 <strong>“为理解而重构”</strong>。这是用来对付那些你不理解的(或不能忍受的)代码，清理它们，这样在你打算真正动手修改它前，你能对它们是干什么的有了更好的理解，同样也对你debug这些代码有帮助。 <strong>一旦你能清楚了一个变量或方法的真正意图，重命名它们，给它们一个更合适的名称，删除那些你不喜欢看的(或觉得没有用的)代码，拆解复杂的条件语句，把长程序分解成数个容易理解的小程序</strong>。</p>
+<p>重构可以、也应该融入到你写代码或维护代码的过程中——作为日常开发/质量管理的组成部分，就像写测试和代码审查一样。 <strong>重构应该被安静的，持续的和低调的完成</strong>。它需要我们把工作精力分出一部分给它，它需要在我们的工期评估和风险评估中考虑到它的存在。 <strong>如果做的正确，你不需要去解释或向外人验证这部分工作。</strong></p>
+<p>花几分钟、一两个小时做重构，就像是你开发过程中的一种修改，是工作的一部分。 <strong>如果它让你花了数天时间，或者更长，那不是重构；那是重写，或重新设计</strong>。如果你需要明确的留出一部分时间(或整个sprint周期)来重构代码，如果需要为清理代码而申请批准，或把清理代码作为一个开发需求，那你不是在重构——即使你用了重构的技术和工具，你仍然做的是另外一种工作。</p>
+<p>有些程序员认为对代码进行根本的、重大的修改是他们的权利和义务，在重构的名义下进行重新设计、重写，为了将来，也不辜负自己的技艺。重新设计和重写有时候是你正确的该做的事情。 <strong>但出于坦诚和表述清楚，请不要把这些活动赋以重构的名义</strong>。</p>
 
 <blockquote>
-<h2 id="toc_3">感想：</h2>
+<h2>感想：</h2>
 
 <blockquote>
 <p>我以前都认为重构就是重头再来一遍，看来我误会了，幸好在我对微盒主页进行重写之前看到这些文章，不然就是浪费时间做无用功，而且还有可能阻碍到别人。好吧，我已经弄坏了，让原来的按钮都失效了。</p>
 </blockquote>
 </blockquote>
 
-<h1 id="toc_4">关于重构和重写</h1>
+<h1>关于重构和重写</h1>
 
-<h2 id="toc_5">程序员以及经理提到重写是基于以下几个理由:</h2>
+<h2>程序员以及经理提到重写是基于以下几个理由:</h2>
 
 <ol>
 <li> 对完全理解原有代码的恐惧</li>
@@ -1272,14 +1121,14 @@ F:\Cygwin\home\think\      注释：  F： 是咧威安装Cygwin的目录所在�
 <li> 不了解重构</li>
 </ol>
 
-<h2 id="toc_6">而上级能够采纳重写意见一般是基于:</h2>
+<h2>而上级能够采纳重写意见一般是基于:</h2>
 
 <ol>
 <li> 原有项目时间拖延太长,修改难度越来越高,修复时间似乎是非线性增长的.</li>
 <li> 所有程序员都建议重新再来,没人愿意进行修复原有代码的工作</li>
 </ol>
 
-<h2 id="toc_7">问题在于:</h2>
+<h2>问题在于:</h2>
 
 <ul>
 <li> 当你不能够理解以及改善破败代码的时候,你凭什么能够认为能够写出一个功能一致并且更清晰的软件呢?</li>
@@ -1290,14 +1139,14 @@ F:\Cygwin\home\think\      注释：  F： 是咧威安装Cygwin的目录所在�
 <li> 当你没有能力修整破败代码的话，你修补这些细节之后的代码也会是破败的。</li>
 <li> <strong>当你无法理解别人破败代码，最终你也无法理解你自己写出来的破败代码。</strong></li>
 <li> 重构不是什么高深的技艺.但它需要磨练，但是我遇到很多人.都不会去修炼这项技能.</li>
-<li> 迫于项目压力或者惰性，以及古老工匠守则的规劝:<strong>”当一个事物运行正常的时候,不要碰它”。</strong></li>
+<li> 迫于项目压力或者惰性，以及古老工匠守则的规劝: <strong>”当一个事物运行正常的时候,不要碰它”</strong>。</li>
 <li> 和测试一样,至今程序员都没有把测试行为和代码结合在一起来做。</li>
 <li> 手工作坊式的做法至今仍在，当然作坊式的手法有其优点。</li>
-<li> 不过既然你已经是靠手艺吃饭，那么重构的手艺以及测试的手艺才是我们需要加强的，<strong>而不是继续锻炼靠运气编程的手艺。</strong></li>
+<li> 不过既然你已经是靠手艺吃饭，那么重构的手艺以及测试的手艺才是我们需要加强的， <strong>而不是继续锻炼靠运气编程的手艺。</strong></li>
 </ul>
 
 <blockquote>
-<h2 id="toc_8">感想：</h2>
+<h2>感想：</h2>
 
 <blockquote>
 <p>我会试着弄懂<a href="http://weibo.com/319880777">@雨宮汐</a>写的<a href="http://wecaseproject.tk/" title="微盒">微盒主页</a>
@@ -1305,27 +1154,27 @@ F:\Cygwin\home\think\      注释：  F： 是咧威安装Cygwin的目录所在�
 </blockquote>
 </blockquote>
 
-<h1 id="toc_9">你永远不应该做的事——重写:</h1>
+<h1>你永远不应该做的事——重写:</h1>
 <p>有一个微妙的原因使得程序员总是想抛弃原有的代码重新开始。原因是他们认为原来的代码太混乱。而且有一个很有趣的现象：他们可能错了 。他们认为旧代码混乱的原因是由于编程上的一个基本的，主要的定律：</p>
 
 <blockquote>
 <p><strong>阅读代码比写代码要困难</strong></p>
 </blockquote>
-<p> <strong>新代码要比旧代码好的观点是荒谬的。</strong>旧代码已经在使用了。已经被测试过了。大量的Bug已经被发现了，而且被修复了。这样并没有什么不好的。把程序放在硬盘中并不能使你发现BUG。难道软件像老Dogde Dart车一样，有生锈菌会在车库里等着？难道软件像玩具熊那样如果不用新材料就不会有那么多毛？</p>
-<p> 一个很重要的事情你要记住，<strong>当你重写代码并没有绝对的理由相信你会比旧代码更好。</strong>首先，你甚至没有和写第一个版本一样的开发团队，因此你并不是&quot;更有经验&quot;。我会再一次犯大多数以前犯过的错误，而且会比原始的版本增加更多的新问题。</p>
+<p> <strong>新代码要比旧代码好的观点是荒谬的</strong>。旧代码已经在使用了。已经被测试过了。大量的Bug已经被发现了，而且被修复了。这样并没有什么不好的。把程序放在硬盘中并不能使你发现BUG。难道软件像老Dogde Dart车一样，有生锈菌会在车库里等着？难道软件像玩具熊那样如果不用新材料就不会有那么多毛？</p>
+<p> 一个很重要的事情你要记住， <strong>当你重写代码并没有绝对的理由相信你会比旧代码更好</strong>。首先，你甚至没有和写第一个版本一样的开发团队，因此你并不是&quot;更有经验&quot;。我会再一次犯大多数以前犯过的错误，而且会比原始的版本增加更多的新问题。</p>
 
 <blockquote>
-<h2 id="toc_10">感想：</h2>
+<h2>感想：</h2>
 
 <blockquote>
 <p>应该去看原文的Netscape例子。觉得重写代码会把之前的别人的经验教训都扔掉了，而且还是重复劳动比较多。况且我现在还没有能力做出比别人更好的轮子。</p>
 </blockquote>
 </blockquote>
 
-<h1 id="toc_11">如何避免重构带来的危险</h1>
+<h1>如何避免重构带来的危险</h1>
 <p>重构代码很危险，它会给测试工作增加巨大的负担。除非你的程序需要重构，一定不要轻易重构代码。我这里所说的并不是把一个for循环改成while循环，或把一个StringBuffer改成StringBuilder，我说的是大动作，例如重写一个方法，一个函数，甚至整个类或包。如果你缺乏对一个方法或一个类的了解，那你重构它的条件就不充分。即使你有一个天才的计划，你也需要和团队一起设计其中重大的修改。</p>
 
-<h2 id="toc_12">当属于下列情况时，你不该重构：</h2>
+<h2>当属于下列情况时，你不该重构：</h2>
 
 <ul>
 <li><p> 对于你来说，它的逻辑看起来过于复杂，你没有花时间去分析它。</p></li>
@@ -1341,7 +1190,7 @@ F:\Cygwin\home\think\      注释：  F： 是咧威安装Cygwin的目录所在�
 <li><p> 跟你的一位同事谈论对这部分程序进行重构的好处和存在的风险，你们两个都赞成重构。</p></li>
 </ul>
 
-<h2 id="toc_13">如何降低重构的风险：</h2>
+<h2>如何降低重构的风险：</h2>
 
 <ul>
 <li><p> 权衡一下对一段代码进行重构的利与弊，找出降低风险的方法。调试一段你经过重构但却使产品崩溃的代码，这对你来说将会是在这个行业中最有压力的事情。</p></li>
@@ -1355,7 +1204,7 @@ F:\Cygwin\home\think\      注释：  F： 是咧威安装Cygwin的目录所在�
 </ul>
 <p>当你在开封一个方法时，如果你发现其中有一部分可以改进，那你就该考虑它，改进它。整洁的代码是我们需要的，因为写的很烂的代码我们到处可见。和你的同事讨论它们，当有人要修改你的代码时不要固守己见。重构，然后回归测试，然后才提交代码。没有人希望自己提交的代码会弄垮系统。</p>
 
-<h2 id="toc_14">下面是一些比较有深度的阅读材料。</h2>
+<h2>下面是一些比较有深度的阅读材料。</h2>
 
 <ul>
 <li> <a href="http://book.douban.com/subject/1229923/" title="豆瓣读书">重构:改善既有代码的设计</a></li>
@@ -1364,20 +1213,20 @@ F:\Cygwin\home\think\      注释：  F： 是咧威安装Cygwin的目录所在�
 <li> <a href="http://book.douban.com/subject/11614538/">程序员的职业素养</a></li>
 <li> <a href="http://book.douban.com/subject/3210669/">编程匠艺</a></li>
 </ul>
-<p><strong>忍住你的欲望，不要试图重构你不理解的代码。多问问题，努力能清楚他们为什么要把程序写成这样。也许他们有很好的理由。</strong>如果你找到一段很古老的代码，很有可能它们是按照古老的方式写的。每天都在新增的API，模式，需求和新领会都会让这些老的方式显得陈旧。<strong>不断努力学习新的技术，但不要为了要使用这些技术而过于热心的在重构中使用它们。</strong>(PS：<strong><q>当你拿起锤子，就觉得哪里都是钉子</q></strong>这句话就是表达了对新学技术的滥用，谨记）</p>
+<p><strong>忍住你的欲望，不要试图重构你不理解的代码。多问问题，努力能清楚他们为什么要把程序写成这样。也许他们有很好的理由。</strong>如果你找到一段很古老的代码，很有可能它们是按照古老的方式写的。每天都在新增的API，模式，需求和新领会都会让这些老的方式显得陈旧。 <strong>不断努力学习新的技术，但不要为了要使用这些技术而过于热心的在重构中使用它们</strong>。 (PS： <strong><q>当你拿起锤子，就觉得哪里都是钉子</q></strong>这句话就是表达了对新学技术的滥用，谨记）</p>
 
 <blockquote>
-<h2 id="toc_15">感想：</h2>
+<h2>感想：</h2>
 
 <blockquote>
 <p><strong><q>忍住你的欲望，不要试图重构你不理解的代码。</q></strong>好吧，之前我就在我不理解的情况下，把原来的一些功能改得全部失效了。尽管后来恢复了效果，但是不敢再贸然下手，还是先理解了再说，多交流。</p>
 </blockquote>
 </blockquote>
 
-<h1 id="toc_16">后记</h1>
+<h1>后记</h1>
 <p>我是初学者，半吊子不靠谱。十分感谢<a href="http://wecaseproject.tk/" title="微盒">微盒主页</a>这个项目，让我有练手的机会，还请各位多多包涵。刚开始加入这个项目的时候，我打算自己增加一些元素（我审美观有点二啊，(￣ε(#￣)）。由于不理解，贸然下手，花了好长的时间才加入一个动态LOGO。然后就像文中所说的，想重新写一遍（好吧，我果然是初学者，又犯二了(￣ε(#￣)　）。然后就看到这几篇文章，深有感触。打算好好学下HTML/CSS的基础，然后重构下wecase的项目主页。就是不改变外在表现和功能前提下，弄清楚了一个方法的真正意图，重命名，给它们一个更合适的名称，把长段代码分解成数个容易理解的代码片段，添加注释，让其结构化，容易扩展，方便增删功能。</p>
 
-<h3 id="toc_17">牢记理念，继续实践</h3>
+<h3>牢记理念，继续实践</h3>
 ]]>
         </content>
     </entry>
