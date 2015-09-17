@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block title %}{{pagination.title|title}} - {{site.name}}{% endblock %}
+
+{% block afterstyle %}
+<meta name="description" content="{{pagination.title|description}}" />
+{% endblock %}
+
+{% block main %}
+<ul class="entry-list">
+    <a class="yuehu" href="https://yuehu.io/?utm_source=lepture.com&utm_medium=home-image"><img src="https://dn-yuehu.qbox.me/cover/editors-picks/q8Up172j5piiqQvu.jpg/cover" alt="一篇推薦 + 更好的閱讀體驗 = 閱乎">
+    <h2>阅乎</h2>
+    </a>
+    {% set year = 0 -%}
+    {% for item in pagination.items %}
+    {%- if item.date.year != year %}
+    {% set year = item.date.year -%}
+    <li class="entry-item entry-item-title">
+    <a href="{{item|year_url}}">{{item.date.year}}</a>
+    </li>
+    {%- endif %}
+    <li class="entry-item">
+        <time class="updated" datetime="{{item.date|xmldatetime}}">{{item.date.strftime('%Y-%m-%d')}}</time>
+        <a href="{{item|permalink}}">{{item.title}}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% if pagination.has_prev or pagination.has_next %}
+<hr class="end" />
+<nav class="pagination" role="pagination">
+    {% if pagination.has_prev %}
+    <a class="prev" href="{{ content_url(pagination.root, 'page', pagination.prev_num) }}">«Prev</a>
+    {% else %}
+    <span class="prev">«Prev</span>
+    {% endif %}
+
+    <span class="current">
+        {{ pagination.page }} / {{ pagination.pages }}
+    </span>
+
+    {% if pagination.has_next %}
+    <a class="next" href="{{ content_url(pagination.root, 'page', pagination.next_num) }}">Next»</a>
+    {% else %}
+    <span class="next">Next»</span>
+    {% endif %}
+</nav>
+{% endif %}
+{% endblock %}
