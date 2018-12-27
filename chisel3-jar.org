@@ -1,14 +1,15 @@
 * 打包 Chisel3
-firrtl 本身是支持把所有的依赖一起打包成一个 jar。但 chisel 需要做些修改。因为 chisel 依赖 firrtl，如果从源码编译的话，用 sbt publishLocal 编译 firrtl 本身放到本地。
+firrtl 本身是支持把所有的依赖一起打包成一个 jar。但 chisel 需要做些修改。因为 chisel 依赖 firrtl，有两种选择，1）从源码编译的话，用 sbt publishLocal 编译好 firrtl 放到本地，即 ~/.ivy2/local ；2）从网上下载 firrtl。
 
-** 从源码编译 firrtl
+** 获取 Firrtl
+*** 从源码编译 firrtl
 下载需要的版本源码， 进入项目目录执行
 
 #+BEGIN_SRC shell
 sbt publishLocal
 #+END_SRC
 
-** 指定 firrtl 版本
+*** 从网上下载
 chisel3 依赖的 firrtl 版本定义在 build.sbt , 不修改默认是最新版
 
 #+BEGIN_SRC scala
@@ -25,7 +26,7 @@ val defaultVersions = Map("firrtl" -> "1.1.6") // 默认为最新版
 
 chisel3 不像 firrtl 默认支持 sbt assembly 打包，需要修改下配置
 
-1. 修改 build.sbt 在末尾添加
+1.修改 build.sbt 在末尾添加
 #+BEGIN_SRC scala
 // Assembly
 
@@ -39,14 +40,13 @@ assemblyOutputPath in assembly := file("./utils/jars/chisel3.jar")
 
 #+END_SRC
 
-2. 修改 project/plugins.sbt ，在末尾添加，记得跟上一个 addSbtPlugin 相隔一个空行
-
+2.修改 project/plugins.sbt ，在末尾添加，记得跟上一个 addSbtPlugin 相隔一个空行
 #+BEGIN_SRC scala
 
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.9")
 #+END_SRC
 
-3. 执行
+3.执行
 
 #+BEGIN_SRC shell
 sbt assembly
